@@ -1,5 +1,5 @@
 {
-  "generatedAt": "18/06/2026 22:17",
+  "generatedAt": "18/06/2026 22:19",
   "ranking": [
     {
       "apostador": "Larissa",
@@ -8393,6 +8393,7 @@
   ],
   "playerPhotos": {
     "belo": "assets/players/belo.jpg",
+    "bernardo": "assets/players/bernardo.jpg",
     "fabrisio": "assets/players/fabrisio.jpg",
     "iza": "assets/players/iza.jpg",
     "junior": "assets/players/junior.jpg",
