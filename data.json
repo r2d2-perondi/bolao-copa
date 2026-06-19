@@ -1,5 +1,5 @@
 {
-  "generatedAt": "18/06/2026 22:11",
+  "generatedAt": "18/06/2026 22:16",
   "ranking": [
     {
       "apostador": "Larissa",
@@ -8390,5 +8390,13 @@
       "pontos": "10",
       "tipo": "resultado correto"
     }
-  ]
+  ],
+  "playerPhotos": {
+    "belo": "assets/players/belo.jpg",
+    "fabrisio": "assets/players/fabrisio.jpg",
+    "iza": "assets/players/iza.jpg",
+    "junior": "assets/players/junior.jpg",
+    "larissa": "assets/players/larissa.jpg",
+    "nani": "assets/players/nani.jpg"
+  }
 }
