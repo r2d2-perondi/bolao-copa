@@ -136,7 +136,7 @@ function init() {
   detailByBet = new Map(DATA.detalhes.map(d => [betKey(d), d]));
   by('statPlayers').textContent=players.length; by('statGames').textContent=DATA.jogos.length; by('statResults').textContent=DATA.resultados.length; by('statBets').textContent=DATA.palpites.length;
   const ranked = rankPositions(DATA.ranking);
-  const podiumOrder = [ranked[1], ranked[0], ranked[2]].filter(Boolean);
+  const podiumOrder = ranked.slice(0, 3);
   const podiumClass = {1:'first',2:'second',3:'third'};
   by('podium').innerHTML = podiumOrder.map(r=>`<div class="podium-card ${podiumClass[r.pos] || ''}"><div class="medal">#${r.pos}</div>${avatarHtml(r)}<div class="podium-name">${esc(r.apostador)}</div><div class="podium-points">${r.pontos} pts</div><div class="podium-meta">${r.exatos} exatos · ${r.resultado} resultados</div></div>`).join('');
   by('ranking').innerHTML = ranked.map(r=>`<div class="rankrow"><div class="pos">#${r.pos}</div><div><div class="name">${esc(r.apostador)}</div><div class="meta">${r.exatos} exatos · ${r.resultado} resultados · ${r.invertido} invertidos · ${r.erros} erros</div></div><div class="pts">${r.pontos} pts</div></div>`).join('');
