@@ -1,35 +1,35 @@
 {
-  "generatedAt": "19/06/2026 00:00",
+  "generatedAt": "19/06/2026 18:54",
   "ranking": [
     {
-      "apostador": "Larissa",
-      "pontos": "170",
-      "exatos": "2",
-      "resultado": "14",
-      "invertido": "0",
-      "erros": "12"
-    },
-    {
       "apostador": "Fabrisio",
-      "pontos": "165",
-      "exatos": "2",
+      "pontos": "180",
+      "exatos": "3",
       "resultado": "13",
       "invertido": "1",
       "erros": "12"
     },
     {
       "apostador": "Nani",
-      "pontos": "160",
-      "exatos": "4",
+      "pontos": "175",
+      "exatos": "5",
       "resultado": "10",
       "invertido": "0",
       "erros": "14"
     },
     {
       "apostador": "Belo",
-      "pontos": "160",
+      "pontos": "170",
       "exatos": "2",
-      "resultado": "13",
+      "resultado": "14",
+      "invertido": "0",
+      "erros": "13"
+    },
+    {
+      "apostador": "Larissa",
+      "pontos": "170",
+      "exatos": "2",
+      "resultado": "14",
       "invertido": "0",
       "erros": "13"
     },
@@ -39,12 +39,12 @@
       "exatos": "4",
       "resultado": "9",
       "invertido": "0",
-      "erros": "15"
+      "erros": "16"
     },
     {
       "apostador": "Junior",
-      "pontos": "130",
-      "exatos": "2",
+      "pontos": "145",
+      "exatos": "3",
       "resultado": "10",
       "invertido": "0",
       "erros": "16"
@@ -55,7 +55,7 @@
       "exatos": "2",
       "resultado": "8",
       "invertido": "0",
-      "erros": "18"
+      "erros": "19"
     }
   ],
   "resultados": [
@@ -366,6 +366,17 @@
       "status": "final",
       "fonte": "worldcup26.ir/get/games",
       "api_id": "25"
+    },
+    {
+      "grupo": "Grupo D",
+      "jogo": "",
+      "time_a": "EUA",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "AUS",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "32"
     }
   ],
   "jogos": [
@@ -473,21 +484,21 @@
       "api_id": "9",
       "grupo": "Grupo E",
       "time_a": "CDM",
-      "time_b": "EQU",
+      "time_b": "ECU",
       "inicio_brt": "2026-06-14 20:00",
       "checar_a_partir_brt": "2026-06-14 21:45",
       "status": "final",
-      "resultado_confirmado": "CDM 1x0 EQU"
+      "resultado_confirmado": ""
     },
     {
       "api_id": "12",
       "grupo": "Grupo F",
-      "time_a": "SUE",
+      "time_a": "SWE",
       "time_b": "TUN",
       "inicio_brt": "2026-06-14 23:00",
       "checar_a_partir_brt": "2026-06-15 00:45",
       "status": "final",
-      "resultado_confirmado": "SUE 5x1 TUN"
+      "resultado_confirmado": ""
     },
     {
       "api_id": "14",
@@ -500,7 +511,7 @@
       "resultado_confirmado": "ESP 0x0 CAB"
     },
     {
-      "api_id": "15",
+      "api_id": "16",
       "grupo": "Grupo G",
       "time_a": "BEL",
       "time_b": "EGI",
@@ -510,7 +521,7 @@
       "resultado_confirmado": "BEL 1x1 EGI"
     },
     {
-      "api_id": "16",
+      "api_id": "13",
       "grupo": "Grupo H",
       "time_a": "ARS",
       "time_b": "URU",
@@ -520,7 +531,7 @@
       "resultado_confirmado": "ARS 1x1 URU"
     },
     {
-      "api_id": "13",
+      "api_id": "15",
       "grupo": "Grupo G",
       "time_a": "IRA",
       "time_b": "NZE",
@@ -570,7 +581,7 @@
       "resultado_confirmado": "AUT 3x1 JOR"
     },
     {
-      "api_id": "21",
+      "api_id": "23",
       "grupo": "Grupo K",
       "time_a": "POR",
       "time_b": "RDC",
@@ -590,17 +601,17 @@
       "resultado_confirmado": "ING 4x2 CRO"
     },
     {
-      "api_id": "24",
+      "api_id": "21",
       "grupo": "Grupo L",
-      "time_a": "GAN",
+      "time_a": "GHA",
       "time_b": "PAN",
       "inicio_brt": "2026-06-17 20:00",
       "checar_a_partir_brt": "2026-06-17 21:45",
       "status": "final",
-      "resultado_confirmado": "GAN 1x0 PAN"
+      "resultado_confirmado": ""
     },
     {
-      "api_id": "23",
+      "api_id": "24",
       "grupo": "Grupo K",
       "time_a": "UZB",
       "time_b": "COL",
@@ -610,7 +621,7 @@
       "resultado_confirmado": "UZB 1x3 COL"
     },
     {
-      "api_id": "28",
+      "api_id": "25",
       "grupo": "Grupo A",
       "time_a": "TCH",
       "time_b": "AFS",
@@ -640,7 +651,7 @@
       "resultado_confirmado": "CAN 6x0 QAT"
     },
     {
-      "api_id": "25",
+      "api_id": "28",
       "grupo": "Grupo A",
       "time_a": "MEX",
       "time_b": "COR",
@@ -650,14 +661,14 @@
       "resultado_confirmado": "MEX 1x0 COR"
     },
     {
-      "api_id": "31",
+      "api_id": "32",
       "grupo": "Grupo D",
       "time_a": "EUA",
       "time_b": "AUS",
       "inicio_brt": "2026-06-19 16:00",
       "checar_a_partir_brt": "2026-06-19 17:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "EUA 2x0 AUS"
     },
     {
       "api_id": "30",
@@ -666,7 +677,7 @@
       "time_b": "MAR",
       "inicio_brt": "2026-06-19 19:00",
       "checar_a_partir_brt": "2026-06-19 20:45",
-      "status": "notstarted",
+      "status": "0'",
       "resultado_confirmado": ""
     },
     {
@@ -674,13 +685,13 @@
       "grupo": "Grupo C",
       "time_a": "BRA",
       "time_b": "HAI",
-      "inicio_brt": "2026-06-19 22:00",
-      "checar_a_partir_brt": "2026-06-19 23:45",
+      "inicio_brt": "2026-06-19 21:30",
+      "checar_a_partir_brt": "2026-06-19 23:15",
       "status": "notstarted",
       "resultado_confirmado": ""
     },
     {
-      "api_id": "32",
+      "api_id": "31",
       "grupo": "Grupo D",
       "time_a": "TUR",
       "time_b": "PAR",
@@ -693,7 +704,7 @@
       "api_id": "35",
       "grupo": "Grupo F",
       "time_a": "HOL",
-      "time_b": "SUE",
+      "time_b": "SWE",
       "inicio_brt": "2026-06-20 14:00",
       "checar_a_partir_brt": "2026-06-20 15:45",
       "status": "notstarted",
@@ -712,7 +723,7 @@
     {
       "api_id": "34",
       "grupo": "Grupo E",
-      "time_a": "EQU",
+      "time_a": "ECU",
       "time_b": "CUR",
       "inicio_brt": "2026-06-20 21:00",
       "checar_a_partir_brt": "2026-06-20 22:45",
@@ -730,7 +741,7 @@
       "resultado_confirmado": ""
     },
     {
-      "api_id": "39",
+      "api_id": "38",
       "grupo": "Grupo H",
       "time_a": "ESP",
       "time_b": "ARS",
@@ -740,7 +751,7 @@
       "resultado_confirmado": ""
     },
     {
-      "api_id": "37",
+      "api_id": "39",
       "grupo": "Grupo G",
       "time_a": "BEL",
       "time_b": "IRA",
@@ -750,7 +761,7 @@
       "resultado_confirmado": ""
     },
     {
-      "api_id": "40",
+      "api_id": "37",
       "grupo": "Grupo H",
       "time_a": "URU",
       "time_b": "CAB",
@@ -760,7 +771,7 @@
       "resultado_confirmado": ""
     },
     {
-      "api_id": "38",
+      "api_id": "40",
       "grupo": "Grupo G",
       "time_a": "NZE",
       "time_b": "EGI",
@@ -780,7 +791,7 @@
       "resultado_confirmado": ""
     },
     {
-      "api_id": "41",
+      "api_id": "42",
       "grupo": "Grupo I",
       "time_a": "FRA",
       "time_b": "IRQ",
@@ -790,7 +801,7 @@
       "resultado_confirmado": ""
     },
     {
-      "api_id": "42",
+      "api_id": "41",
       "grupo": "Grupo I",
       "time_a": "NOR",
       "time_b": "SEN",
@@ -810,7 +821,7 @@
       "resultado_confirmado": ""
     },
     {
-      "api_id": "45",
+      "api_id": "47",
       "grupo": "Grupo K",
       "time_a": "POR",
       "time_b": "UZB",
@@ -820,10 +831,10 @@
       "resultado_confirmado": ""
     },
     {
-      "api_id": "48",
+      "api_id": "45",
       "grupo": "Grupo L",
       "time_a": "ING",
-      "time_b": "GAN",
+      "time_b": "GHA",
       "inicio_brt": "2026-06-23 17:00",
       "checar_a_partir_brt": "2026-06-23 18:45",
       "status": "notstarted",
@@ -840,7 +851,7 @@
       "resultado_confirmado": ""
     },
     {
-      "api_id": "47",
+      "api_id": "48",
       "grupo": "Grupo K",
       "time_a": "COL",
       "time_b": "RDC",
@@ -850,7 +861,7 @@
       "resultado_confirmado": ""
     },
     {
-      "api_id": "53",
+      "api_id": "52",
       "grupo": "Grupo B",
       "time_a": "BOS",
       "time_b": "QAT",
@@ -860,22 +871,12 @@
       "resultado_confirmado": ""
     },
     {
-      "api_id": "54",
+      "api_id": "51",
       "grupo": "Grupo B",
       "time_a": "SUI",
       "time_b": "CAN",
       "inicio_brt": "2026-06-24 16:00",
       "checar_a_partir_brt": "2026-06-24 17:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
-    },
-    {
-      "api_id": "49",
-      "grupo": "Grupo C",
-      "time_a": "ESC",
-      "time_b": "BRA",
-      "inicio_brt": "2026-06-24 19:00",
-      "checar_a_partir_brt": "2026-06-24 20:45",
       "status": "notstarted",
       "resultado_confirmado": ""
     },
@@ -890,7 +891,17 @@
       "resultado_confirmado": ""
     },
     {
-      "api_id": "51",
+      "api_id": "49",
+      "grupo": "Grupo C",
+      "time_a": "ESC",
+      "time_b": "BRA",
+      "inicio_brt": "2026-06-24 19:00",
+      "checar_a_partir_brt": "2026-06-24 20:45",
+      "status": "notstarted",
+      "resultado_confirmado": ""
+    },
+    {
+      "api_id": "54",
       "grupo": "Grupo A",
       "time_a": "AFS",
       "time_b": "COR",
@@ -900,7 +911,7 @@
       "resultado_confirmado": ""
     },
     {
-      "api_id": "52",
+      "api_id": "53",
       "grupo": "Grupo A",
       "time_a": "TCH",
       "time_b": "MEX",
@@ -922,7 +933,7 @@
     {
       "api_id": "56",
       "grupo": "Grupo E",
-      "time_a": "EQU",
+      "time_a": "ECU",
       "time_b": "ALE",
       "inicio_brt": "2026-06-25 17:00",
       "checar_a_partir_brt": "2026-06-25 18:45",
@@ -930,17 +941,7 @@
       "resultado_confirmado": ""
     },
     {
-      "api_id": "59",
-      "grupo": "Grupo F",
-      "time_a": "JAP",
-      "time_b": "SUE",
-      "inicio_brt": "2026-06-25 20:00",
-      "checar_a_partir_brt": "2026-06-25 21:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
-    },
-    {
-      "api_id": "60",
+      "api_id": "58",
       "grupo": "Grupo F",
       "time_a": "TUN",
       "time_b": "HOL",
@@ -951,6 +952,16 @@
     },
     {
       "api_id": "57",
+      "grupo": "Grupo F",
+      "time_a": "JAP",
+      "time_b": "SWE",
+      "inicio_brt": "2026-06-25 20:00",
+      "checar_a_partir_brt": "2026-06-25 21:45",
+      "status": "notstarted",
+      "resultado_confirmado": ""
+    },
+    {
+      "api_id": "60",
       "grupo": "Grupo D",
       "time_a": "PAR",
       "time_b": "AUS",
@@ -960,7 +971,7 @@
       "resultado_confirmado": ""
     },
     {
-      "api_id": "58",
+      "api_id": "59",
       "grupo": "Grupo D",
       "time_a": "TUR",
       "time_b": "EUA",
@@ -970,7 +981,7 @@
       "resultado_confirmado": ""
     },
     {
-      "api_id": "61",
+      "api_id": "62",
       "grupo": "Grupo I",
       "time_a": "SEN",
       "time_b": "IRQ",
@@ -980,22 +991,12 @@
       "resultado_confirmado": ""
     },
     {
-      "api_id": "62",
+      "api_id": "61",
       "grupo": "Grupo I",
       "time_a": "NOR",
       "time_b": "FRA",
       "inicio_brt": "2026-06-26 16:00",
       "checar_a_partir_brt": "2026-06-26 17:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
-    },
-    {
-      "api_id": "65",
-      "grupo": "Grupo H",
-      "time_a": "CAB",
-      "time_b": "ARS",
-      "inicio_brt": "2026-06-26 21:00",
-      "checar_a_partir_brt": "2026-06-26 22:45",
       "status": "notstarted",
       "resultado_confirmado": ""
     },
@@ -1010,12 +1011,12 @@
       "resultado_confirmado": ""
     },
     {
-      "api_id": "63",
-      "grupo": "Grupo G",
-      "time_a": "EGI",
-      "time_b": "IRA",
-      "inicio_brt": "2026-06-27 00:00",
-      "checar_a_partir_brt": "2026-06-27 01:45",
+      "api_id": "65",
+      "grupo": "Grupo H",
+      "time_a": "CAB",
+      "time_b": "ARS",
+      "inicio_brt": "2026-06-26 21:00",
+      "checar_a_partir_brt": "2026-06-26 22:45",
       "status": "notstarted",
       "resultado_confirmado": ""
     },
@@ -1024,6 +1025,16 @@
       "grupo": "Grupo G",
       "time_a": "NZE",
       "time_b": "BEL",
+      "inicio_brt": "2026-06-27 00:00",
+      "checar_a_partir_brt": "2026-06-27 01:45",
+      "status": "notstarted",
+      "resultado_confirmado": ""
+    },
+    {
+      "api_id": "63",
+      "grupo": "Grupo G",
+      "time_a": "EGI",
+      "time_b": "IRA",
       "inicio_brt": "2026-06-27 00:00",
       "checar_a_partir_brt": "2026-06-27 01:45",
       "status": "notstarted",
@@ -1043,19 +1054,9 @@
       "api_id": "68",
       "grupo": "Grupo L",
       "time_a": "CRO",
-      "time_b": "GAN",
+      "time_b": "GHA",
       "inicio_brt": "2026-06-27 18:00",
       "checar_a_partir_brt": "2026-06-27 19:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
-    },
-    {
-      "api_id": "71",
-      "grupo": "Grupo K",
-      "time_a": "COL",
-      "time_b": "POR",
-      "inicio_brt": "2026-06-27 20:30",
-      "checar_a_partir_brt": "2026-06-27 22:15",
       "status": "notstarted",
       "resultado_confirmado": ""
     },
@@ -1064,6 +1065,16 @@
       "grupo": "Grupo K",
       "time_a": "RDC",
       "time_b": "UZB",
+      "inicio_brt": "2026-06-27 20:30",
+      "checar_a_partir_brt": "2026-06-27 22:15",
+      "status": "notstarted",
+      "resultado_confirmado": ""
+    },
+    {
+      "api_id": "71",
+      "grupo": "Grupo K",
+      "time_a": "COL",
+      "time_b": "POR",
       "inicio_brt": "2026-06-27 20:30",
       "checar_a_partir_brt": "2026-06-27 22:15",
       "status": "notstarted",
@@ -6279,6 +6290,18 @@
     },
     {
       "apostador": "Belo",
+      "grupo": "Grupo D",
+      "jogo": "4",
+      "time_a": "EUA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "AUS",
+      "resultado": "EUA 2x0 AUS",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Belo",
       "grupo": "Grupo E",
       "jogo": "1",
       "time_a": "ALE",
@@ -6612,6 +6635,18 @@
       "resultado": "AUS 2x0 TUR",
       "pontos": "15",
       "tipo": "placar exato"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo D",
+      "jogo": "4",
+      "time_a": "EUA",
+      "gols_a": "4",
+      "gols_b": "4",
+      "time_b": "AUS",
+      "resultado": "EUA 2x0 AUS",
+      "pontos": "0",
+      "tipo": "erro"
     },
     {
       "apostador": "Bernardo",
@@ -6951,6 +6986,18 @@
     },
     {
       "apostador": "Fabrisio",
+      "grupo": "Grupo D",
+      "jogo": "4",
+      "time_a": "EUA",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "AUS",
+      "resultado": "EUA 2x0 AUS",
+      "pontos": "15",
+      "tipo": "placar exato"
+    },
+    {
+      "apostador": "Fabrisio",
       "grupo": "Grupo E",
       "jogo": "1",
       "time_a": "ALE",
@@ -7282,6 +7329,18 @@
       "gols_b": "2",
       "time_b": "TUR",
       "resultado": "AUS 2x0 TUR",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Iza",
+      "grupo": "Grupo D",
+      "jogo": "4",
+      "time_a": "EUA",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "AUS",
+      "resultado": "EUA 2x0 AUS",
       "pontos": "0",
       "tipo": "erro"
     },
@@ -7623,6 +7682,18 @@
     },
     {
       "apostador": "Junior",
+      "grupo": "Grupo D",
+      "jogo": "4",
+      "time_a": "EUA",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "AUS",
+      "resultado": "EUA 2x0 AUS",
+      "pontos": "15",
+      "tipo": "placar exato"
+    },
+    {
+      "apostador": "Junior",
       "grupo": "Grupo E",
       "jogo": "1",
       "time_a": "ALE",
@@ -7954,6 +8025,18 @@
       "gols_b": "1",
       "time_b": "TUR",
       "resultado": "AUS 2x0 TUR",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo D",
+      "jogo": "4",
+      "time_a": "EUA",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "AUS",
+      "resultado": "EUA 2x0 AUS",
       "pontos": "0",
       "tipo": "erro"
     },
@@ -8292,6 +8375,18 @@
       "resultado": "AUS 2x0 TUR",
       "pontos": "0",
       "tipo": "erro"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo D",
+      "jogo": "4",
+      "time_a": "EUA",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "AUS",
+      "resultado": "EUA 2x0 AUS",
+      "pontos": "15",
+      "tipo": "placar exato"
     },
     {
       "apostador": "Nani",
