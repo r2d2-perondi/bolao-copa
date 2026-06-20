@@ -1,27 +1,27 @@
 {
-  "generatedAt": "19/06/2026 18:54",
+  "generatedAt": "19/06/2026 21:00",
   "ranking": [
     {
       "apostador": "Fabrisio",
-      "pontos": "180",
+      "pontos": "190",
       "exatos": "3",
-      "resultado": "13",
+      "resultado": "14",
       "invertido": "1",
       "erros": "12"
     },
     {
       "apostador": "Nani",
-      "pontos": "175",
+      "pontos": "185",
       "exatos": "5",
-      "resultado": "10",
+      "resultado": "11",
       "invertido": "0",
       "erros": "14"
     },
     {
       "apostador": "Belo",
-      "pontos": "170",
+      "pontos": "180",
       "exatos": "2",
-      "resultado": "14",
+      "resultado": "15",
       "invertido": "0",
       "erros": "13"
     },
@@ -31,7 +31,15 @@
       "exatos": "2",
       "resultado": "14",
       "invertido": "0",
-      "erros": "13"
+      "erros": "14"
+    },
+    {
+      "apostador": "Junior",
+      "pontos": "160",
+      "exatos": "4",
+      "resultado": "10",
+      "invertido": "0",
+      "erros": "16"
     },
     {
       "apostador": "Bernardo",
@@ -39,22 +47,14 @@
       "exatos": "4",
       "resultado": "9",
       "invertido": "0",
-      "erros": "16"
-    },
-    {
-      "apostador": "Junior",
-      "pontos": "145",
-      "exatos": "3",
-      "resultado": "10",
-      "invertido": "0",
-      "erros": "16"
+      "erros": "17"
     },
     {
       "apostador": "Iza",
-      "pontos": "110",
+      "pontos": "115",
       "exatos": "2",
       "resultado": "8",
-      "invertido": "0",
+      "invertido": "1",
       "erros": "19"
     }
   ],
@@ -377,6 +377,17 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "32"
+    },
+    {
+      "grupo": "Grupo C",
+      "jogo": "",
+      "time_a": "ESC",
+      "gols_a": "0",
+      "gols_b": "1",
+      "time_b": "MAR",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "30"
     }
   ],
   "jogos": [
@@ -677,8 +688,8 @@
       "time_b": "MAR",
       "inicio_brt": "2026-06-19 19:00",
       "checar_a_partir_brt": "2026-06-19 20:45",
-      "status": "0'",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "ESC 0x1 MAR"
     },
     {
       "api_id": "29",
@@ -687,7 +698,7 @@
       "time_b": "HAI",
       "inicio_brt": "2026-06-19 21:30",
       "checar_a_partir_brt": "2026-06-19 23:15",
-      "status": "notstarted",
+      "status": "0'",
       "resultado_confirmado": ""
     },
     {
@@ -6266,6 +6277,18 @@
     },
     {
       "apostador": "Belo",
+      "grupo": "Grupo C",
+      "jogo": "3",
+      "time_a": "ESC",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "MAR",
+      "resultado": "ESC 0x1 MAR",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Belo",
       "grupo": "Grupo D",
       "jogo": "1",
       "time_a": "EUA",
@@ -6609,6 +6632,18 @@
       "gols_b": "1",
       "time_b": "ESC",
       "resultado": "HAI 0x1 ESC",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo C",
+      "jogo": "3",
+      "time_a": "ESC",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "MAR",
+      "resultado": "ESC 0x1 MAR",
       "pontos": "0",
       "tipo": "erro"
     },
@@ -6962,6 +6997,18 @@
     },
     {
       "apostador": "Fabrisio",
+      "grupo": "Grupo C",
+      "jogo": "3",
+      "time_a": "ESC",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "MAR",
+      "resultado": "ESC 0x1 MAR",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Fabrisio",
       "grupo": "Grupo D",
       "jogo": "1",
       "time_a": "EUA",
@@ -7307,6 +7354,18 @@
       "resultado": "HAI 0x1 ESC",
       "pontos": "15",
       "tipo": "placar exato"
+    },
+    {
+      "apostador": "Iza",
+      "grupo": "Grupo C",
+      "jogo": "3",
+      "time_a": "ESC",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "MAR",
+      "resultado": "ESC 0x1 MAR",
+      "pontos": "5",
+      "tipo": "placar invertido"
     },
     {
       "apostador": "Iza",
@@ -7658,6 +7717,18 @@
     },
     {
       "apostador": "Junior",
+      "grupo": "Grupo C",
+      "jogo": "3",
+      "time_a": "ESC",
+      "gols_a": "0",
+      "gols_b": "1",
+      "time_b": "MAR",
+      "resultado": "ESC 0x1 MAR",
+      "pontos": "15",
+      "tipo": "placar exato"
+    },
+    {
+      "apostador": "Junior",
       "grupo": "Grupo D",
       "jogo": "1",
       "time_a": "EUA",
@@ -8003,6 +8074,18 @@
       "resultado": "HAI 0x1 ESC",
       "pontos": "15",
       "tipo": "placar exato"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo C",
+      "jogo": "3",
+      "time_a": "ESC",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "MAR",
+      "resultado": "ESC 0x1 MAR",
+      "pontos": "0",
+      "tipo": "erro"
     },
     {
       "apostador": "Larissa",
@@ -8349,6 +8432,18 @@
       "gols_b": "3",
       "time_b": "ESC",
       "resultado": "HAI 0x1 ESC",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo C",
+      "jogo": "3",
+      "time_a": "ESC",
+      "gols_a": "1",
+      "gols_b": "3",
+      "time_b": "MAR",
+      "resultado": "ESC 0x1 MAR",
       "pontos": "10",
       "tipo": "resultado correto"
     },
