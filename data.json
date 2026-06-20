@@ -1,43 +1,43 @@
 {
-  "generatedAt": "20/06/2026 16:00",
+  "generatedAt": "20/06/2026 20:00",
   "ranking": [
     {
       "apostador": "Fabrisio",
-      "pontos": "205",
-      "exatos": "4",
+      "pontos": "220",
+      "exatos": "5",
       "resultado": "14",
       "invertido": "1",
       "erros": "13"
     },
     {
-      "apostador": "Larissa",
-      "pontos": "200",
-      "exatos": "4",
-      "resultado": "14",
-      "invertido": "0",
-      "erros": "14"
-    },
-    {
       "apostador": "Belo",
-      "pontos": "200",
-      "exatos": "2",
+      "pontos": "215",
+      "exatos": "3",
       "resultado": "17",
       "invertido": "0",
       "erros": "13"
     },
     {
+      "apostador": "Larissa",
+      "pontos": "210",
+      "exatos": "4",
+      "resultado": "15",
+      "invertido": "0",
+      "erros": "14"
+    },
+    {
       "apostador": "Nani",
-      "pontos": "195",
+      "pontos": "205",
       "exatos": "5",
-      "resultado": "12",
+      "resultado": "13",
       "invertido": "0",
       "erros": "15"
     },
     {
       "apostador": "Junior",
-      "pontos": "175",
+      "pontos": "185",
       "exatos": "5",
-      "resultado": "10",
+      "resultado": "11",
       "invertido": "0",
       "erros": "17"
     },
@@ -47,13 +47,13 @@
       "exatos": "4",
       "resultado": "10",
       "invertido": "0",
-      "erros": "18"
+      "erros": "19"
     },
     {
       "apostador": "Iza",
-      "pontos": "125",
+      "pontos": "135",
       "exatos": "2",
-      "resultado": "9",
+      "resultado": "10",
       "invertido": "1",
       "erros": "20"
     }
@@ -421,6 +421,17 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "35"
+    },
+    {
+      "grupo": "Grupo E",
+      "jogo": "",
+      "time_a": "ALE",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "CDM",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "33"
     }
   ],
   "jogos": [
@@ -761,8 +772,8 @@
       "time_b": "CDM",
       "inicio_brt": "2026-06-20 17:00",
       "checar_a_partir_brt": "2026-06-20 18:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "ALE 2x1 CDM"
     },
     {
       "api_id": "34",
@@ -771,7 +782,7 @@
       "time_b": "CUR",
       "inicio_brt": "2026-06-20 21:00",
       "checar_a_partir_brt": "2026-06-20 22:45",
-      "status": "notstarted",
+      "status": "0'",
       "resultado_confirmado": ""
     },
     {
@@ -6406,6 +6417,18 @@
     },
     {
       "apostador": "Belo",
+      "grupo": "Grupo E",
+      "jogo": "3",
+      "time_a": "ALE",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "CDM",
+      "resultado": "ALE 2x1 CDM",
+      "pontos": "15",
+      "tipo": "placar exato"
+    },
+    {
+      "apostador": "Belo",
       "grupo": "Grupo F",
       "jogo": "1",
       "time_a": "HOL",
@@ -6790,6 +6813,18 @@
     },
     {
       "apostador": "Bernardo",
+      "grupo": "Grupo E",
+      "jogo": "3",
+      "time_a": "ALE",
+      "gols_a": "0",
+      "gols_b": "0",
+      "time_b": "CDM",
+      "resultado": "ALE 2x1 CDM",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
       "grupo": "Grupo F",
       "jogo": "1",
       "time_a": "HOL",
@@ -7171,6 +7206,18 @@
       "resultado": "CDM 1x0 EQU",
       "pontos": "0",
       "tipo": "erro"
+    },
+    {
+      "apostador": "Fabrisio",
+      "grupo": "Grupo E",
+      "jogo": "3",
+      "time_a": "ALE",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "CDM",
+      "resultado": "ALE 2x1 CDM",
+      "pontos": "15",
+      "tipo": "placar exato"
     },
     {
       "apostador": "Fabrisio",
@@ -7553,6 +7600,18 @@
       "gols_b": "1",
       "time_b": "EQU",
       "resultado": "CDM 1x0 EQU",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Iza",
+      "grupo": "Grupo E",
+      "jogo": "3",
+      "time_a": "ALE",
+      "gols_a": "4",
+      "gols_b": "1",
+      "time_b": "CDM",
+      "resultado": "ALE 2x1 CDM",
       "pontos": "10",
       "tipo": "resultado correto"
     },
@@ -7942,6 +8001,18 @@
     },
     {
       "apostador": "Junior",
+      "grupo": "Grupo E",
+      "jogo": "3",
+      "time_a": "ALE",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "CDM",
+      "resultado": "ALE 2x1 CDM",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Junior",
       "grupo": "Grupo F",
       "jogo": "1",
       "time_a": "HOL",
@@ -8326,6 +8397,18 @@
     },
     {
       "apostador": "Larissa",
+      "grupo": "Grupo E",
+      "jogo": "3",
+      "time_a": "ALE",
+      "gols_a": "3",
+      "gols_b": "0",
+      "time_b": "CDM",
+      "resultado": "ALE 2x1 CDM",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Larissa",
       "grupo": "Grupo F",
       "jogo": "1",
       "time_a": "HOL",
@@ -8707,6 +8790,18 @@
       "resultado": "CDM 1x0 EQU",
       "pontos": "0",
       "tipo": "erro"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo E",
+      "jogo": "3",
+      "time_a": "ALE",
+      "gols_a": "3",
+      "gols_b": "1",
+      "time_b": "CDM",
+      "resultado": "ALE 2x1 CDM",
+      "pontos": "10",
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Nani",
