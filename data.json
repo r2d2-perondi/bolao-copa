@@ -1,5 +1,5 @@
 {
-  "generatedAt": "20/06/2026 03:00",
+  "generatedAt": "20/06/2026 16:00",
   "ranking": [
     {
       "apostador": "Fabrisio",
@@ -410,6 +410,17 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "31"
+    },
+    {
+      "grupo": "Grupo F",
+      "jogo": "",
+      "time_a": "HOL",
+      "gols_a": "5",
+      "gols_b": "1",
+      "time_b": "SWE",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "35"
     }
   ],
   "jogos": [
@@ -740,8 +751,8 @@
       "time_b": "SWE",
       "inicio_brt": "2026-06-20 14:00",
       "checar_a_partir_brt": "2026-06-20 15:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "HOL 5x1 SWE"
     },
     {
       "api_id": "33",
