@@ -1,5 +1,5 @@
 {
-  "generatedAt": "20/06/2026 00:00",
+  "generatedAt": "20/06/2026 03:00",
   "ranking": [
     {
       "apostador": "Fabrisio",
@@ -7,7 +7,23 @@
       "exatos": "4",
       "resultado": "14",
       "invertido": "1",
-      "erros": "12"
+      "erros": "13"
+    },
+    {
+      "apostador": "Larissa",
+      "pontos": "200",
+      "exatos": "4",
+      "resultado": "14",
+      "invertido": "0",
+      "erros": "14"
+    },
+    {
+      "apostador": "Belo",
+      "pontos": "200",
+      "exatos": "2",
+      "resultado": "17",
+      "invertido": "0",
+      "erros": "13"
     },
     {
       "apostador": "Nani",
@@ -15,23 +31,7 @@
       "exatos": "5",
       "resultado": "12",
       "invertido": "0",
-      "erros": "14"
-    },
-    {
-      "apostador": "Belo",
-      "pontos": "190",
-      "exatos": "2",
-      "resultado": "16",
-      "invertido": "0",
-      "erros": "13"
-    },
-    {
-      "apostador": "Larissa",
-      "pontos": "185",
-      "exatos": "3",
-      "resultado": "14",
-      "invertido": "0",
-      "erros": "14"
+      "erros": "15"
     },
     {
       "apostador": "Junior",
@@ -39,7 +39,7 @@
       "exatos": "5",
       "resultado": "10",
       "invertido": "0",
-      "erros": "16"
+      "erros": "17"
     },
     {
       "apostador": "Bernardo",
@@ -47,7 +47,7 @@
       "exatos": "4",
       "resultado": "10",
       "invertido": "0",
-      "erros": "17"
+      "erros": "18"
     },
     {
       "apostador": "Iza",
@@ -55,7 +55,7 @@
       "exatos": "2",
       "resultado": "9",
       "invertido": "1",
-      "erros": "19"
+      "erros": "20"
     }
   ],
   "resultados": [
@@ -399,6 +399,17 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "29"
+    },
+    {
+      "grupo": "Grupo D",
+      "jogo": "",
+      "time_a": "TUR",
+      "gols_a": "0",
+      "gols_b": "1",
+      "time_b": "PAR",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "31"
     }
   ],
   "jogos": [
@@ -719,8 +730,8 @@
       "time_b": "PAR",
       "inicio_brt": "2026-06-20 00:00",
       "checar_a_partir_brt": "2026-06-20 01:45",
-      "status": "0'",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "TUR 0x1 PAR"
     },
     {
       "api_id": "35",
@@ -6337,6 +6348,18 @@
     {
       "apostador": "Belo",
       "grupo": "Grupo D",
+      "jogo": "3",
+      "time_a": "TUR",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "PAR",
+      "resultado": "TUR 0x1 PAR",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Belo",
+      "grupo": "Grupo D",
       "jogo": "4",
       "time_a": "EUA",
       "gols_a": "2",
@@ -6709,6 +6732,18 @@
     {
       "apostador": "Bernardo",
       "grupo": "Grupo D",
+      "jogo": "3",
+      "time_a": "TUR",
+      "gols_a": "3",
+      "gols_b": "2",
+      "time_b": "PAR",
+      "resultado": "TUR 0x1 PAR",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo D",
       "jogo": "4",
       "time_a": "EUA",
       "gols_a": "4",
@@ -7081,6 +7116,18 @@
     {
       "apostador": "Fabrisio",
       "grupo": "Grupo D",
+      "jogo": "3",
+      "time_a": "TUR",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "PAR",
+      "resultado": "TUR 0x1 PAR",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Fabrisio",
+      "grupo": "Grupo D",
       "jogo": "4",
       "time_a": "EUA",
       "gols_a": "2",
@@ -7447,6 +7494,18 @@
       "gols_b": "2",
       "time_b": "TUR",
       "resultado": "AUS 2x0 TUR",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Iza",
+      "grupo": "Grupo D",
+      "jogo": "3",
+      "time_a": "TUR",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "PAR",
+      "resultado": "TUR 0x1 PAR",
       "pontos": "0",
       "tipo": "erro"
     },
@@ -7825,6 +7884,18 @@
     {
       "apostador": "Junior",
       "grupo": "Grupo D",
+      "jogo": "3",
+      "time_a": "TUR",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "PAR",
+      "resultado": "TUR 0x1 PAR",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Junior",
+      "grupo": "Grupo D",
       "jogo": "4",
       "time_a": "EUA",
       "gols_a": "2",
@@ -8193,6 +8264,18 @@
       "resultado": "AUS 2x0 TUR",
       "pontos": "0",
       "tipo": "erro"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo D",
+      "jogo": "3",
+      "time_a": "TUR",
+      "gols_a": "0",
+      "gols_b": "1",
+      "time_b": "PAR",
+      "resultado": "TUR 0x1 PAR",
+      "pontos": "15",
+      "tipo": "placar exato"
     },
     {
       "apostador": "Larissa",
@@ -8563,6 +8646,18 @@
       "gols_b": "0",
       "time_b": "TUR",
       "resultado": "AUS 2x0 TUR",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo D",
+      "jogo": "3",
+      "time_a": "TUR",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "PAR",
+      "resultado": "TUR 0x1 PAR",
       "pontos": "0",
       "tipo": "erro"
     },
