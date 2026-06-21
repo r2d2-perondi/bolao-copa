@@ -1,5 +1,5 @@
 {
-  "generatedAt": "20/06/2026 20:00",
+  "generatedAt": "20/06/2026 23:00",
   "ranking": [
     {
       "apostador": "Fabrisio",
@@ -432,6 +432,17 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "33"
+    },
+    {
+      "grupo": "Grupo E",
+      "jogo": "",
+      "time_a": "ECU",
+      "gols_a": "0",
+      "gols_b": "0",
+      "time_b": "CUR",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "34"
     }
   ],
   "jogos": [
@@ -782,8 +793,8 @@
       "time_b": "CUR",
       "inicio_brt": "2026-06-20 21:00",
       "checar_a_partir_brt": "2026-06-20 22:45",
-      "status": "0'",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "ECU 0x0 CUR"
     },
     {
       "api_id": "36",
