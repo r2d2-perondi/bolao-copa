@@ -1,5 +1,5 @@
 {
-  "generatedAt": "21/06/2026 16:00",
+  "generatedAt": "21/06/2026 19:00",
   "ranking": [
     {
       "apostador": "Fabrisio",
@@ -7,7 +7,7 @@
       "exatos": "5",
       "resultado": "16",
       "invertido": "1",
-      "erros": "13"
+      "erros": "14"
     },
     {
       "apostador": "Belo",
@@ -15,7 +15,7 @@
       "exatos": "3",
       "resultado": "19",
       "invertido": "0",
-      "erros": "13"
+      "erros": "14"
     },
     {
       "apostador": "Larissa",
@@ -23,7 +23,7 @@
       "exatos": "4",
       "resultado": "17",
       "invertido": "0",
-      "erros": "14"
+      "erros": "15"
     },
     {
       "apostador": "Nani",
@@ -31,29 +31,29 @@
       "exatos": "5",
       "resultado": "15",
       "invertido": "0",
-      "erros": "15"
+      "erros": "16"
     },
     {
       "apostador": "Junior",
-      "pontos": "205",
+      "pontos": "215",
       "exatos": "5",
-      "resultado": "13",
+      "resultado": "14",
       "invertido": "0",
       "erros": "17"
     },
     {
       "apostador": "Bernardo",
-      "pontos": "170",
+      "pontos": "180",
       "exatos": "4",
-      "resultado": "11",
+      "resultado": "12",
       "invertido": "0",
       "erros": "20"
     },
     {
       "apostador": "Iza",
-      "pontos": "160",
+      "pontos": "170",
       "exatos": "3",
-      "resultado": "11",
+      "resultado": "12",
       "invertido": "1",
       "erros": "20"
     }
@@ -465,6 +465,17 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "38"
+    },
+    {
+      "grupo": "Grupo G",
+      "jogo": "",
+      "time_a": "BEL",
+      "gols_a": "0",
+      "gols_b": "0",
+      "time_b": "IRA",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "39"
     }
   ],
   "jogos": [
@@ -845,8 +856,8 @@
       "time_b": "IRA",
       "inicio_brt": "2026-06-21 16:00",
       "checar_a_partir_brt": "2026-06-21 17:45",
-      "status": "0'",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "BEL 0x0 IRA"
     },
     {
       "api_id": "37",
@@ -855,7 +866,7 @@
       "time_b": "CAB",
       "inicio_brt": "2026-06-21 19:00",
       "checar_a_partir_brt": "2026-06-21 20:45",
-      "status": "notstarted",
+      "status": "0'",
       "resultado_confirmado": ""
     },
     {
@@ -6522,6 +6533,18 @@
     },
     {
       "apostador": "Belo",
+      "grupo": "Grupo G",
+      "jogo": "3",
+      "time_a": "BEL",
+      "gols_a": "4",
+      "gols_b": "1",
+      "time_b": "IRA",
+      "resultado": "BEL 0x0 IRA",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Belo",
       "grupo": "Grupo H",
       "jogo": "1",
       "time_a": "ESP",
@@ -6942,6 +6965,18 @@
     },
     {
       "apostador": "Bernardo",
+      "grupo": "Grupo G",
+      "jogo": "3",
+      "time_a": "BEL",
+      "gols_a": "3",
+      "gols_b": "3",
+      "time_b": "IRA",
+      "resultado": "BEL 0x0 IRA",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Bernardo",
       "grupo": "Grupo H",
       "jogo": "1",
       "time_a": "ESP",
@@ -7357,6 +7392,18 @@
       "gols_b": "0",
       "time_b": "NZE",
       "resultado": "IRA 2x2 NZE",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Fabrisio",
+      "grupo": "Grupo G",
+      "jogo": "3",
+      "time_a": "BEL",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "IRA",
+      "resultado": "BEL 0x0 IRA",
       "pontos": "0",
       "tipo": "erro"
     },
@@ -7779,6 +7826,18 @@
       "resultado": "IRA 2x2 NZE",
       "pontos": "0",
       "tipo": "erro"
+    },
+    {
+      "apostador": "Iza",
+      "grupo": "Grupo G",
+      "jogo": "3",
+      "time_a": "BEL",
+      "gols_a": "2",
+      "gols_b": "2",
+      "time_b": "IRA",
+      "resultado": "BEL 0x0 IRA",
+      "pontos": "10",
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Iza",
@@ -8202,6 +8261,18 @@
     },
     {
       "apostador": "Junior",
+      "grupo": "Grupo G",
+      "jogo": "3",
+      "time_a": "BEL",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "IRA",
+      "resultado": "BEL 0x0 IRA",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Junior",
       "grupo": "Grupo H",
       "jogo": "1",
       "time_a": "ESP",
@@ -8622,6 +8693,18 @@
     },
     {
       "apostador": "Larissa",
+      "grupo": "Grupo G",
+      "jogo": "3",
+      "time_a": "BEL",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "IRA",
+      "resultado": "BEL 0x0 IRA",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Larissa",
       "grupo": "Grupo H",
       "jogo": "1",
       "time_a": "ESP",
@@ -9037,6 +9120,18 @@
       "gols_b": "2",
       "time_b": "NZE",
       "resultado": "IRA 2x2 NZE",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo G",
+      "jogo": "3",
+      "time_a": "BEL",
+      "gols_a": "3",
+      "gols_b": "0",
+      "time_b": "IRA",
+      "resultado": "BEL 0x0 IRA",
       "pontos": "0",
       "tipo": "erro"
     },
