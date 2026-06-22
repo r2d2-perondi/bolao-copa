@@ -1,58 +1,58 @@
 {
-  "generatedAt": "22/06/2026 01:00",
+  "generatedAt": "22/06/2026 17:00",
   "ranking": [
     {
       "apostador": "Fabrisio",
-      "pontos": "250",
+      "pontos": "260",
       "exatos": "5",
-      "resultado": "17",
+      "resultado": "18",
       "invertido": "1",
       "erros": "15"
     },
     {
       "apostador": "Nani",
-      "pontos": "235",
+      "pontos": "245",
       "exatos": "5",
-      "resultado": "16",
-      "invertido": "0",
-      "erros": "17"
-    },
-    {
-      "apostador": "Belo",
-      "pontos": "235",
-      "exatos": "3",
-      "resultado": "19",
-      "invertido": "0",
-      "erros": "16"
-    },
-    {
-      "apostador": "Larissa",
-      "pontos": "230",
-      "exatos": "4",
       "resultado": "17",
       "invertido": "0",
       "erros": "17"
     },
     {
+      "apostador": "Belo",
+      "pontos": "245",
+      "exatos": "3",
+      "resultado": "20",
+      "invertido": "0",
+      "erros": "16"
+    },
+    {
+      "apostador": "Larissa",
+      "pontos": "240",
+      "exatos": "4",
+      "resultado": "18",
+      "invertido": "0",
+      "erros": "17"
+    },
+    {
       "apostador": "Junior",
-      "pontos": "225",
+      "pontos": "235",
       "exatos": "5",
-      "resultado": "15",
+      "resultado": "16",
       "invertido": "0",
       "erros": "18"
     },
     {
       "apostador": "Bernardo",
-      "pontos": "190",
+      "pontos": "195",
       "exatos": "4",
       "resultado": "13",
-      "invertido": "0",
+      "invertido": "1",
       "erros": "21"
     },
     {
       "apostador": "Iza",
-      "pontos": "180",
-      "exatos": "3",
+      "pontos": "195",
+      "exatos": "4",
       "resultado": "13",
       "invertido": "1",
       "erros": "21"
@@ -498,6 +498,17 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "40"
+    },
+    {
+      "grupo": "Grupo J",
+      "jogo": "",
+      "time_a": "ARG",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "AUT",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "43"
     }
   ],
   "jogos": [
@@ -908,8 +919,8 @@
       "time_b": "AUT",
       "inicio_brt": "2026-06-22 14:00",
       "checar_a_partir_brt": "2026-06-22 15:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "ARG 2x0 AUT"
     },
     {
       "api_id": "42",
@@ -918,7 +929,7 @@
       "time_b": "IRQ",
       "inicio_brt": "2026-06-22 18:00",
       "checar_a_partir_brt": "2026-06-22 19:45",
-      "status": "notstarted",
+      "status": "0'",
       "resultado_confirmado": ""
     },
     {
@@ -6675,6 +6686,18 @@
     },
     {
       "apostador": "Belo",
+      "grupo": "Grupo J",
+      "jogo": "3",
+      "time_a": "ARG",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "AUT",
+      "resultado": "ARG 2x0 AUT",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Belo",
       "grupo": "Grupo K",
       "jogo": "1",
       "time_a": "POR",
@@ -7128,6 +7151,18 @@
       "resultado": "AUT 3x1 JOR",
       "pontos": "0",
       "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo J",
+      "jogo": "3",
+      "time_a": "ARG",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "AUT",
+      "resultado": "ARG 2x0 AUT",
+      "pontos": "5",
+      "tipo": "placar invertido"
     },
     {
       "apostador": "Bernardo",
@@ -7587,6 +7622,18 @@
     },
     {
       "apostador": "Fabrisio",
+      "grupo": "Grupo J",
+      "jogo": "3",
+      "time_a": "ARG",
+      "gols_a": "3",
+      "gols_b": "1",
+      "time_b": "AUT",
+      "resultado": "ARG 2x0 AUT",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Fabrisio",
       "grupo": "Grupo K",
       "jogo": "1",
       "time_a": "POR",
@@ -8040,6 +8087,18 @@
       "resultado": "AUT 3x1 JOR",
       "pontos": "0",
       "tipo": "erro"
+    },
+    {
+      "apostador": "Iza",
+      "grupo": "Grupo J",
+      "jogo": "3",
+      "time_a": "ARG",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "AUT",
+      "resultado": "ARG 2x0 AUT",
+      "pontos": "15",
+      "tipo": "placar exato"
     },
     {
       "apostador": "Iza",
@@ -8499,6 +8558,18 @@
     },
     {
       "apostador": "Junior",
+      "grupo": "Grupo J",
+      "jogo": "3",
+      "time_a": "ARG",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "AUT",
+      "resultado": "ARG 2x0 AUT",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Junior",
       "grupo": "Grupo K",
       "jogo": "1",
       "time_a": "POR",
@@ -8950,6 +9021,18 @@
       "gols_b": "0",
       "time_b": "JOR",
       "resultado": "AUT 3x1 JOR",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo J",
+      "jogo": "3",
+      "time_a": "ARG",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "AUT",
+      "resultado": "ARG 2x0 AUT",
       "pontos": "10",
       "tipo": "resultado correto"
     },
@@ -9406,6 +9489,18 @@
       "gols_b": "0",
       "time_b": "JOR",
       "resultado": "AUT 3x1 JOR",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo J",
+      "jogo": "3",
+      "time_a": "ARG",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "AUT",
+      "resultado": "ARG 2x0 AUT",
       "pontos": "10",
       "tipo": "resultado correto"
     },
