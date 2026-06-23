@@ -1,59 +1,59 @@
 {
-  "generatedAt": "23/06/2026 03:00",
+  "generatedAt": "23/06/2026 16:00",
   "ranking": [
     {
       "apostador": "Fabrisio",
-      "pontos": "285",
+      "pontos": "295",
       "exatos": "6",
-      "resultado": "19",
+      "resultado": "20",
       "invertido": "1",
       "erros": "16"
     },
     {
       "apostador": "Nani",
-      "pontos": "265",
+      "pontos": "275",
       "exatos": "5",
-      "resultado": "19",
+      "resultado": "20",
       "invertido": "0",
       "erros": "18"
     },
     {
       "apostador": "Belo",
-      "pontos": "265",
+      "pontos": "275",
       "exatos": "3",
-      "resultado": "22",
+      "resultado": "23",
       "invertido": "0",
       "erros": "17"
     },
     {
       "apostador": "Junior",
-      "pontos": "260",
+      "pontos": "270",
       "exatos": "6",
-      "resultado": "17",
-      "invertido": "0",
-      "erros": "19"
-    },
-    {
-      "apostador": "Larissa",
-      "pontos": "255",
-      "exatos": "5",
       "resultado": "18",
       "invertido": "0",
       "erros": "19"
     },
     {
-      "apostador": "Iza",
-      "pontos": "210",
+      "apostador": "Larissa",
+      "pontos": "265",
       "exatos": "5",
-      "resultado": "13",
+      "resultado": "19",
+      "invertido": "0",
+      "erros": "19"
+    },
+    {
+      "apostador": "Iza",
+      "pontos": "220",
+      "exatos": "5",
+      "resultado": "14",
       "invertido": "1",
       "erros": "23"
     },
     {
       "apostador": "Bernardo",
-      "pontos": "195",
+      "pontos": "205",
       "exatos": "4",
-      "resultado": "13",
+      "resultado": "14",
       "invertido": "1",
       "erros": "24"
     }
@@ -542,6 +542,17 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "44"
+    },
+    {
+      "grupo": "Grupo K",
+      "jogo": "",
+      "time_a": "POR",
+      "gols_a": "5",
+      "gols_b": "0",
+      "time_b": "UZB",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "47"
     }
   ],
   "jogos": [
@@ -992,8 +1003,8 @@
       "time_b": "UZB",
       "inicio_brt": "2026-06-23 14:00",
       "checar_a_partir_brt": "2026-06-23 15:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "POR 5x0 UZB"
     },
     {
       "api_id": "45",
@@ -1002,7 +1013,7 @@
       "time_b": "GHA",
       "inicio_brt": "2026-06-23 17:00",
       "checar_a_partir_brt": "2026-06-23 18:45",
-      "status": "notstarted",
+      "status": "0'",
       "resultado_confirmado": ""
     },
     {
@@ -6791,6 +6802,18 @@
     },
     {
       "apostador": "Belo",
+      "grupo": "Grupo K",
+      "jogo": "3",
+      "time_a": "POR",
+      "gols_a": "3",
+      "gols_b": "0",
+      "time_b": "UZB",
+      "resultado": "POR 5x0 UZB",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Belo",
       "grupo": "Grupo L",
       "jogo": "1",
       "time_a": "ING",
@@ -7292,6 +7315,18 @@
       "resultado": "UZB 1x3 COL",
       "pontos": "0",
       "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo K",
+      "jogo": "3",
+      "time_a": "POR",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "UZB",
+      "resultado": "POR 5x0 UZB",
+      "pontos": "10",
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Bernardo",
@@ -7799,6 +7834,18 @@
     },
     {
       "apostador": "Fabrisio",
+      "grupo": "Grupo K",
+      "jogo": "3",
+      "time_a": "POR",
+      "gols_a": "3",
+      "gols_b": "1",
+      "time_b": "UZB",
+      "resultado": "POR 5x0 UZB",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Fabrisio",
       "grupo": "Grupo L",
       "jogo": "1",
       "time_a": "ING",
@@ -8303,6 +8350,18 @@
     },
     {
       "apostador": "Iza",
+      "grupo": "Grupo K",
+      "jogo": "3",
+      "time_a": "POR",
+      "gols_a": "4",
+      "gols_b": "1",
+      "time_b": "UZB",
+      "resultado": "POR 5x0 UZB",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Iza",
       "grupo": "Grupo L",
       "jogo": "1",
       "time_a": "ING",
@@ -8807,6 +8866,18 @@
     },
     {
       "apostador": "Junior",
+      "grupo": "Grupo K",
+      "jogo": "3",
+      "time_a": "POR",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "UZB",
+      "resultado": "POR 5x0 UZB",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Junior",
       "grupo": "Grupo L",
       "jogo": "1",
       "time_a": "ING",
@@ -9311,6 +9382,18 @@
     },
     {
       "apostador": "Larissa",
+      "grupo": "Grupo K",
+      "jogo": "3",
+      "time_a": "POR",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "UZB",
+      "resultado": "POR 5x0 UZB",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Larissa",
       "grupo": "Grupo L",
       "jogo": "1",
       "time_a": "ING",
@@ -9810,6 +9893,18 @@
       "gols_b": "2",
       "time_b": "COL",
       "resultado": "UZB 1x3 COL",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo K",
+      "jogo": "3",
+      "time_a": "POR",
+      "gols_a": "3",
+      "gols_b": "0",
+      "time_b": "UZB",
+      "resultado": "POR 5x0 UZB",
       "pontos": "10",
       "tipo": "resultado correto"
     },
