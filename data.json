@@ -1,5 +1,5 @@
 {
-  "generatedAt": "23/06/2026 16:00",
+  "generatedAt": "23/06/2026 20:00",
   "ranking": [
     {
       "apostador": "Fabrisio",
@@ -553,6 +553,17 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "47"
+    },
+    {
+      "grupo": "Grupo L",
+      "jogo": "",
+      "time_a": "ING",
+      "gols_a": "0",
+      "gols_b": "0",
+      "time_b": "GHA",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "45"
     }
   ],
   "jogos": [
@@ -1013,8 +1024,8 @@
       "time_b": "GHA",
       "inicio_brt": "2026-06-23 17:00",
       "checar_a_partir_brt": "2026-06-23 18:45",
-      "status": "0'",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "ING 0x0 GHA"
     },
     {
       "api_id": "46",
@@ -1023,7 +1034,7 @@
       "time_b": "CRO",
       "inicio_brt": "2026-06-23 20:00",
       "checar_a_partir_brt": "2026-06-23 21:45",
-      "status": "notstarted",
+      "status": "0'",
       "resultado_confirmado": ""
     },
     {
