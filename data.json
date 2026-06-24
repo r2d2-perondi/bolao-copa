@@ -1,51 +1,51 @@
 {
-  "generatedAt": "23/06/2026 20:00",
+  "generatedAt": "23/06/2026 22:00",
   "ranking": [
     {
       "apostador": "Fabrisio",
-      "pontos": "295",
+      "pontos": "305",
       "exatos": "6",
-      "resultado": "20",
+      "resultado": "21",
       "invertido": "1",
       "erros": "16"
     },
     {
       "apostador": "Nani",
-      "pontos": "275",
+      "pontos": "285",
       "exatos": "5",
-      "resultado": "20",
+      "resultado": "21",
       "invertido": "0",
       "erros": "18"
     },
     {
       "apostador": "Belo",
-      "pontos": "275",
+      "pontos": "285",
       "exatos": "3",
-      "resultado": "23",
+      "resultado": "24",
       "invertido": "0",
       "erros": "17"
     },
     {
       "apostador": "Junior",
-      "pontos": "270",
+      "pontos": "280",
       "exatos": "6",
-      "resultado": "18",
-      "invertido": "0",
-      "erros": "19"
-    },
-    {
-      "apostador": "Larissa",
-      "pontos": "265",
-      "exatos": "5",
       "resultado": "19",
       "invertido": "0",
       "erros": "19"
     },
     {
-      "apostador": "Iza",
-      "pontos": "220",
+      "apostador": "Larissa",
+      "pontos": "275",
       "exatos": "5",
-      "resultado": "14",
+      "resultado": "20",
+      "invertido": "0",
+      "erros": "19"
+    },
+    {
+      "apostador": "Iza",
+      "pontos": "230",
+      "exatos": "5",
+      "resultado": "15",
       "invertido": "1",
       "erros": "23"
     },
@@ -55,7 +55,7 @@
       "exatos": "4",
       "resultado": "14",
       "invertido": "1",
-      "erros": "24"
+      "erros": "25"
     }
   ],
   "resultados": [
@@ -564,6 +564,17 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "45"
+    },
+    {
+      "grupo": "Grupo L",
+      "jogo": "",
+      "time_a": "PAN",
+      "gols_a": "0",
+      "gols_b": "1",
+      "time_b": "CRO",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "46"
     }
   ],
   "jogos": [
@@ -1034,8 +1045,8 @@
       "time_b": "CRO",
       "inicio_brt": "2026-06-23 20:00",
       "checar_a_partir_brt": "2026-06-23 21:45",
-      "status": "0'",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "PAN 0x1 CRO"
     },
     {
       "api_id": "48",
@@ -6848,6 +6859,18 @@
       "tipo": "resultado correto"
     },
     {
+      "apostador": "Belo",
+      "grupo": "Grupo L",
+      "jogo": "4",
+      "time_a": "PAN",
+      "gols_a": "0",
+      "gols_b": "3",
+      "time_b": "CRO",
+      "resultado": "PAN 0x1 CRO",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
       "apostador": "Bernardo",
       "grupo": "Grupo A",
       "jogo": "1",
@@ -7360,6 +7383,18 @@
       "gols_b": "1",
       "time_b": "PAN",
       "resultado": "GAN 1x0 PAN",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo L",
+      "jogo": "4",
+      "time_a": "PAN",
+      "gols_a": "3",
+      "gols_b": "2",
+      "time_b": "CRO",
+      "resultado": "PAN 0x1 CRO",
       "pontos": "0",
       "tipo": "erro"
     },
@@ -7880,6 +7915,18 @@
       "tipo": "resultado correto"
     },
     {
+      "apostador": "Fabrisio",
+      "grupo": "Grupo L",
+      "jogo": "4",
+      "time_a": "PAN",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "CRO",
+      "resultado": "PAN 0x1 CRO",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
       "apostador": "Iza",
       "grupo": "Grupo A",
       "jogo": "1",
@@ -8396,6 +8443,18 @@
       "tipo": "erro"
     },
     {
+      "apostador": "Iza",
+      "grupo": "Grupo L",
+      "jogo": "4",
+      "time_a": "PAN",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "CRO",
+      "resultado": "PAN 0x1 CRO",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
       "apostador": "Junior",
       "grupo": "Grupo A",
       "jogo": "1",
@@ -8912,6 +8971,18 @@
       "tipo": "erro"
     },
     {
+      "apostador": "Junior",
+      "grupo": "Grupo L",
+      "jogo": "4",
+      "time_a": "PAN",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "CRO",
+      "resultado": "PAN 0x1 CRO",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
       "apostador": "Larissa",
       "grupo": "Grupo A",
       "jogo": "1",
@@ -9424,6 +9495,18 @@
       "gols_b": "0",
       "time_b": "PAN",
       "resultado": "GAN 1x0 PAN",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo L",
+      "jogo": "4",
+      "time_a": "PAN",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "CRO",
+      "resultado": "PAN 0x1 CRO",
       "pontos": "10",
       "tipo": "resultado correto"
     },
@@ -9940,6 +10023,18 @@
       "gols_b": "0",
       "time_b": "PAN",
       "resultado": "GAN 1x0 PAN",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo L",
+      "jogo": "4",
+      "time_a": "PAN",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "CRO",
+      "resultado": "PAN 0x1 CRO",
       "pontos": "10",
       "tipo": "resultado correto"
     }
