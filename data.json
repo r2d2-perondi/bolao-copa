@@ -1,42 +1,42 @@
 {
-  "generatedAt": "23/06/2026 22:00",
+  "generatedAt": "24/06/2026 01:00",
   "ranking": [
     {
       "apostador": "Fabrisio",
-      "pontos": "305",
+      "pontos": "315",
       "exatos": "6",
-      "resultado": "21",
+      "resultado": "22",
       "invertido": "1",
       "erros": "16"
     },
     {
       "apostador": "Nani",
-      "pontos": "285",
+      "pontos": "295",
       "exatos": "5",
-      "resultado": "21",
+      "resultado": "22",
       "invertido": "0",
       "erros": "18"
     },
     {
       "apostador": "Belo",
-      "pontos": "285",
+      "pontos": "295",
       "exatos": "3",
-      "resultado": "24",
+      "resultado": "25",
       "invertido": "0",
       "erros": "17"
     },
     {
       "apostador": "Junior",
-      "pontos": "280",
+      "pontos": "290",
       "exatos": "6",
-      "resultado": "19",
+      "resultado": "20",
       "invertido": "0",
       "erros": "19"
     },
     {
       "apostador": "Larissa",
-      "pontos": "275",
-      "exatos": "5",
+      "pontos": "290",
+      "exatos": "6",
       "resultado": "20",
       "invertido": "0",
       "erros": "19"
@@ -47,13 +47,13 @@
       "exatos": "5",
       "resultado": "15",
       "invertido": "1",
-      "erros": "23"
+      "erros": "24"
     },
     {
       "apostador": "Bernardo",
-      "pontos": "205",
+      "pontos": "215",
       "exatos": "4",
-      "resultado": "14",
+      "resultado": "15",
       "invertido": "1",
       "erros": "25"
     }
@@ -575,6 +575,17 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "46"
+    },
+    {
+      "grupo": "Grupo K",
+      "jogo": "",
+      "time_a": "COL",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "RDC",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "48"
     }
   ],
   "jogos": [
@@ -1055,8 +1066,8 @@
       "time_b": "RDC",
       "inicio_brt": "2026-06-23 23:00",
       "checar_a_partir_brt": "2026-06-24 00:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "COL 1x0 RDC"
     },
     {
       "api_id": "52",
@@ -6836,6 +6847,18 @@
     },
     {
       "apostador": "Belo",
+      "grupo": "Grupo K",
+      "jogo": "4",
+      "time_a": "COL",
+      "gols_a": "4",
+      "gols_b": "0",
+      "time_b": "RDC",
+      "resultado": "COL 1x0 RDC",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Belo",
       "grupo": "Grupo L",
       "jogo": "1",
       "time_a": "ING",
@@ -7359,6 +7382,18 @@
       "gols_b": "0",
       "time_b": "UZB",
       "resultado": "POR 5x0 UZB",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo K",
+      "jogo": "4",
+      "time_a": "COL",
+      "gols_a": "3",
+      "gols_b": "2",
+      "time_b": "RDC",
+      "resultado": "COL 1x0 RDC",
       "pontos": "10",
       "tipo": "resultado correto"
     },
@@ -7892,6 +7927,18 @@
     },
     {
       "apostador": "Fabrisio",
+      "grupo": "Grupo K",
+      "jogo": "4",
+      "time_a": "COL",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "RDC",
+      "resultado": "COL 1x0 RDC",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Fabrisio",
       "grupo": "Grupo L",
       "jogo": "1",
       "time_a": "ING",
@@ -8420,6 +8467,18 @@
     },
     {
       "apostador": "Iza",
+      "grupo": "Grupo K",
+      "jogo": "4",
+      "time_a": "COL",
+      "gols_a": "0",
+      "gols_b": "0",
+      "time_b": "RDC",
+      "resultado": "COL 1x0 RDC",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Iza",
       "grupo": "Grupo L",
       "jogo": "1",
       "time_a": "ING",
@@ -8948,6 +9007,18 @@
     },
     {
       "apostador": "Junior",
+      "grupo": "Grupo K",
+      "jogo": "4",
+      "time_a": "COL",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "RDC",
+      "resultado": "COL 1x0 RDC",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Junior",
       "grupo": "Grupo L",
       "jogo": "1",
       "time_a": "ING",
@@ -9473,6 +9544,18 @@
       "resultado": "POR 5x0 UZB",
       "pontos": "10",
       "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo K",
+      "jogo": "4",
+      "time_a": "COL",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "RDC",
+      "resultado": "COL 1x0 RDC",
+      "pontos": "15",
+      "tipo": "placar exato"
     },
     {
       "apostador": "Larissa",
@@ -9999,6 +10082,18 @@
       "gols_b": "0",
       "time_b": "UZB",
       "resultado": "POR 5x0 UZB",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo K",
+      "jogo": "4",
+      "time_a": "COL",
+      "gols_a": "3",
+      "gols_b": "0",
+      "time_b": "RDC",
+      "resultado": "COL 1x0 RDC",
       "pontos": "10",
       "tipo": "resultado correto"
     },
