@@ -1,61 +1,61 @@
 {
-  "generatedAt": "24/06/2026 18:00",
+  "generatedAt": "24/06/2026 18:17",
   "ranking": [
     {
       "apostador": "Fabrisio",
-      "pontos": "325",
+      "pontos": "335",
       "exatos": "6",
-      "resultado": "23",
+      "resultado": "24",
       "invertido": "1",
-      "erros": "17"
+      "erros": "19"
     },
     {
       "apostador": "Junior",
-      "pontos": "310",
+      "pontos": "320",
       "exatos": "6",
-      "resultado": "22",
-      "invertido": "0",
-      "erros": "19"
-    },
-    {
-      "apostador": "Nani",
-      "pontos": "305",
-      "exatos": "5",
       "resultado": "23",
-      "invertido": "0",
-      "erros": "19"
-    },
-    {
-      "apostador": "Belo",
-      "pontos": "305",
-      "exatos": "3",
-      "resultado": "26",
-      "invertido": "0",
-      "erros": "18"
-    },
-    {
-      "apostador": "Larissa",
-      "pontos": "290",
-      "exatos": "6",
-      "resultado": "20",
       "invertido": "0",
       "erros": "21"
     },
     {
-      "apostador": "Iza",
-      "pontos": "235",
+      "apostador": "Nani",
+      "pontos": "315",
       "exatos": "5",
-      "resultado": "15",
+      "resultado": "24",
+      "invertido": "0",
+      "erros": "21"
+    },
+    {
+      "apostador": "Belo",
+      "pontos": "315",
+      "exatos": "3",
+      "resultado": "27",
+      "invertido": "0",
+      "erros": "20"
+    },
+    {
+      "apostador": "Larissa",
+      "pontos": "300",
+      "exatos": "6",
+      "resultado": "21",
+      "invertido": "0",
+      "erros": "23"
+    },
+    {
+      "apostador": "Iza",
+      "pontos": "245",
+      "exatos": "5",
+      "resultado": "16",
       "invertido": "2",
-      "erros": "25"
+      "erros": "27"
     },
     {
       "apostador": "Bernardo",
-      "pontos": "215",
+      "pontos": "225",
       "exatos": "4",
-      "resultado": "15",
+      "resultado": "16",
       "invertido": "1",
-      "erros": "27"
+      "erros": "29"
     }
   ],
   "resultados": [
@@ -719,7 +719,7 @@
       "inicio_brt": "2026-06-14 20:00",
       "checar_a_partir_brt": "2026-06-14 21:45",
       "status": "final",
-      "resultado_confirmado": ""
+      "resultado_confirmado": "CDM 1x0 ECU"
     },
     {
       "api_id": "12",
@@ -729,7 +729,7 @@
       "inicio_brt": "2026-06-14 23:00",
       "checar_a_partir_brt": "2026-06-15 00:45",
       "status": "final",
-      "resultado_confirmado": ""
+      "resultado_confirmado": "SWE 5x1 TUN"
     },
     {
       "api_id": "14",
@@ -839,7 +839,7 @@
       "inicio_brt": "2026-06-17 20:00",
       "checar_a_partir_brt": "2026-06-17 21:45",
       "status": "final",
-      "resultado_confirmado": ""
+      "resultado_confirmado": "GHA 1x0 PAN"
     },
     {
       "api_id": "24",
@@ -6629,6 +6629,18 @@
     },
     {
       "apostador": "Belo",
+      "grupo": "Grupo E",
+      "jogo": "4",
+      "time_a": "EQU",
+      "gols_a": "4",
+      "gols_b": "1",
+      "time_b": "CUR",
+      "resultado": "EQU 0x0 CUR",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Belo",
       "grupo": "Grupo F",
       "jogo": "1",
       "time_a": "HOL",
@@ -6660,6 +6672,18 @@
       "gols_b": "3",
       "time_b": "JAP",
       "resultado": "TUN 0x4 JAP",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Belo",
+      "grupo": "Grupo F",
+      "jogo": "4",
+      "time_a": "HOL",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "SUE",
+      "resultado": "HOL 5x1 SUE",
       "pontos": "10",
       "tipo": "resultado correto"
     },
@@ -6930,6 +6954,18 @@
     {
       "apostador": "Belo",
       "grupo": "Grupo L",
+      "jogo": "3",
+      "time_a": "ING",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "GAN",
+      "resultado": "ING 0x0 GAN",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Belo",
+      "grupo": "Grupo L",
       "jogo": "4",
       "time_a": "PAN",
       "gols_a": "0",
@@ -7193,6 +7229,18 @@
     },
     {
       "apostador": "Bernardo",
+      "grupo": "Grupo E",
+      "jogo": "4",
+      "time_a": "EQU",
+      "gols_a": "3",
+      "gols_b": "3",
+      "time_b": "CUR",
+      "resultado": "EQU 0x0 CUR",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Bernardo",
       "grupo": "Grupo F",
       "jogo": "1",
       "time_a": "HOL",
@@ -7224,6 +7272,18 @@
       "gols_b": "1",
       "time_b": "JAP",
       "resultado": "TUN 0x4 JAP",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo F",
+      "jogo": "4",
+      "time_a": "HOL",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "SUE",
+      "resultado": "HOL 5x1 SUE",
       "pontos": "0",
       "tipo": "erro"
     },
@@ -7494,6 +7554,18 @@
     {
       "apostador": "Bernardo",
       "grupo": "Grupo L",
+      "jogo": "3",
+      "time_a": "ING",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "GAN",
+      "resultado": "ING 0x0 GAN",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo L",
       "jogo": "4",
       "time_a": "PAN",
       "gols_a": "3",
@@ -7757,6 +7829,18 @@
     },
     {
       "apostador": "Fabrisio",
+      "grupo": "Grupo E",
+      "jogo": "4",
+      "time_a": "EQU",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "CUR",
+      "resultado": "EQU 0x0 CUR",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Fabrisio",
       "grupo": "Grupo F",
       "jogo": "1",
       "time_a": "HOL",
@@ -7788,6 +7872,18 @@
       "gols_b": "2",
       "time_b": "JAP",
       "resultado": "TUN 0x4 JAP",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Fabrisio",
+      "grupo": "Grupo F",
+      "jogo": "4",
+      "time_a": "HOL",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "SUE",
+      "resultado": "HOL 5x1 SUE",
       "pontos": "10",
       "tipo": "resultado correto"
     },
@@ -8058,6 +8154,18 @@
     {
       "apostador": "Fabrisio",
       "grupo": "Grupo L",
+      "jogo": "3",
+      "time_a": "ING",
+      "gols_a": "3",
+      "gols_b": "1",
+      "time_b": "GAN",
+      "resultado": "ING 0x0 GAN",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Fabrisio",
+      "grupo": "Grupo L",
       "jogo": "4",
       "time_a": "PAN",
       "gols_a": "1",
@@ -8321,6 +8429,18 @@
     },
     {
       "apostador": "Iza",
+      "grupo": "Grupo E",
+      "jogo": "4",
+      "time_a": "EQU",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "CUR",
+      "resultado": "EQU 0x0 CUR",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Iza",
       "grupo": "Grupo F",
       "jogo": "1",
       "time_a": "HOL",
@@ -8354,6 +8474,18 @@
       "resultado": "TUN 0x4 JAP",
       "pontos": "10",
       "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Iza",
+      "grupo": "Grupo F",
+      "jogo": "4",
+      "time_a": "HOL",
+      "gols_a": "2",
+      "gols_b": "2",
+      "time_b": "SUE",
+      "resultado": "HOL 5x1 SUE",
+      "pontos": "0",
+      "tipo": "erro"
     },
     {
       "apostador": "Iza",
@@ -8622,6 +8754,18 @@
     {
       "apostador": "Iza",
       "grupo": "Grupo L",
+      "jogo": "3",
+      "time_a": "ING",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "GAN",
+      "resultado": "ING 0x0 GAN",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Iza",
+      "grupo": "Grupo L",
       "jogo": "4",
       "time_a": "PAN",
       "gols_a": "0",
@@ -8885,6 +9029,18 @@
     },
     {
       "apostador": "Junior",
+      "grupo": "Grupo E",
+      "jogo": "4",
+      "time_a": "EQU",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "CUR",
+      "resultado": "EQU 0x0 CUR",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Junior",
       "grupo": "Grupo F",
       "jogo": "1",
       "time_a": "HOL",
@@ -8916,6 +9072,18 @@
       "gols_b": "2",
       "time_b": "JAP",
       "resultado": "TUN 0x4 JAP",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Junior",
+      "grupo": "Grupo F",
+      "jogo": "4",
+      "time_a": "HOL",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "SUE",
+      "resultado": "HOL 5x1 SUE",
       "pontos": "10",
       "tipo": "resultado correto"
     },
@@ -9186,6 +9354,18 @@
     {
       "apostador": "Junior",
       "grupo": "Grupo L",
+      "jogo": "3",
+      "time_a": "ING",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "GAN",
+      "resultado": "ING 0x0 GAN",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Junior",
+      "grupo": "Grupo L",
       "jogo": "4",
       "time_a": "PAN",
       "gols_a": "0",
@@ -9449,6 +9629,18 @@
     },
     {
       "apostador": "Larissa",
+      "grupo": "Grupo E",
+      "jogo": "4",
+      "time_a": "EQU",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "CUR",
+      "resultado": "EQU 0x0 CUR",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Larissa",
       "grupo": "Grupo F",
       "jogo": "1",
       "time_a": "HOL",
@@ -9480,6 +9672,18 @@
       "gols_b": "2",
       "time_b": "JAP",
       "resultado": "TUN 0x4 JAP",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo F",
+      "jogo": "4",
+      "time_a": "HOL",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "SUE",
+      "resultado": "HOL 5x1 SUE",
       "pontos": "10",
       "tipo": "resultado correto"
     },
@@ -9750,6 +9954,18 @@
     {
       "apostador": "Larissa",
       "grupo": "Grupo L",
+      "jogo": "3",
+      "time_a": "ING",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "GAN",
+      "resultado": "ING 0x0 GAN",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo L",
       "jogo": "4",
       "time_a": "PAN",
       "gols_a": "0",
@@ -10013,6 +10229,18 @@
     },
     {
       "apostador": "Nani",
+      "grupo": "Grupo E",
+      "jogo": "4",
+      "time_a": "EQU",
+      "gols_a": "3",
+      "gols_b": "0",
+      "time_b": "CUR",
+      "resultado": "EQU 0x0 CUR",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Nani",
       "grupo": "Grupo F",
       "jogo": "1",
       "time_a": "HOL",
@@ -10044,6 +10272,18 @@
       "gols_b": "3",
       "time_b": "JAP",
       "resultado": "TUN 0x4 JAP",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo F",
+      "jogo": "4",
+      "time_a": "HOL",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "SUE",
+      "resultado": "HOL 5x1 SUE",
       "pontos": "10",
       "tipo": "resultado correto"
     },
@@ -10310,6 +10550,18 @@
       "resultado": "GAN 1x0 PAN",
       "pontos": "10",
       "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo L",
+      "jogo": "3",
+      "time_a": "ING",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "GAN",
+      "resultado": "ING 0x0 GAN",
+      "pontos": "0",
+      "tipo": "erro"
     },
     {
       "apostador": "Nani",
