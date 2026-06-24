@@ -1,37 +1,37 @@
 {
-  "generatedAt": "24/06/2026 01:00",
+  "generatedAt": "24/06/2026 18:00",
   "ranking": [
     {
       "apostador": "Fabrisio",
-      "pontos": "315",
+      "pontos": "325",
       "exatos": "6",
-      "resultado": "22",
+      "resultado": "23",
       "invertido": "1",
-      "erros": "16"
-    },
-    {
-      "apostador": "Nani",
-      "pontos": "295",
-      "exatos": "5",
-      "resultado": "22",
-      "invertido": "0",
-      "erros": "18"
-    },
-    {
-      "apostador": "Belo",
-      "pontos": "295",
-      "exatos": "3",
-      "resultado": "25",
-      "invertido": "0",
       "erros": "17"
     },
     {
       "apostador": "Junior",
-      "pontos": "290",
+      "pontos": "310",
       "exatos": "6",
-      "resultado": "20",
+      "resultado": "22",
       "invertido": "0",
       "erros": "19"
+    },
+    {
+      "apostador": "Nani",
+      "pontos": "305",
+      "exatos": "5",
+      "resultado": "23",
+      "invertido": "0",
+      "erros": "19"
+    },
+    {
+      "apostador": "Belo",
+      "pontos": "305",
+      "exatos": "3",
+      "resultado": "26",
+      "invertido": "0",
+      "erros": "18"
     },
     {
       "apostador": "Larissa",
@@ -39,15 +39,15 @@
       "exatos": "6",
       "resultado": "20",
       "invertido": "0",
-      "erros": "19"
+      "erros": "21"
     },
     {
       "apostador": "Iza",
-      "pontos": "230",
+      "pontos": "235",
       "exatos": "5",
       "resultado": "15",
-      "invertido": "1",
-      "erros": "24"
+      "invertido": "2",
+      "erros": "25"
     },
     {
       "apostador": "Bernardo",
@@ -55,7 +55,7 @@
       "exatos": "4",
       "resultado": "15",
       "invertido": "1",
-      "erros": "25"
+      "erros": "27"
     }
   ],
   "resultados": [
@@ -586,6 +586,28 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "48"
+    },
+    {
+      "grupo": "Grupo B",
+      "jogo": "",
+      "time_a": "BOS",
+      "gols_a": "3",
+      "gols_b": "1",
+      "time_b": "QAT",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "52"
+    },
+    {
+      "grupo": "Grupo B",
+      "jogo": "",
+      "time_a": "SUI",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "CAN",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "51"
     }
   ],
   "jogos": [
@@ -1076,8 +1098,8 @@
       "time_b": "QAT",
       "inicio_brt": "2026-06-24 16:00",
       "checar_a_partir_brt": "2026-06-24 17:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "BOS 3x1 QAT"
     },
     {
       "api_id": "51",
@@ -1086,8 +1108,8 @@
       "time_b": "CAN",
       "inicio_brt": "2026-06-24 16:00",
       "checar_a_partir_brt": "2026-06-24 17:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "SUI 2x1 CAN"
     },
     {
       "api_id": "50",
@@ -6451,6 +6473,30 @@
     },
     {
       "apostador": "Belo",
+      "grupo": "Grupo B",
+      "jogo": "5",
+      "time_a": "SUI",
+      "gols_a": "0",
+      "gols_b": "0",
+      "time_b": "CAN",
+      "resultado": "SUI 2x1 CAN",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Belo",
+      "grupo": "Grupo B",
+      "jogo": "6",
+      "time_a": "BOS",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "QAT",
+      "resultado": "BOS 3x1 QAT",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Belo",
       "grupo": "Grupo C",
       "jogo": "1",
       "time_a": "BRA",
@@ -6986,6 +7032,30 @@
       "gols_b": "2",
       "time_b": "QAT",
       "resultado": "CAN 6x0 QAT",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo B",
+      "jogo": "5",
+      "time_a": "SUI",
+      "gols_a": "2",
+      "gols_b": "3",
+      "time_b": "CAN",
+      "resultado": "SUI 2x1 CAN",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo B",
+      "jogo": "6",
+      "time_a": "BOS",
+      "gols_a": "3",
+      "gols_b": "3",
+      "time_b": "QAT",
+      "resultado": "BOS 3x1 QAT",
       "pontos": "0",
       "tipo": "erro"
     },
@@ -7531,6 +7601,30 @@
     },
     {
       "apostador": "Fabrisio",
+      "grupo": "Grupo B",
+      "jogo": "5",
+      "time_a": "SUI",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "CAN",
+      "resultado": "SUI 2x1 CAN",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Fabrisio",
+      "grupo": "Grupo B",
+      "jogo": "6",
+      "time_a": "BOS",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "QAT",
+      "resultado": "BOS 3x1 QAT",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Fabrisio",
       "grupo": "Grupo C",
       "jogo": "1",
       "time_a": "BRA",
@@ -8066,6 +8160,30 @@
       "gols_b": "0",
       "time_b": "QAT",
       "resultado": "CAN 6x0 QAT",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Iza",
+      "grupo": "Grupo B",
+      "jogo": "5",
+      "time_a": "SUI",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "CAN",
+      "resultado": "SUI 2x1 CAN",
+      "pontos": "5",
+      "tipo": "placar invertido"
+    },
+    {
+      "apostador": "Iza",
+      "grupo": "Grupo B",
+      "jogo": "6",
+      "time_a": "BOS",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "QAT",
+      "resultado": "BOS 3x1 QAT",
       "pontos": "0",
       "tipo": "erro"
     },
@@ -8611,6 +8729,30 @@
     },
     {
       "apostador": "Junior",
+      "grupo": "Grupo B",
+      "jogo": "5",
+      "time_a": "SUI",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "CAN",
+      "resultado": "SUI 2x1 CAN",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Junior",
+      "grupo": "Grupo B",
+      "jogo": "6",
+      "time_a": "BOS",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "QAT",
+      "resultado": "BOS 3x1 QAT",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Junior",
       "grupo": "Grupo C",
       "jogo": "1",
       "time_a": "BRA",
@@ -9151,6 +9293,30 @@
     },
     {
       "apostador": "Larissa",
+      "grupo": "Grupo B",
+      "jogo": "5",
+      "time_a": "SUI",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "CAN",
+      "resultado": "SUI 2x1 CAN",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo B",
+      "jogo": "6",
+      "time_a": "BOS",
+      "gols_a": "0",
+      "gols_b": "0",
+      "time_b": "QAT",
+      "resultado": "BOS 3x1 QAT",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Larissa",
       "grupo": "Grupo C",
       "jogo": "1",
       "time_a": "BRA",
@@ -9686,6 +9852,30 @@
       "gols_b": "0",
       "time_b": "QAT",
       "resultado": "CAN 6x0 QAT",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo B",
+      "jogo": "5",
+      "time_a": "SUI",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "CAN",
+      "resultado": "SUI 2x1 CAN",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo B",
+      "jogo": "6",
+      "time_a": "BOS",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "QAT",
+      "resultado": "BOS 3x1 QAT",
       "pontos": "10",
       "tipo": "resultado correto"
     },
