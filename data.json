@@ -1,5 +1,5 @@
 {
-  "generatedAt": "24/06/2026 22:00",
+  "generatedAt": "25/06/2026 00:00",
   "ranking": [
     {
       "apostador": "Fabrisio",
@@ -7,15 +7,15 @@
       "exatos": "6",
       "resultado": "26",
       "invertido": "1",
-      "erros": "19"
+      "erros": "21"
     },
     {
       "apostador": "Junior",
-      "pontos": "340",
+      "pontos": "350",
       "exatos": "6",
-      "resultado": "25",
+      "resultado": "26",
       "invertido": "0",
-      "erros": "21"
+      "erros": "22"
     },
     {
       "apostador": "Nani",
@@ -23,7 +23,7 @@
       "exatos": "5",
       "resultado": "26",
       "invertido": "0",
-      "erros": "21"
+      "erros": "23"
     },
     {
       "apostador": "Belo",
@@ -31,15 +31,15 @@
       "exatos": "3",
       "resultado": "29",
       "invertido": "0",
-      "erros": "20"
+      "erros": "22"
     },
     {
       "apostador": "Larissa",
-      "pontos": "320",
+      "pontos": "330",
       "exatos": "6",
-      "resultado": "23",
+      "resultado": "24",
       "invertido": "0",
-      "erros": "23"
+      "erros": "24"
     },
     {
       "apostador": "Iza",
@@ -47,15 +47,15 @@
       "exatos": "6",
       "resultado": "16",
       "invertido": "2",
-      "erros": "28"
+      "erros": "30"
     },
     {
       "apostador": "Bernardo",
-      "pontos": "245",
+      "pontos": "255",
       "exatos": "4",
-      "resultado": "18",
+      "resultado": "19",
       "invertido": "1",
-      "erros": "29"
+      "erros": "30"
     }
   ],
   "resultados": [
@@ -630,6 +630,28 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "49"
+    },
+    {
+      "grupo": "Grupo A",
+      "jogo": "",
+      "time_a": "AFS",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "COR",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "54"
+    },
+    {
+      "grupo": "Grupo A",
+      "jogo": "",
+      "time_a": "TCH",
+      "gols_a": "0",
+      "gols_b": "3",
+      "time_b": "MEX",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "53"
     }
   ],
   "jogos": [
@@ -1160,8 +1182,8 @@
       "time_b": "COR",
       "inicio_brt": "2026-06-24 22:00",
       "checar_a_partir_brt": "2026-06-24 23:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "AFS 1x0 COR"
     },
     {
       "api_id": "53",
@@ -1170,8 +1192,8 @@
       "time_b": "MEX",
       "inicio_brt": "2026-06-24 22:00",
       "checar_a_partir_brt": "2026-06-24 23:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "TCH 0x3 MEX"
     },
     {
       "api_id": "55",
@@ -6447,6 +6469,30 @@
     },
     {
       "apostador": "Belo",
+      "grupo": "Grupo A",
+      "jogo": "5",
+      "time_a": "TCH",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "MEX",
+      "resultado": "TCH 0x3 MEX",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Belo",
+      "grupo": "Grupo A",
+      "jogo": "6",
+      "time_a": "AFS",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "COR",
+      "resultado": "AFS 1x0 COR",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Belo",
       "grupo": "Grupo B",
       "jogo": "1",
       "time_a": "CAN",
@@ -7066,6 +7112,30 @@
       "gols_b": "0",
       "time_b": "COR",
       "resultado": "MEX 1x0 COR",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo A",
+      "jogo": "5",
+      "time_a": "TCH",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "MEX",
+      "resultado": "TCH 0x3 MEX",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo A",
+      "jogo": "6",
+      "time_a": "AFS",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "COR",
+      "resultado": "AFS 1x0 COR",
       "pontos": "10",
       "tipo": "resultado correto"
     },
@@ -7695,6 +7765,30 @@
     },
     {
       "apostador": "Fabrisio",
+      "grupo": "Grupo A",
+      "jogo": "5",
+      "time_a": "TCH",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "MEX",
+      "resultado": "TCH 0x3 MEX",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Fabrisio",
+      "grupo": "Grupo A",
+      "jogo": "6",
+      "time_a": "AFS",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "COR",
+      "resultado": "AFS 1x0 COR",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Fabrisio",
       "grupo": "Grupo B",
       "jogo": "1",
       "time_a": "CAN",
@@ -8314,6 +8408,30 @@
       "gols_b": "1",
       "time_b": "COR",
       "resultado": "MEX 1x0 COR",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Iza",
+      "grupo": "Grupo A",
+      "jogo": "5",
+      "time_a": "TCH",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "MEX",
+      "resultado": "TCH 0x3 MEX",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Iza",
+      "grupo": "Grupo A",
+      "jogo": "6",
+      "time_a": "AFS",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "COR",
+      "resultado": "AFS 1x0 COR",
       "pontos": "0",
       "tipo": "erro"
     },
@@ -8943,6 +9061,30 @@
     },
     {
       "apostador": "Junior",
+      "grupo": "Grupo A",
+      "jogo": "5",
+      "time_a": "TCH",
+      "gols_a": "0",
+      "gols_b": "1",
+      "time_b": "MEX",
+      "resultado": "TCH 0x3 MEX",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Junior",
+      "grupo": "Grupo A",
+      "jogo": "6",
+      "time_a": "AFS",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "COR",
+      "resultado": "AFS 1x0 COR",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Junior",
       "grupo": "Grupo B",
       "jogo": "1",
       "time_a": "CAN",
@@ -9567,6 +9709,30 @@
     },
     {
       "apostador": "Larissa",
+      "grupo": "Grupo A",
+      "jogo": "5",
+      "time_a": "TCH",
+      "gols_a": "0",
+      "gols_b": "1",
+      "time_b": "MEX",
+      "resultado": "TCH 0x3 MEX",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo A",
+      "jogo": "6",
+      "time_a": "AFS",
+      "gols_a": "0",
+      "gols_b": "0",
+      "time_b": "COR",
+      "resultado": "AFS 1x0 COR",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Larissa",
       "grupo": "Grupo B",
       "jogo": "1",
       "time_a": "CAN",
@@ -10188,6 +10354,30 @@
       "resultado": "MEX 1x0 COR",
       "pontos": "15",
       "tipo": "placar exato"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo A",
+      "jogo": "5",
+      "time_a": "TCH",
+      "gols_a": "0",
+      "gols_b": "0",
+      "time_b": "MEX",
+      "resultado": "TCH 0x3 MEX",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo A",
+      "jogo": "6",
+      "time_a": "AFS",
+      "gols_a": "2",
+      "gols_b": "2",
+      "time_b": "COR",
+      "resultado": "AFS 1x0 COR",
+      "pontos": "0",
+      "tipo": "erro"
     },
     {
       "apostador": "Nani",
