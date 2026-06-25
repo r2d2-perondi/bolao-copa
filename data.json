@@ -1,37 +1,37 @@
 {
-  "generatedAt": "25/06/2026 00:00",
+  "generatedAt": "25/06/2026 19:00",
   "ranking": [
     {
       "apostador": "Fabrisio",
-      "pontos": "355",
+      "pontos": "370",
       "exatos": "6",
-      "resultado": "26",
-      "invertido": "1",
+      "resultado": "27",
+      "invertido": "2",
       "erros": "21"
     },
     {
       "apostador": "Junior",
-      "pontos": "350",
-      "exatos": "6",
-      "resultado": "26",
-      "invertido": "0",
-      "erros": "22"
-    },
-    {
-      "apostador": "Nani",
-      "pontos": "335",
-      "exatos": "5",
+      "pontos": "365",
+      "exatos": "7",
       "resultado": "26",
       "invertido": "0",
       "erros": "23"
     },
     {
-      "apostador": "Belo",
-      "pontos": "335",
-      "exatos": "3",
-      "resultado": "29",
+      "apostador": "Nani",
+      "pontos": "350",
+      "exatos": "6",
+      "resultado": "26",
       "invertido": "0",
-      "erros": "22"
+      "erros": "24"
+    },
+    {
+      "apostador": "Belo",
+      "pontos": "345",
+      "exatos": "3",
+      "resultado": "30",
+      "invertido": "0",
+      "erros": "23"
     },
     {
       "apostador": "Larissa",
@@ -39,7 +39,7 @@
       "exatos": "6",
       "resultado": "24",
       "invertido": "0",
-      "erros": "24"
+      "erros": "26"
     },
     {
       "apostador": "Iza",
@@ -47,7 +47,7 @@
       "exatos": "6",
       "resultado": "16",
       "invertido": "2",
-      "erros": "30"
+      "erros": "32"
     },
     {
       "apostador": "Bernardo",
@@ -55,7 +55,7 @@
       "exatos": "4",
       "resultado": "19",
       "invertido": "1",
-      "erros": "30"
+      "erros": "32"
     }
   ],
   "resultados": [
@@ -652,6 +652,28 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "53"
+    },
+    {
+      "grupo": "Grupo E",
+      "jogo": "",
+      "time_a": "CUR",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "CDM",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "55"
+    },
+    {
+      "grupo": "Grupo E",
+      "jogo": "",
+      "time_a": "ECU",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "ALE",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "56"
     }
   ],
   "jogos": [
@@ -1202,8 +1224,8 @@
       "time_b": "CDM",
       "inicio_brt": "2026-06-25 17:00",
       "checar_a_partir_brt": "2026-06-25 18:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "CUR 0x2 CDM"
     },
     {
       "api_id": "56",
@@ -1212,8 +1234,8 @@
       "time_b": "ALE",
       "inicio_brt": "2026-06-25 17:00",
       "checar_a_partir_brt": "2026-06-25 18:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "ECU 2x1 ALE"
     },
     {
       "api_id": "58",
@@ -1222,7 +1244,7 @@
       "time_b": "HOL",
       "inicio_brt": "2026-06-25 20:00",
       "checar_a_partir_brt": "2026-06-25 21:45",
-      "status": "notstarted",
+      "status": "0'",
       "resultado_confirmado": ""
     },
     {
@@ -1232,7 +1254,7 @@
       "time_b": "SWE",
       "inicio_brt": "2026-06-25 20:00",
       "checar_a_partir_brt": "2026-06-25 21:45",
-      "status": "notstarted",
+      "status": "0'",
       "resultado_confirmado": ""
     },
     {
@@ -6733,6 +6755,30 @@
     },
     {
       "apostador": "Belo",
+      "grupo": "Grupo E",
+      "jogo": "5",
+      "time_a": "EQU",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "ALE",
+      "resultado": "EQU 2x1 ALE",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Belo",
+      "grupo": "Grupo E",
+      "jogo": "6",
+      "time_a": "CUR",
+      "gols_a": "0",
+      "gols_b": "3",
+      "time_b": "CDM",
+      "resultado": "CUR 0x2 CDM",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Belo",
       "grupo": "Grupo F",
       "jogo": "1",
       "time_a": "HOL",
@@ -7381,6 +7427,30 @@
     },
     {
       "apostador": "Bernardo",
+      "grupo": "Grupo E",
+      "jogo": "5",
+      "time_a": "EQU",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "ALE",
+      "resultado": "EQU 2x1 ALE",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo E",
+      "jogo": "6",
+      "time_a": "CUR",
+      "gols_a": "2",
+      "gols_b": "2",
+      "time_b": "CDM",
+      "resultado": "CUR 0x2 CDM",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
       "grupo": "Grupo F",
       "jogo": "1",
       "time_a": "HOL",
@@ -8026,6 +8096,30 @@
       "resultado": "EQU 0x0 CUR",
       "pontos": "0",
       "tipo": "erro"
+    },
+    {
+      "apostador": "Fabrisio",
+      "grupo": "Grupo E",
+      "jogo": "5",
+      "time_a": "EQU",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "ALE",
+      "resultado": "EQU 2x1 ALE",
+      "pontos": "5",
+      "tipo": "placar invertido"
+    },
+    {
+      "apostador": "Fabrisio",
+      "grupo": "Grupo E",
+      "jogo": "6",
+      "time_a": "CUR",
+      "gols_a": "1",
+      "gols_b": "3",
+      "time_b": "CDM",
+      "resultado": "CUR 0x2 CDM",
+      "pontos": "10",
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Fabrisio",
@@ -8677,6 +8771,30 @@
     },
     {
       "apostador": "Iza",
+      "grupo": "Grupo E",
+      "jogo": "5",
+      "time_a": "EQU",
+      "gols_a": "1",
+      "gols_b": "3",
+      "time_b": "ALE",
+      "resultado": "EQU 2x1 ALE",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Iza",
+      "grupo": "Grupo E",
+      "jogo": "6",
+      "time_a": "CUR",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "CDM",
+      "resultado": "CUR 0x2 CDM",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Iza",
       "grupo": "Grupo F",
       "jogo": "1",
       "time_a": "HOL",
@@ -9325,6 +9443,30 @@
     },
     {
       "apostador": "Junior",
+      "grupo": "Grupo E",
+      "jogo": "5",
+      "time_a": "EQU",
+      "gols_a": "0",
+      "gols_b": "1",
+      "time_b": "ALE",
+      "resultado": "EQU 2x1 ALE",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Junior",
+      "grupo": "Grupo E",
+      "jogo": "6",
+      "time_a": "CUR",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "CDM",
+      "resultado": "CUR 0x2 CDM",
+      "pontos": "15",
+      "tipo": "placar exato"
+    },
+    {
+      "apostador": "Junior",
       "grupo": "Grupo F",
       "jogo": "1",
       "time_a": "HOL",
@@ -9968,6 +10110,30 @@
       "gols_b": "0",
       "time_b": "CUR",
       "resultado": "EQU 0x0 CUR",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo E",
+      "jogo": "5",
+      "time_a": "EQU",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "ALE",
+      "resultado": "EQU 2x1 ALE",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo E",
+      "jogo": "6",
+      "time_a": "CUR",
+      "gols_a": "0",
+      "gols_b": "0",
+      "time_b": "CDM",
+      "resultado": "CUR 0x2 CDM",
       "pontos": "0",
       "tipo": "erro"
     },
@@ -10618,6 +10784,30 @@
       "resultado": "EQU 0x0 CUR",
       "pontos": "0",
       "tipo": "erro"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo E",
+      "jogo": "5",
+      "time_a": "EQU",
+      "gols_a": "0",
+      "gols_b": "0",
+      "time_b": "ALE",
+      "resultado": "EQU 2x1 ALE",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo E",
+      "jogo": "6",
+      "time_a": "CUR",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "CDM",
+      "resultado": "CUR 0x2 CDM",
+      "pontos": "15",
+      "tipo": "placar exato"
     },
     {
       "apostador": "Nani",
