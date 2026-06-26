@@ -1,5 +1,5 @@
 {
-  "generatedAt": "26/06/2026 02:00",
+  "generatedAt": "26/06/2026 18:00",
   "ranking": [
     {
       "apostador": "Fabrisio",
@@ -7,13 +7,13 @@
       "exatos": "7",
       "resultado": "28",
       "invertido": "2",
-      "erros": "23"
+      "erros": "24"
     },
     {
       "apostador": "Junior",
-      "pontos": "375",
+      "pontos": "385",
       "exatos": "7",
-      "resultado": "27",
+      "resultado": "28",
       "invertido": "0",
       "erros": "26"
     },
@@ -23,29 +23,29 @@
       "exatos": "6",
       "resultado": "28",
       "invertido": "0",
-      "erros": "26"
+      "erros": "27"
     },
     {
       "apostador": "Belo",
-      "pontos": "355",
+      "pontos": "365",
       "exatos": "3",
-      "resultado": "31",
+      "resultado": "32",
       "invertido": "0",
       "erros": "26"
     },
     {
       "apostador": "Larissa",
-      "pontos": "350",
+      "pontos": "360",
       "exatos": "6",
-      "resultado": "26",
+      "resultado": "27",
       "invertido": "0",
       "erros": "28"
     },
     {
       "apostador": "Iza",
-      "pontos": "270",
+      "pontos": "280",
       "exatos": "6",
-      "resultado": "17",
+      "resultado": "18",
       "invertido": "2",
       "erros": "35"
     },
@@ -55,7 +55,7 @@
       "exatos": "4",
       "resultado": "20",
       "invertido": "1",
-      "erros": "35"
+      "erros": "36"
     }
   ],
   "resultados": [
@@ -718,6 +718,17 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "59"
+    },
+    {
+      "grupo": "Grupo I",
+      "jogo": "",
+      "time_a": "NOR",
+      "gols_a": "1",
+      "gols_b": "4",
+      "time_b": "FRA",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "61"
     }
   ],
   "jogos": [
@@ -1328,7 +1339,7 @@
       "time_b": "IRQ",
       "inicio_brt": "2026-06-26 16:00",
       "checar_a_partir_brt": "2026-06-26 17:45",
-      "status": "notstarted",
+      "status": "90'+2'",
       "resultado_confirmado": ""
     },
     {
@@ -1338,8 +1349,8 @@
       "time_b": "FRA",
       "inicio_brt": "2026-06-26 16:00",
       "checar_a_partir_brt": "2026-06-26 17:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "NOR 1x4 FRA"
     },
     {
       "api_id": "66",
@@ -7063,6 +7074,18 @@
     },
     {
       "apostador": "Belo",
+      "grupo": "Grupo I",
+      "jogo": "5",
+      "time_a": "NOR",
+      "gols_a": "0",
+      "gols_b": "1",
+      "time_b": "FRA",
+      "resultado": "NOR 1x4 FRA",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Belo",
       "grupo": "Grupo J",
       "jogo": "1",
       "time_a": "ARG",
@@ -7778,6 +7801,18 @@
       "gols_b": "0",
       "time_b": "SEN",
       "resultado": "NOR 3x2 SEN",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo I",
+      "jogo": "5",
+      "time_a": "NOR",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "FRA",
+      "resultado": "NOR 1x4 FRA",
       "pontos": "0",
       "tipo": "erro"
     },
@@ -8503,6 +8538,18 @@
     },
     {
       "apostador": "Fabrisio",
+      "grupo": "Grupo I",
+      "jogo": "5",
+      "time_a": "NOR",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "FRA",
+      "resultado": "NOR 1x4 FRA",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Fabrisio",
       "grupo": "Grupo J",
       "jogo": "1",
       "time_a": "ARG",
@@ -9220,6 +9267,18 @@
       "resultado": "NOR 3x2 SEN",
       "pontos": "0",
       "tipo": "erro"
+    },
+    {
+      "apostador": "Iza",
+      "grupo": "Grupo I",
+      "jogo": "5",
+      "time_a": "NOR",
+      "gols_a": "2",
+      "gols_b": "4",
+      "time_b": "FRA",
+      "resultado": "NOR 1x4 FRA",
+      "pontos": "10",
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Iza",
@@ -9943,6 +10002,18 @@
     },
     {
       "apostador": "Junior",
+      "grupo": "Grupo I",
+      "jogo": "5",
+      "time_a": "NOR",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "FRA",
+      "resultado": "NOR 1x4 FRA",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Junior",
       "grupo": "Grupo J",
       "jogo": "1",
       "time_a": "ARG",
@@ -10660,6 +10731,18 @@
       "resultado": "NOR 3x2 SEN",
       "pontos": "0",
       "tipo": "erro"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo I",
+      "jogo": "5",
+      "time_a": "NOR",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "FRA",
+      "resultado": "NOR 1x4 FRA",
+      "pontos": "10",
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Larissa",
@@ -11378,6 +11461,18 @@
       "gols_b": "1",
       "time_b": "SEN",
       "resultado": "NOR 3x2 SEN",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo I",
+      "jogo": "5",
+      "time_a": "NOR",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "FRA",
+      "resultado": "NOR 1x4 FRA",
       "pontos": "0",
       "tipo": "erro"
     },
