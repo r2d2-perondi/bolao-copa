@@ -1,53 +1,53 @@
 {
-  "generatedAt": "25/06/2026 19:00",
+  "generatedAt": "25/06/2026 22:00",
   "ranking": [
     {
       "apostador": "Fabrisio",
-      "pontos": "370",
-      "exatos": "6",
-      "resultado": "27",
+      "pontos": "395",
+      "exatos": "7",
+      "resultado": "28",
       "invertido": "2",
       "erros": "21"
     },
     {
       "apostador": "Junior",
-      "pontos": "365",
+      "pontos": "375",
       "exatos": "7",
-      "resultado": "26",
+      "resultado": "27",
       "invertido": "0",
-      "erros": "23"
+      "erros": "24"
     },
     {
       "apostador": "Nani",
-      "pontos": "350",
+      "pontos": "370",
       "exatos": "6",
-      "resultado": "26",
+      "resultado": "28",
       "invertido": "0",
       "erros": "24"
     },
     {
       "apostador": "Belo",
-      "pontos": "345",
+      "pontos": "355",
       "exatos": "3",
-      "resultado": "30",
+      "resultado": "31",
       "invertido": "0",
-      "erros": "23"
+      "erros": "24"
     },
     {
       "apostador": "Larissa",
-      "pontos": "330",
+      "pontos": "340",
       "exatos": "6",
-      "resultado": "24",
+      "resultado": "25",
       "invertido": "0",
-      "erros": "26"
+      "erros": "27"
     },
     {
       "apostador": "Iza",
-      "pontos": "260",
+      "pontos": "270",
       "exatos": "6",
-      "resultado": "16",
+      "resultado": "17",
       "invertido": "2",
-      "erros": "32"
+      "erros": "33"
     },
     {
       "apostador": "Bernardo",
@@ -55,7 +55,7 @@
       "exatos": "4",
       "resultado": "19",
       "invertido": "1",
-      "erros": "32"
+      "erros": "34"
     }
   ],
   "resultados": [
@@ -674,6 +674,28 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "56"
+    },
+    {
+      "grupo": "Grupo F",
+      "jogo": "",
+      "time_a": "TUN",
+      "gols_a": "1",
+      "gols_b": "3",
+      "time_b": "HOL",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "58"
+    },
+    {
+      "grupo": "Grupo F",
+      "jogo": "",
+      "time_a": "JAP",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "SWE",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "57"
     }
   ],
   "jogos": [
@@ -1244,8 +1266,8 @@
       "time_b": "HOL",
       "inicio_brt": "2026-06-25 20:00",
       "checar_a_partir_brt": "2026-06-25 21:45",
-      "status": "0'",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "TUN 1x3 HOL"
     },
     {
       "api_id": "57",
@@ -1254,8 +1276,8 @@
       "time_b": "SWE",
       "inicio_brt": "2026-06-25 20:00",
       "checar_a_partir_brt": "2026-06-25 21:45",
-      "status": "0'",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "JAP 1x1 SWE"
     },
     {
       "api_id": "60",
@@ -1274,7 +1296,7 @@
       "time_b": "EUA",
       "inicio_brt": "2026-06-25 23:00",
       "checar_a_partir_brt": "2026-06-26 00:45",
-      "status": "notstarted",
+      "status": "0'",
       "resultado_confirmado": ""
     },
     {
@@ -6827,6 +6849,30 @@
     },
     {
       "apostador": "Belo",
+      "grupo": "Grupo F",
+      "jogo": "5",
+      "time_a": "TUN",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "HOL",
+      "resultado": "TUN 1x3 HOL",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Belo",
+      "grupo": "Grupo F",
+      "jogo": "6",
+      "time_a": "JAP",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "SUE",
+      "resultado": "JAP 1x1 SUE",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Belo",
       "grupo": "Grupo G",
       "jogo": "1",
       "time_a": "BEL",
@@ -7499,6 +7545,30 @@
     },
     {
       "apostador": "Bernardo",
+      "grupo": "Grupo F",
+      "jogo": "5",
+      "time_a": "TUN",
+      "gols_a": "2",
+      "gols_b": "2",
+      "time_b": "HOL",
+      "resultado": "TUN 1x3 HOL",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo F",
+      "jogo": "6",
+      "time_a": "JAP",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "SUE",
+      "resultado": "JAP 1x1 SUE",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
       "grupo": "Grupo G",
       "jogo": "1",
       "time_a": "BEL",
@@ -8168,6 +8238,30 @@
       "resultado": "HOL 5x1 SUE",
       "pontos": "10",
       "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Fabrisio",
+      "grupo": "Grupo F",
+      "jogo": "5",
+      "time_a": "TUN",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "HOL",
+      "resultado": "TUN 1x3 HOL",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Fabrisio",
+      "grupo": "Grupo F",
+      "jogo": "6",
+      "time_a": "JAP",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "SUE",
+      "resultado": "JAP 1x1 SUE",
+      "pontos": "15",
+      "tipo": "placar exato"
     },
     {
       "apostador": "Fabrisio",
@@ -8843,6 +8937,30 @@
     },
     {
       "apostador": "Iza",
+      "grupo": "Grupo F",
+      "jogo": "5",
+      "time_a": "TUN",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "HOL",
+      "resultado": "TUN 1x3 HOL",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Iza",
+      "grupo": "Grupo F",
+      "jogo": "6",
+      "time_a": "JAP",
+      "gols_a": "3",
+      "gols_b": "0",
+      "time_b": "SUE",
+      "resultado": "JAP 1x1 SUE",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Iza",
       "grupo": "Grupo G",
       "jogo": "1",
       "time_a": "BEL",
@@ -9515,6 +9633,30 @@
     },
     {
       "apostador": "Junior",
+      "grupo": "Grupo F",
+      "jogo": "5",
+      "time_a": "TUN",
+      "gols_a": "0",
+      "gols_b": "1",
+      "time_b": "HOL",
+      "resultado": "TUN 1x3 HOL",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Junior",
+      "grupo": "Grupo F",
+      "jogo": "6",
+      "time_a": "JAP",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "SUE",
+      "resultado": "JAP 1x1 SUE",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Junior",
       "grupo": "Grupo G",
       "jogo": "1",
       "time_a": "BEL",
@@ -10184,6 +10326,30 @@
       "resultado": "HOL 5x1 SUE",
       "pontos": "10",
       "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo F",
+      "jogo": "5",
+      "time_a": "TUN",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "HOL",
+      "resultado": "TUN 1x3 HOL",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo F",
+      "jogo": "6",
+      "time_a": "JAP",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "SUE",
+      "resultado": "JAP 1x1 SUE",
+      "pontos": "0",
+      "tipo": "erro"
     },
     {
       "apostador": "Larissa",
@@ -10854,6 +11020,30 @@
       "gols_b": "0",
       "time_b": "SUE",
       "resultado": "HOL 5x1 SUE",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo F",
+      "jogo": "5",
+      "time_a": "TUN",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "HOL",
+      "resultado": "TUN 1x3 HOL",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo F",
+      "jogo": "6",
+      "time_a": "JAP",
+      "gols_a": "2",
+      "gols_b": "2",
+      "time_b": "SUE",
+      "resultado": "JAP 1x1 SUE",
       "pontos": "10",
       "tipo": "resultado correto"
     },
