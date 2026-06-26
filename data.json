@@ -1,5 +1,5 @@
 {
-  "generatedAt": "26/06/2026 01:00",
+  "generatedAt": "26/06/2026 02:00",
   "ranking": [
     {
       "apostador": "Fabrisio",
@@ -7,7 +7,7 @@
       "exatos": "7",
       "resultado": "28",
       "invertido": "2",
-      "erros": "22"
+      "erros": "23"
     },
     {
       "apostador": "Junior",
@@ -15,7 +15,7 @@
       "exatos": "7",
       "resultado": "27",
       "invertido": "0",
-      "erros": "25"
+      "erros": "26"
     },
     {
       "apostador": "Nani",
@@ -23,7 +23,7 @@
       "exatos": "6",
       "resultado": "28",
       "invertido": "0",
-      "erros": "25"
+      "erros": "26"
     },
     {
       "apostador": "Belo",
@@ -31,13 +31,13 @@
       "exatos": "3",
       "resultado": "31",
       "invertido": "0",
-      "erros": "25"
+      "erros": "26"
     },
     {
       "apostador": "Larissa",
-      "pontos": "340",
+      "pontos": "350",
       "exatos": "6",
-      "resultado": "25",
+      "resultado": "26",
       "invertido": "0",
       "erros": "28"
     },
@@ -47,7 +47,7 @@
       "exatos": "6",
       "resultado": "17",
       "invertido": "2",
-      "erros": "34"
+      "erros": "35"
     },
     {
       "apostador": "Bernardo",
@@ -55,7 +55,7 @@
       "exatos": "4",
       "resultado": "20",
       "invertido": "1",
-      "erros": "34"
+      "erros": "35"
     }
   ],
   "resultados": [
@@ -707,6 +707,17 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "60"
+    },
+    {
+      "grupo": "Grupo D",
+      "jogo": "",
+      "time_a": "TUR",
+      "gols_a": "3",
+      "gols_b": "2",
+      "time_b": "EUA",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "59"
     }
   ],
   "jogos": [
@@ -1307,8 +1318,8 @@
       "time_b": "EUA",
       "inicio_brt": "2026-06-25 23:00",
       "checar_a_partir_brt": "2026-06-26 00:45",
-      "status": "90'+7'",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "TUR 3x2 EUA"
     },
     {
       "api_id": "62",
@@ -6741,6 +6752,18 @@
     {
       "apostador": "Belo",
       "grupo": "Grupo D",
+      "jogo": "5",
+      "time_a": "TUR",
+      "gols_a": "1",
+      "gols_b": "3",
+      "time_b": "EUA",
+      "resultado": "TUR 3x2 EUA",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Belo",
+      "grupo": "Grupo D",
       "jogo": "6",
       "time_a": "PAR",
       "gols_a": "2",
@@ -7449,6 +7472,18 @@
     {
       "apostador": "Bernardo",
       "grupo": "Grupo D",
+      "jogo": "5",
+      "time_a": "TUR",
+      "gols_a": "0",
+      "gols_b": "0",
+      "time_b": "EUA",
+      "resultado": "TUR 3x2 EUA",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo D",
       "jogo": "6",
       "time_a": "PAR",
       "gols_a": "1",
@@ -8153,6 +8188,18 @@
       "resultado": "EUA 2x0 AUS",
       "pontos": "15",
       "tipo": "placar exato"
+    },
+    {
+      "apostador": "Fabrisio",
+      "grupo": "Grupo D",
+      "jogo": "5",
+      "time_a": "TUR",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "EUA",
+      "resultado": "TUR 3x2 EUA",
+      "pontos": "0",
+      "tipo": "erro"
     },
     {
       "apostador": "Fabrisio",
@@ -8865,6 +8912,18 @@
     {
       "apostador": "Iza",
       "grupo": "Grupo D",
+      "jogo": "5",
+      "time_a": "TUR",
+      "gols_a": "2",
+      "gols_b": "2",
+      "time_b": "EUA",
+      "resultado": "TUR 3x2 EUA",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Iza",
+      "grupo": "Grupo D",
       "jogo": "6",
       "time_a": "PAR",
       "gols_a": "2",
@@ -9573,6 +9632,18 @@
     {
       "apostador": "Junior",
       "grupo": "Grupo D",
+      "jogo": "5",
+      "time_a": "TUR",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "EUA",
+      "resultado": "TUR 3x2 EUA",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Junior",
+      "grupo": "Grupo D",
       "jogo": "6",
       "time_a": "PAR",
       "gols_a": "1",
@@ -10277,6 +10348,18 @@
       "resultado": "EUA 2x0 AUS",
       "pontos": "0",
       "tipo": "erro"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo D",
+      "jogo": "5",
+      "time_a": "TUR",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "EUA",
+      "resultado": "TUR 3x2 EUA",
+      "pontos": "10",
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Larissa",
@@ -10985,6 +11068,18 @@
       "resultado": "EUA 2x0 AUS",
       "pontos": "15",
       "tipo": "placar exato"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo D",
+      "jogo": "5",
+      "time_a": "TUR",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "EUA",
+      "resultado": "TUR 3x2 EUA",
+      "pontos": "0",
+      "tipo": "erro"
     },
     {
       "apostador": "Nani",
