@@ -1,5 +1,5 @@
 {
-  "generatedAt": "25/06/2026 22:00",
+  "generatedAt": "26/06/2026 01:00",
   "ranking": [
     {
       "apostador": "Fabrisio",
@@ -7,7 +7,7 @@
       "exatos": "7",
       "resultado": "28",
       "invertido": "2",
-      "erros": "21"
+      "erros": "22"
     },
     {
       "apostador": "Junior",
@@ -15,7 +15,7 @@
       "exatos": "7",
       "resultado": "27",
       "invertido": "0",
-      "erros": "24"
+      "erros": "25"
     },
     {
       "apostador": "Nani",
@@ -23,7 +23,7 @@
       "exatos": "6",
       "resultado": "28",
       "invertido": "0",
-      "erros": "24"
+      "erros": "25"
     },
     {
       "apostador": "Belo",
@@ -31,7 +31,7 @@
       "exatos": "3",
       "resultado": "31",
       "invertido": "0",
-      "erros": "24"
+      "erros": "25"
     },
     {
       "apostador": "Larissa",
@@ -39,7 +39,7 @@
       "exatos": "6",
       "resultado": "25",
       "invertido": "0",
-      "erros": "27"
+      "erros": "28"
     },
     {
       "apostador": "Iza",
@@ -47,13 +47,13 @@
       "exatos": "6",
       "resultado": "17",
       "invertido": "2",
-      "erros": "33"
+      "erros": "34"
     },
     {
       "apostador": "Bernardo",
-      "pontos": "255",
+      "pontos": "265",
       "exatos": "4",
-      "resultado": "19",
+      "resultado": "20",
       "invertido": "1",
       "erros": "34"
     }
@@ -696,6 +696,17 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "57"
+    },
+    {
+      "grupo": "Grupo D",
+      "jogo": "",
+      "time_a": "PAR",
+      "gols_a": "0",
+      "gols_b": "0",
+      "time_b": "AUS",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "60"
     }
   ],
   "jogos": [
@@ -1286,8 +1297,8 @@
       "time_b": "AUS",
       "inicio_brt": "2026-06-25 23:00",
       "checar_a_partir_brt": "2026-06-26 00:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "PAR 0x0 AUS"
     },
     {
       "api_id": "59",
@@ -1296,7 +1307,7 @@
       "time_b": "EUA",
       "inicio_brt": "2026-06-25 23:00",
       "checar_a_partir_brt": "2026-06-26 00:45",
-      "status": "0'",
+      "status": "90'+7'",
       "resultado_confirmado": ""
     },
     {
@@ -6729,6 +6740,18 @@
     },
     {
       "apostador": "Belo",
+      "grupo": "Grupo D",
+      "jogo": "6",
+      "time_a": "PAR",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "AUS",
+      "resultado": "PAR 0x0 AUS",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Belo",
       "grupo": "Grupo E",
       "jogo": "1",
       "time_a": "ALE",
@@ -7425,6 +7448,18 @@
     },
     {
       "apostador": "Bernardo",
+      "grupo": "Grupo D",
+      "jogo": "6",
+      "time_a": "PAR",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "AUS",
+      "resultado": "PAR 0x0 AUS",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Bernardo",
       "grupo": "Grupo E",
       "jogo": "1",
       "time_a": "ALE",
@@ -8118,6 +8153,18 @@
       "resultado": "EUA 2x0 AUS",
       "pontos": "15",
       "tipo": "placar exato"
+    },
+    {
+      "apostador": "Fabrisio",
+      "grupo": "Grupo D",
+      "jogo": "6",
+      "time_a": "PAR",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "AUS",
+      "resultado": "PAR 0x0 AUS",
+      "pontos": "0",
+      "tipo": "erro"
     },
     {
       "apostador": "Fabrisio",
@@ -8817,6 +8864,18 @@
     },
     {
       "apostador": "Iza",
+      "grupo": "Grupo D",
+      "jogo": "6",
+      "time_a": "PAR",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "AUS",
+      "resultado": "PAR 0x0 AUS",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Iza",
       "grupo": "Grupo E",
       "jogo": "1",
       "time_a": "ALE",
@@ -9513,6 +9572,18 @@
     },
     {
       "apostador": "Junior",
+      "grupo": "Grupo D",
+      "jogo": "6",
+      "time_a": "PAR",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "AUS",
+      "resultado": "PAR 0x0 AUS",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Junior",
       "grupo": "Grupo E",
       "jogo": "1",
       "time_a": "ALE",
@@ -10204,6 +10275,18 @@
       "gols_b": "1",
       "time_b": "AUS",
       "resultado": "EUA 2x0 AUS",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo D",
+      "jogo": "6",
+      "time_a": "PAR",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "AUS",
+      "resultado": "PAR 0x0 AUS",
       "pontos": "0",
       "tipo": "erro"
     },
@@ -10902,6 +10985,18 @@
       "resultado": "EUA 2x0 AUS",
       "pontos": "15",
       "tipo": "placar exato"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo D",
+      "jogo": "6",
+      "time_a": "PAR",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "AUS",
+      "resultado": "PAR 0x0 AUS",
+      "pontos": "0",
+      "tipo": "erro"
     },
     {
       "apostador": "Nani",
