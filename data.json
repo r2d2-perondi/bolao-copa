@@ -1,43 +1,43 @@
 {
-  "generatedAt": "26/06/2026 18:00",
+  "generatedAt": "26/06/2026 19:00",
   "ranking": [
     {
       "apostador": "Fabrisio",
-      "pontos": "395",
+      "pontos": "405",
       "exatos": "7",
-      "resultado": "28",
+      "resultado": "29",
       "invertido": "2",
       "erros": "24"
     },
     {
       "apostador": "Junior",
-      "pontos": "385",
+      "pontos": "395",
       "exatos": "7",
-      "resultado": "28",
+      "resultado": "29",
       "invertido": "0",
       "erros": "26"
     },
     {
       "apostador": "Nani",
-      "pontos": "370",
+      "pontos": "380",
       "exatos": "6",
-      "resultado": "28",
+      "resultado": "29",
       "invertido": "0",
       "erros": "27"
     },
     {
       "apostador": "Belo",
-      "pontos": "365",
+      "pontos": "375",
       "exatos": "3",
-      "resultado": "32",
+      "resultado": "33",
       "invertido": "0",
       "erros": "26"
     },
     {
       "apostador": "Larissa",
-      "pontos": "360",
+      "pontos": "370",
       "exatos": "6",
-      "resultado": "27",
+      "resultado": "28",
       "invertido": "0",
       "erros": "28"
     },
@@ -47,13 +47,13 @@
       "exatos": "6",
       "resultado": "18",
       "invertido": "2",
-      "erros": "35"
+      "erros": "36"
     },
     {
       "apostador": "Bernardo",
-      "pontos": "265",
+      "pontos": "275",
       "exatos": "4",
-      "resultado": "20",
+      "resultado": "21",
       "invertido": "1",
       "erros": "36"
     }
@@ -729,6 +729,17 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "61"
+    },
+    {
+      "grupo": "Grupo I",
+      "jogo": "",
+      "time_a": "SEN",
+      "gols_a": "5",
+      "gols_b": "0",
+      "time_b": "IRQ",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "62"
     }
   ],
   "jogos": [
@@ -1339,8 +1350,8 @@
       "time_b": "IRQ",
       "inicio_brt": "2026-06-26 16:00",
       "checar_a_partir_brt": "2026-06-26 17:45",
-      "status": "90'+2'",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "SEN 5x0 IRQ"
     },
     {
       "api_id": "61",
@@ -7086,6 +7097,18 @@
     },
     {
       "apostador": "Belo",
+      "grupo": "Grupo I",
+      "jogo": "6",
+      "time_a": "SEN",
+      "gols_a": "3",
+      "gols_b": "0",
+      "time_b": "IRQ",
+      "resultado": "SEN 5x0 IRQ",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Belo",
       "grupo": "Grupo J",
       "jogo": "1",
       "time_a": "ARG",
@@ -7815,6 +7838,18 @@
       "resultado": "NOR 1x4 FRA",
       "pontos": "0",
       "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo I",
+      "jogo": "6",
+      "time_a": "SEN",
+      "gols_a": "3",
+      "gols_b": "1",
+      "time_b": "IRQ",
+      "resultado": "SEN 5x0 IRQ",
+      "pontos": "10",
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Bernardo",
@@ -8550,6 +8585,18 @@
     },
     {
       "apostador": "Fabrisio",
+      "grupo": "Grupo I",
+      "jogo": "6",
+      "time_a": "SEN",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "IRQ",
+      "resultado": "SEN 5x0 IRQ",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Fabrisio",
       "grupo": "Grupo J",
       "jogo": "1",
       "time_a": "ARG",
@@ -9279,6 +9326,18 @@
       "resultado": "NOR 1x4 FRA",
       "pontos": "10",
       "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Iza",
+      "grupo": "Grupo I",
+      "jogo": "6",
+      "time_a": "SEN",
+      "gols_a": "2",
+      "gols_b": "2",
+      "time_b": "IRQ",
+      "resultado": "SEN 5x0 IRQ",
+      "pontos": "0",
+      "tipo": "erro"
     },
     {
       "apostador": "Iza",
@@ -10014,6 +10073,18 @@
     },
     {
       "apostador": "Junior",
+      "grupo": "Grupo I",
+      "jogo": "6",
+      "time_a": "SEN",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "IRQ",
+      "resultado": "SEN 5x0 IRQ",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Junior",
       "grupo": "Grupo J",
       "jogo": "1",
       "time_a": "ARG",
@@ -10741,6 +10812,18 @@
       "gols_b": "2",
       "time_b": "FRA",
       "resultado": "NOR 1x4 FRA",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo I",
+      "jogo": "6",
+      "time_a": "SEN",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "IRQ",
+      "resultado": "SEN 5x0 IRQ",
       "pontos": "10",
       "tipo": "resultado correto"
     },
@@ -11475,6 +11558,18 @@
       "resultado": "NOR 1x4 FRA",
       "pontos": "0",
       "tipo": "erro"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo I",
+      "jogo": "6",
+      "time_a": "SEN",
+      "gols_a": "3",
+      "gols_b": "0",
+      "time_b": "IRQ",
+      "resultado": "SEN 5x0 IRQ",
+      "pontos": "10",
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Nani",
