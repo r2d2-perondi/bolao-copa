@@ -1,51 +1,51 @@
 {
-  "generatedAt": "27/06/2026 00:00",
+  "generatedAt": "27/06/2026 02:00",
   "ranking": [
     {
       "apostador": "Junior",
-      "pontos": "405",
+      "pontos": "415",
       "exatos": "7",
-      "resultado": "30",
+      "resultado": "31",
       "invertido": "0",
       "erros": "27"
     },
     {
       "apostador": "Fabrisio",
-      "pontos": "405",
+      "pontos": "415",
       "exatos": "7",
-      "resultado": "29",
+      "resultado": "30",
       "invertido": "2",
       "erros": "26"
     },
     {
       "apostador": "Larissa",
-      "pontos": "390",
+      "pontos": "400",
       "exatos": "6",
-      "resultado": "30",
+      "resultado": "31",
       "invertido": "0",
       "erros": "28"
     },
     {
       "apostador": "Nani",
-      "pontos": "380",
+      "pontos": "390",
       "exatos": "6",
-      "resultado": "29",
+      "resultado": "30",
       "invertido": "0",
       "erros": "29"
     },
     {
       "apostador": "Belo",
-      "pontos": "375",
+      "pontos": "385",
       "exatos": "3",
-      "resultado": "33",
+      "resultado": "34",
       "invertido": "0",
       "erros": "28"
     },
     {
       "apostador": "Iza",
-      "pontos": "300",
+      "pontos": "310",
       "exatos": "6",
-      "resultado": "20",
+      "resultado": "21",
       "invertido": "2",
       "erros": "36"
     },
@@ -55,7 +55,7 @@
       "exatos": "5",
       "resultado": "21",
       "invertido": "1",
-      "erros": "37"
+      "erros": "38"
     }
   ],
   "resultados": [
@@ -762,6 +762,17 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "66"
+    },
+    {
+      "grupo": "Grupo G",
+      "jogo": "",
+      "time_a": "NZE",
+      "gols_a": "1",
+      "gols_b": "5",
+      "time_b": "BEL",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "64"
     }
   ],
   "jogos": [
@@ -1412,8 +1423,8 @@
       "time_b": "BEL",
       "inicio_brt": "2026-06-27 00:00",
       "checar_a_partir_brt": "2026-06-27 01:45",
-      "status": "0'",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "NZE 1x5 BEL"
     },
     {
       "api_id": "63",
@@ -1422,7 +1433,7 @@
       "time_b": "IRA",
       "inicio_brt": "2026-06-27 00:00",
       "checar_a_partir_brt": "2026-06-27 01:45",
-      "status": "0'",
+      "status": "90'+4'",
       "resultado_confirmado": ""
     },
     {
@@ -7011,6 +7022,18 @@
     },
     {
       "apostador": "Belo",
+      "grupo": "Grupo G",
+      "jogo": "5",
+      "time_a": "NZE",
+      "gols_a": "1",
+      "gols_b": "3",
+      "time_b": "BEL",
+      "resultado": "NZE 1x5 BEL",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Belo",
       "grupo": "Grupo H",
       "jogo": "1",
       "time_a": "ESP",
@@ -7779,6 +7802,18 @@
     },
     {
       "apostador": "Bernardo",
+      "grupo": "Grupo G",
+      "jogo": "5",
+      "time_a": "NZE",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "BEL",
+      "resultado": "NZE 1x5 BEL",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
       "grupo": "Grupo H",
       "jogo": "1",
       "time_a": "ESP",
@@ -8542,6 +8577,18 @@
       "gols_b": "2",
       "time_b": "EGI",
       "resultado": "NZE 1x3 EGI",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Fabrisio",
+      "grupo": "Grupo G",
+      "jogo": "5",
+      "time_a": "NZE",
+      "gols_a": "1",
+      "gols_b": "3",
+      "time_b": "BEL",
+      "resultado": "NZE 1x5 BEL",
       "pontos": "10",
       "tipo": "resultado correto"
     },
@@ -9315,6 +9362,18 @@
     },
     {
       "apostador": "Iza",
+      "grupo": "Grupo G",
+      "jogo": "5",
+      "time_a": "NZE",
+      "gols_a": "1",
+      "gols_b": "3",
+      "time_b": "BEL",
+      "resultado": "NZE 1x5 BEL",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Iza",
       "grupo": "Grupo H",
       "jogo": "1",
       "time_a": "ESP",
@@ -10083,6 +10142,18 @@
     },
     {
       "apostador": "Junior",
+      "grupo": "Grupo G",
+      "jogo": "5",
+      "time_a": "NZE",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "BEL",
+      "resultado": "NZE 1x5 BEL",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Junior",
       "grupo": "Grupo H",
       "jogo": "1",
       "time_a": "ESP",
@@ -10848,6 +10919,18 @@
       "resultado": "NZE 1x3 EGI",
       "pontos": "0",
       "tipo": "erro"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo G",
+      "jogo": "5",
+      "time_a": "NZE",
+      "gols_a": "0",
+      "gols_b": "1",
+      "time_b": "BEL",
+      "resultado": "NZE 1x5 BEL",
+      "pontos": "10",
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Larissa",
@@ -11614,6 +11697,18 @@
       "gols_b": "1",
       "time_b": "EGI",
       "resultado": "NZE 1x3 EGI",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo G",
+      "jogo": "5",
+      "time_a": "NZE",
+      "gols_a": "1",
+      "gols_b": "3",
+      "time_b": "BEL",
+      "resultado": "NZE 1x5 BEL",
       "pontos": "10",
       "tipo": "resultado correto"
     },
