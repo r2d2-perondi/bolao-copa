@@ -1,61 +1,61 @@
 {
-  "generatedAt": "27/06/2026 03:00",
+  "generatedAt": "27/06/2026 20:00",
   "ranking": [
     {
-      "apostador": "Fabrisio",
-      "pontos": "430",
-      "exatos": "8",
-      "resultado": "30",
-      "invertido": "2",
-      "erros": "26"
-    },
-    {
       "apostador": "Junior",
-      "pontos": "415",
-      "exatos": "7",
-      "resultado": "31",
+      "pontos": "440",
+      "exatos": "8",
+      "resultado": "32",
       "invertido": "0",
       "erros": "28"
     },
     {
-      "apostador": "Larissa",
-      "pontos": "400",
-      "exatos": "6",
+      "apostador": "Fabrisio",
+      "pontos": "440",
+      "exatos": "8",
       "resultado": "31",
+      "invertido": "2",
+      "erros": "27"
+    },
+    {
+      "apostador": "Larissa",
+      "pontos": "425",
+      "exatos": "7",
+      "resultado": "32",
       "invertido": "0",
       "erros": "29"
     },
     {
       "apostador": "Nani",
-      "pontos": "390",
+      "pontos": "410",
       "exatos": "6",
-      "resultado": "30",
+      "resultado": "32",
       "invertido": "0",
       "erros": "30"
     },
     {
       "apostador": "Belo",
-      "pontos": "385",
+      "pontos": "405",
       "exatos": "3",
-      "resultado": "34",
+      "resultado": "36",
       "invertido": "0",
       "erros": "29"
     },
     {
       "apostador": "Iza",
-      "pontos": "320",
+      "pontos": "340",
       "exatos": "6",
-      "resultado": "22",
+      "resultado": "24",
       "invertido": "2",
       "erros": "36"
     },
     {
       "apostador": "Bernardo",
-      "pontos": "300",
+      "pontos": "310",
       "exatos": "5",
-      "resultado": "22",
+      "resultado": "23",
       "invertido": "1",
-      "erros": "38"
+      "erros": "39"
     }
   ],
   "resultados": [
@@ -784,6 +784,28 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "63"
+    },
+    {
+      "grupo": "Grupo L",
+      "jogo": "",
+      "time_a": "PAN",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "ING",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "67"
+    },
+    {
+      "grupo": "Grupo L",
+      "jogo": "",
+      "time_a": "CRO",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "GHA",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "68"
     }
   ],
   "jogos": [
@@ -1454,8 +1476,8 @@
       "time_b": "ING",
       "inicio_brt": "2026-06-27 18:00",
       "checar_a_partir_brt": "2026-06-27 19:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "PAN 0x2 ING"
     },
     {
       "api_id": "68",
@@ -1464,8 +1486,8 @@
       "time_b": "GHA",
       "inicio_brt": "2026-06-27 18:00",
       "checar_a_partir_brt": "2026-06-27 19:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "CRO 2x1 GHA"
     },
     {
       "api_id": "72",
@@ -1474,7 +1496,7 @@
       "time_b": "UZB",
       "inicio_brt": "2026-06-27 20:30",
       "checar_a_partir_brt": "2026-06-27 22:15",
-      "status": "notstarted",
+      "status": "0'",
       "resultado_confirmado": ""
     },
     {
@@ -7344,6 +7366,30 @@
       "tipo": "resultado correto"
     },
     {
+      "apostador": "Belo",
+      "grupo": "Grupo L",
+      "jogo": "5",
+      "time_a": "PAN",
+      "gols_a": "0",
+      "gols_b": "4",
+      "time_b": "ING",
+      "resultado": "PAN 0x2 ING",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Belo",
+      "grupo": "Grupo L",
+      "jogo": "6",
+      "time_a": "CRO",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "GAN",
+      "resultado": "CRO 2x1 GAN",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
       "apostador": "Bernardo",
       "grupo": "Grupo A",
       "jogo": "1",
@@ -8134,6 +8180,30 @@
       "resultado": "PAN 0x1 CRO",
       "pontos": "0",
       "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo L",
+      "jogo": "5",
+      "time_a": "PAN",
+      "gols_a": "5",
+      "gols_b": "5",
+      "time_b": "ING",
+      "resultado": "PAN 0x2 ING",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo L",
+      "jogo": "6",
+      "time_a": "CRO",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "GAN",
+      "resultado": "CRO 2x1 GAN",
+      "pontos": "10",
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Fabrisio",
@@ -8928,6 +8998,30 @@
       "tipo": "resultado correto"
     },
     {
+      "apostador": "Fabrisio",
+      "grupo": "Grupo L",
+      "jogo": "5",
+      "time_a": "PAN",
+      "gols_a": "0",
+      "gols_b": "4",
+      "time_b": "ING",
+      "resultado": "PAN 0x2 ING",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Fabrisio",
+      "grupo": "Grupo L",
+      "jogo": "6",
+      "time_a": "CRO",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "GAN",
+      "resultado": "CRO 2x1 GAN",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
       "apostador": "Iza",
       "grupo": "Grupo A",
       "jogo": "1",
@@ -9720,6 +9814,30 @@
       "tipo": "resultado correto"
     },
     {
+      "apostador": "Iza",
+      "grupo": "Grupo L",
+      "jogo": "5",
+      "time_a": "PAN",
+      "gols_a": "1",
+      "gols_b": "3",
+      "time_b": "ING",
+      "resultado": "PAN 0x2 ING",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Iza",
+      "grupo": "Grupo L",
+      "jogo": "6",
+      "time_a": "CRO",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "GAN",
+      "resultado": "CRO 2x1 GAN",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
       "apostador": "Junior",
       "grupo": "Grupo A",
       "jogo": "1",
@@ -10508,6 +10626,30 @@
       "gols_b": "2",
       "time_b": "CRO",
       "resultado": "PAN 0x1 CRO",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Junior",
+      "grupo": "Grupo L",
+      "jogo": "5",
+      "time_a": "PAN",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "ING",
+      "resultado": "PAN 0x2 ING",
+      "pontos": "15",
+      "tipo": "placar exato"
+    },
+    {
+      "apostador": "Junior",
+      "grupo": "Grupo L",
+      "jogo": "6",
+      "time_a": "CRO",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "GAN",
+      "resultado": "CRO 2x1 GAN",
       "pontos": "10",
       "tipo": "resultado correto"
     },
@@ -11302,6 +11444,30 @@
       "resultado": "PAN 0x1 CRO",
       "pontos": "10",
       "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo L",
+      "jogo": "5",
+      "time_a": "PAN",
+      "gols_a": "0",
+      "gols_b": "3",
+      "time_b": "ING",
+      "resultado": "PAN 0x2 ING",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo L",
+      "jogo": "6",
+      "time_a": "CRO",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "GAN",
+      "resultado": "CRO 2x1 GAN",
+      "pontos": "15",
+      "tipo": "placar exato"
     },
     {
       "apostador": "Nani",
@@ -12092,6 +12258,30 @@
       "gols_b": "2",
       "time_b": "CRO",
       "resultado": "PAN 0x1 CRO",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo L",
+      "jogo": "5",
+      "time_a": "PAN",
+      "gols_a": "0",
+      "gols_b": "3",
+      "time_b": "ING",
+      "resultado": "PAN 0x2 ING",
+      "pontos": "10",
+      "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo L",
+      "jogo": "6",
+      "time_a": "CRO",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "GAN",
+      "resultado": "CRO 2x1 GAN",
       "pontos": "10",
       "tipo": "resultado correto"
     }
