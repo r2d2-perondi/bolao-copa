@@ -1,5 +1,5 @@
 {
-  "generatedAt": "26/06/2026 19:00",
+  "generatedAt": "26/06/2026 23:00",
   "ranking": [
     {
       "apostador": "Fabrisio",
@@ -7,7 +7,7 @@
       "exatos": "7",
       "resultado": "29",
       "invertido": "2",
-      "erros": "24"
+      "erros": "25"
     },
     {
       "apostador": "Junior",
@@ -15,7 +15,15 @@
       "exatos": "7",
       "resultado": "29",
       "invertido": "0",
-      "erros": "26"
+      "erros": "27"
+    },
+    {
+      "apostador": "Larissa",
+      "pontos": "380",
+      "exatos": "6",
+      "resultado": "29",
+      "invertido": "0",
+      "erros": "28"
     },
     {
       "apostador": "Nani",
@@ -23,7 +31,7 @@
       "exatos": "6",
       "resultado": "29",
       "invertido": "0",
-      "erros": "27"
+      "erros": "28"
     },
     {
       "apostador": "Belo",
@@ -31,28 +39,20 @@
       "exatos": "3",
       "resultado": "33",
       "invertido": "0",
-      "erros": "26"
-    },
-    {
-      "apostador": "Larissa",
-      "pontos": "370",
-      "exatos": "6",
-      "resultado": "28",
-      "invertido": "0",
-      "erros": "28"
+      "erros": "27"
     },
     {
       "apostador": "Iza",
-      "pontos": "280",
+      "pontos": "290",
       "exatos": "6",
-      "resultado": "18",
+      "resultado": "19",
       "invertido": "2",
       "erros": "36"
     },
     {
       "apostador": "Bernardo",
-      "pontos": "275",
-      "exatos": "4",
+      "pontos": "290",
+      "exatos": "5",
       "resultado": "21",
       "invertido": "1",
       "erros": "36"
@@ -740,6 +740,17 @@
       "status": "final",
       "fonte": "FIFA API",
       "api_id": "62"
+    },
+    {
+      "grupo": "Grupo H",
+      "jogo": "",
+      "time_a": "CAB",
+      "gols_a": "0",
+      "gols_b": "0",
+      "time_b": "ARS",
+      "status": "final",
+      "fonte": "FIFA API",
+      "api_id": "65"
     }
   ],
   "jogos": [
@@ -1370,7 +1381,7 @@
       "time_b": "ESP",
       "inicio_brt": "2026-06-26 21:00",
       "checar_a_partir_brt": "2026-06-26 22:45",
-      "status": "notstarted",
+      "status": "90'+4'",
       "resultado_confirmado": ""
     },
     {
@@ -1380,8 +1391,8 @@
       "time_b": "ARS",
       "inicio_brt": "2026-06-26 21:00",
       "checar_a_partir_brt": "2026-06-26 22:45",
-      "status": "notstarted",
-      "resultado_confirmado": ""
+      "status": "final",
+      "resultado_confirmado": "CAB 0x0 ARS"
     },
     {
       "api_id": "64",
@@ -1390,7 +1401,7 @@
       "time_b": "BEL",
       "inicio_brt": "2026-06-27 00:00",
       "checar_a_partir_brt": "2026-06-27 01:45",
-      "status": "notstarted",
+      "status": "0'",
       "resultado_confirmado": ""
     },
     {
@@ -1400,7 +1411,7 @@
       "time_b": "IRA",
       "inicio_brt": "2026-06-27 00:00",
       "checar_a_partir_brt": "2026-06-27 01:45",
-      "status": "notstarted",
+      "status": "0'",
       "resultado_confirmado": ""
     },
     {
@@ -7037,6 +7048,18 @@
     },
     {
       "apostador": "Belo",
+      "grupo": "Grupo H",
+      "jogo": "6",
+      "time_a": "CAB",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "ARS",
+      "resultado": "CAB 0x0 ARS",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Belo",
       "grupo": "Grupo I",
       "jogo": "1",
       "time_a": "FRA",
@@ -7778,6 +7801,18 @@
       "resultado": "URU 2x2 CAB",
       "pontos": "10",
       "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Bernardo",
+      "grupo": "Grupo H",
+      "jogo": "6",
+      "time_a": "CAB",
+      "gols_a": "0",
+      "gols_b": "0",
+      "time_b": "ARS",
+      "resultado": "CAB 0x0 ARS",
+      "pontos": "15",
+      "tipo": "placar exato"
     },
     {
       "apostador": "Bernardo",
@@ -8525,6 +8560,18 @@
     },
     {
       "apostador": "Fabrisio",
+      "grupo": "Grupo H",
+      "jogo": "6",
+      "time_a": "CAB",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "ARS",
+      "resultado": "CAB 0x0 ARS",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Fabrisio",
       "grupo": "Grupo I",
       "jogo": "1",
       "time_a": "FRA",
@@ -9266,6 +9313,18 @@
       "resultado": "URU 2x2 CAB",
       "pontos": "0",
       "tipo": "erro"
+    },
+    {
+      "apostador": "Iza",
+      "grupo": "Grupo H",
+      "jogo": "6",
+      "time_a": "CAB",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "ARS",
+      "resultado": "CAB 0x0 ARS",
+      "pontos": "10",
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Iza",
@@ -10013,6 +10072,18 @@
     },
     {
       "apostador": "Junior",
+      "grupo": "Grupo H",
+      "jogo": "6",
+      "time_a": "CAB",
+      "gols_a": "0",
+      "gols_b": "1",
+      "time_b": "ARS",
+      "resultado": "CAB 0x0 ARS",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Junior",
       "grupo": "Grupo I",
       "jogo": "1",
       "time_a": "FRA",
@@ -10754,6 +10825,18 @@
       "resultado": "URU 2x2 CAB",
       "pontos": "0",
       "tipo": "erro"
+    },
+    {
+      "apostador": "Larissa",
+      "grupo": "Grupo H",
+      "jogo": "6",
+      "time_a": "CAB",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "ARS",
+      "resultado": "CAB 0x0 ARS",
+      "pontos": "10",
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Larissa",
@@ -11496,6 +11579,18 @@
       "gols_b": "0",
       "time_b": "CAB",
       "resultado": "URU 2x2 CAB",
+      "pontos": "0",
+      "tipo": "erro"
+    },
+    {
+      "apostador": "Nani",
+      "grupo": "Grupo H",
+      "jogo": "6",
+      "time_a": "CAB",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "ARS",
+      "resultado": "CAB 0x0 ARS",
       "pontos": "0",
       "tipo": "erro"
     },
