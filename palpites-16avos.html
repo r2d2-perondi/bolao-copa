@@ -35,6 +35,7 @@
     button { appearance:none; border:0; border-radius:16px; padding:18px 16px; font-weight:950; cursor:pointer; color:#052016; background:var(--brand); font-size:18px; min-height:64px; box-shadow:0 12px 28px rgba(0,0,0,.22); }
     button.secondary { color:#d9ecff; background:#17304f; border:1px solid var(--line); }
     button:hover { filter:brightness(1.05); }
+    button:disabled { opacity:.45; cursor:not-allowed; filter:grayscale(.35); box-shadow:none; }
     .small-actions { margin-top:10px; text-align:right; }
     .small-actions button { min-height:0; padding:8px 10px; font-size:13px; border-radius:10px; box-shadow:none; }
     .error { display:none; margin-top:12px; color:#ffecec; background:rgba(255,107,107,.14); border:1px solid rgba(255,107,107,.45); padding:12px; border-radius:12px; white-space:pre-line; }
@@ -114,6 +115,8 @@ const apostadorEl = document.getElementById('apostador');
 const errorEl = document.getElementById('error');
 const okEl = document.getElementById('ok');
 const previewEl = document.getElementById('preview');
+const sendBtn = document.getElementById('sendBtn');
+const downloadBtn = document.getElementById('downloadBtn');
 
 function esc(s) { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 function inputId(jogo, lado) { return `j${jogo}_${lado}`; }
@@ -202,6 +205,26 @@ function updatePreview() {
   }
 }
 
+function formIsComplete() {
+  if (!apostadorEl.value.trim()) return false;
+  for (const j of jogos) {
+    const aRaw = document.getElementById(inputId(j.jogo,'a')).value;
+    const bRaw = document.getElementById(inputId(j.jogo,'b')).value;
+    const a = Number(aRaw), b = Number(bRaw);
+    if (aRaw === '' || bRaw === '') return false;
+    if (!Number.isInteger(a) || a < 0 || !Number.isInteger(b) || b < 0) return false;
+  }
+  return true;
+}
+
+function updateButtons() {
+  const enabled = formIsComplete();
+  sendBtn.disabled = !enabled;
+  downloadBtn.disabled = !enabled;
+  sendBtn.title = enabled ? '' : 'Preencha nome e todos os placares para enviar';
+  downloadBtn.title = enabled ? '' : 'Preencha nome e todos os placares para baixar';
+}
+
 function slug(s) {
   return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'apostador';
 }
@@ -251,6 +274,7 @@ function clearForm() {
   }
   localStorage.removeItem(STORAGE_KEY);
   updatePreview();
+  updateButtons();
   errorEl.style.display = 'none';
   okEl.style.display = 'none';
 }
@@ -258,9 +282,10 @@ function clearForm() {
 render();
 loadDraft();
 updatePreview();
-document.addEventListener('input', () => { saveDraft(); updatePreview(); });
-document.getElementById('sendBtn').addEventListener('click', sendWhatsapp);
-document.getElementById('downloadBtn').addEventListener('click', downloadJson);
+updateButtons();
+document.addEventListener('input', () => { saveDraft(); updatePreview(); updateButtons(); });
+sendBtn.addEventListener('click', sendWhatsapp);
+downloadBtn.addEventListener('click', downloadJson);
 document.getElementById('clearBtn').addEventListener('click', clearForm);
 </script>
 </body>
