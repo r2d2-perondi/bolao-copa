@@ -1,14 +1,50 @@
 {
-  "generatedAt": "28/06/2026 16:44",
+  "generatedAt": "28/06/2026 18:00",
   "ranking": [
     {
-      "apostador": "Amélio",
-      "pontos": 0,
-      "exatos": 0,
+      "apostador": "Junior",
+      "pontos": 15,
+      "exatos": 1,
       "resultado": 0,
       "invertido": 0,
       "erros": 0,
-      "pendentes": 16
+      "pendentes": 15
+    },
+    {
+      "apostador": "Amélio",
+      "pontos": 10,
+      "exatos": 0,
+      "resultado": 1,
+      "invertido": 0,
+      "erros": 0,
+      "pendentes": 15
+    },
+    {
+      "apostador": "Fabrisio",
+      "pontos": 10,
+      "exatos": 0,
+      "resultado": 1,
+      "invertido": 0,
+      "erros": 0,
+      "pendentes": 15
+    },
+    {
+      "apostador": "Elani",
+      "pontos": 5,
+      "exatos": 0,
+      "resultado": 0,
+      "invertido": 1,
+      "erros": 0,
+      "pendentes": 15
+    },
+    {
+      "apostador": "Izabel",
+      "pontos": 5,
+      "exatos": 0,
+      "resultado": 0,
+      "invertido": 1,
+      "erros": 0,
+      "pendentes": 15
     },
     {
       "apostador": "Bernardo",
@@ -16,44 +52,8 @@
       "exatos": 0,
       "resultado": 0,
       "invertido": 0,
-      "erros": 0,
-      "pendentes": 16
-    },
-    {
-      "apostador": "Elani",
-      "pontos": 0,
-      "exatos": 0,
-      "resultado": 0,
-      "invertido": 0,
-      "erros": 0,
-      "pendentes": 16
-    },
-    {
-      "apostador": "Fabrisio",
-      "pontos": 0,
-      "exatos": 0,
-      "resultado": 0,
-      "invertido": 0,
-      "erros": 0,
-      "pendentes": 16
-    },
-    {
-      "apostador": "Izabel",
-      "pontos": 0,
-      "exatos": 0,
-      "resultado": 0,
-      "invertido": 0,
-      "erros": 0,
-      "pendentes": 16
-    },
-    {
-      "apostador": "Junior",
-      "pontos": 0,
-      "exatos": 0,
-      "resultado": 0,
-      "invertido": 0,
-      "erros": 0,
-      "pendentes": 16
+      "erros": 1,
+      "pendentes": 15
     },
     {
       "apostador": "Larissa",
@@ -61,8 +61,8 @@
       "exatos": 0,
       "resultado": 0,
       "invertido": 0,
-      "erros": 0,
-      "pendentes": 16
+      "erros": 1,
+      "pendentes": 15
     }
   ],
   "jogos": [
@@ -73,9 +73,9 @@
       "hora_brt": "16:00",
       "time_a": "AFS",
       "time_b": "CAN",
-      "status": "aguardando resultado",
-      "resultado": "",
-      "classificado": ""
+      "status": "final",
+      "resultado": "AFS 0x1 CAN",
+      "classificado": "CAN"
     },
     {
       "fase": "16avos de final",
@@ -1427,9 +1427,9 @@
       "gols_a": "1",
       "gols_b": "2",
       "time_b": "CAN",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "AFS 0x1 CAN",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Amélio",
@@ -1619,9 +1619,9 @@
       "gols_a": "1",
       "gols_b": "1",
       "time_b": "CAN",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "AFS 0x1 CAN",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Bernardo",
@@ -1811,9 +1811,9 @@
       "gols_a": "1",
       "gols_b": "0",
       "time_b": "CAN",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "AFS 0x1 CAN",
+      "pontos": 5,
+      "tipo": "placar invertido"
     },
     {
       "apostador": "Elani",
@@ -2003,9 +2003,9 @@
       "gols_a": "1",
       "gols_b": "2",
       "time_b": "CAN",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "AFS 0x1 CAN",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Fabrisio",
@@ -2195,9 +2195,9 @@
       "gols_a": "1",
       "gols_b": "0",
       "time_b": "CAN",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "AFS 0x1 CAN",
+      "pontos": 5,
+      "tipo": "placar invertido"
     },
     {
       "apostador": "Izabel",
@@ -2387,9 +2387,9 @@
       "gols_a": "0",
       "gols_b": "1",
       "time_b": "CAN",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "AFS 0x1 CAN",
+      "pontos": 15,
+      "tipo": "placar exato"
     },
     {
       "apostador": "Junior",
@@ -2579,9 +2579,9 @@
       "gols_a": "1",
       "gols_b": "1",
       "time_b": "CAN",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "AFS 0x1 CAN",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Larissa",
@@ -2764,7 +2764,20 @@
       "tipo": "pendente"
     }
   ],
-  "resultados": [],
+  "resultados": [
+    {
+      "fase": "16avos de final",
+      "jogo": "1",
+      "time_a": "AFS",
+      "gols_a": "0",
+      "gols_b": "1",
+      "time_b": "CAN",
+      "status": "final",
+      "classificado": "CAN",
+      "fonte": "worldcup26.ir/get/games",
+      "api_id": "73"
+    }
+  ],
   "rounds": [
     {
       "fase": "16avos de final",
