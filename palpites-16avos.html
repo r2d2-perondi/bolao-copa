@@ -162,7 +162,7 @@ function validateAndBuildCsv() {
   const apostador = apostadorEl.value.trim();
   const errors = [];
   if (!apostador) errors.push('Informe seu nome.');
-  const rows = [['apostador','fase','jogo','time_a','gols_a','gols_b','time_b','confianca']];
+  const rows = [['apostador','fase','jogo','time_a','gols_a','gols_b','time_b']];
   for (const j of jogos) {
     const a = document.getElementById(inputId(j.jogo,'a')).value;
     const b = document.getElementById(inputId(j.jogo,'b')).value;
@@ -170,7 +170,7 @@ function validateAndBuildCsv() {
     const na = Number(a), nb = Number(b);
     if (a !== '' && (!Number.isInteger(na) || na < 0)) errors.push(`#${j.jogo}: placar do ${j.nome_a} inválido.`);
     if (b !== '' && (!Number.isInteger(nb) || nb < 0)) errors.push(`#${j.jogo}: placar do ${j.nome_b} inválido.`);
-    rows.push([apostador, '16avos de final', j.jogo, j.time_a, a, b, j.time_b, '']);
+    rows.push([apostador, '16avos de final', j.jogo, j.time_a, a, b, j.time_b]);
   }
   if (errors.length) throw new Error(errors.join('\n'));
   return rows.map(row => row.map(csvCell).join(',')).join('\n') + '\n';
