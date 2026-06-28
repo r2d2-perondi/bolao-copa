@@ -1,8 +1,17 @@
 {
-  "generatedAt": "28/06/2026 15:11",
+  "generatedAt": "28/06/2026 15:13",
   "ranking": [
     {
       "apostador": "Amélio",
+      "pontos": 0,
+      "exatos": 0,
+      "resultado": 0,
+      "invertido": 0,
+      "erros": 0,
+      "pendentes": 16
+    },
+    {
+      "apostador": "Bernardo",
       "pontos": 0,
       "exatos": 0,
       "resultado": 0,
@@ -528,6 +537,150 @@
     },
     {
       "apostador": "Amélio",
+      "fase": "16avos de final",
+      "jogo": "16",
+      "time_a": "COL",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "GAN"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "1",
+      "time_a": "AFS",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "CAN"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "2",
+      "time_a": "BRA",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "JAP"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "3",
+      "time_a": "ALE",
+      "gols_a": "3",
+      "gols_b": "1",
+      "time_b": "PAR"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "4",
+      "time_a": "HOL",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "MAR"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "5",
+      "time_a": "CDM",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "NOR"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "6",
+      "time_a": "FRA",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "SUE"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "7",
+      "time_a": "MEX",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "EQU"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "8",
+      "time_a": "ING",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "RDC"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "9",
+      "time_a": "BEL",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "SEN"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "10",
+      "time_a": "EUA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "BOS"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "11",
+      "time_a": "ESP",
+      "gols_a": "3",
+      "gols_b": "0",
+      "time_b": "AUT"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "12",
+      "time_a": "POR",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "CRO"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "13",
+      "time_a": "SUI",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "AGL"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "14",
+      "time_a": "AUS",
+      "gols_a": "0",
+      "gols_b": "1",
+      "time_b": "EGI"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "15",
+      "time_a": "ARG",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "CAB"
+    },
+    {
+      "apostador": "Bernardo",
       "fase": "16avos de final",
       "jogo": "16",
       "time_a": "COL",
@@ -1295,6 +1448,198 @@
     },
     {
       "apostador": "Amélio",
+      "fase": "16avos de final",
+      "jogo": "16",
+      "time_a": "COL",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "GAN",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "1",
+      "time_a": "AFS",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "CAN",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "2",
+      "time_a": "BRA",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "JAP",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "3",
+      "time_a": "ALE",
+      "gols_a": "3",
+      "gols_b": "1",
+      "time_b": "PAR",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "4",
+      "time_a": "HOL",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "MAR",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "5",
+      "time_a": "CDM",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "NOR",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "6",
+      "time_a": "FRA",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "SUE",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "7",
+      "time_a": "MEX",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "EQU",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "8",
+      "time_a": "ING",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "RDC",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "9",
+      "time_a": "BEL",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "SEN",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "10",
+      "time_a": "EUA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "BOS",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "11",
+      "time_a": "ESP",
+      "gols_a": "3",
+      "gols_b": "0",
+      "time_b": "AUT",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "12",
+      "time_a": "POR",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "CRO",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "13",
+      "time_a": "SUI",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "AGL",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "14",
+      "time_a": "AUS",
+      "gols_a": "0",
+      "gols_b": "1",
+      "time_b": "EGI",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "16avos de final",
+      "jogo": "15",
+      "time_a": "ARG",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "CAB",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
       "fase": "16avos de final",
       "jogo": "16",
       "time_a": "COL",
