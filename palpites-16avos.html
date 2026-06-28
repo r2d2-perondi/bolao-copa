@@ -39,8 +39,7 @@
     .small-actions button { min-height:0; padding:8px 10px; font-size:13px; border-radius:10px; box-shadow:none; }
     .error { display:none; margin-top:12px; color:#ffecec; background:rgba(255,107,107,.14); border:1px solid rgba(255,107,107,.45); padding:12px; border-radius:12px; white-space:pre-line; }
     .ok { display:none; margin-top:12px; color:#d9fff3; background:rgba(99,230,190,.12); border:1px solid rgba(99,230,190,.45); padding:12px; border-radius:12px; }
-    .preview { width:100%; min-height:210px; margin-top:12px; background:#050b14; color:#d9ecff; border:1px solid var(--line); border-radius:12px; padding:12px; font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:12px; white-space:pre; overflow:auto; user-select:text; }
-    .json-title { margin-top:18px; font-weight:900; }
+    .preview { display:none; }
     footer { color:var(--muted); text-align:center; padding-top:10px; padding-bottom:30px; font-size:13px; }
     @media (max-width:720px) {
       .game { grid-template-columns:44px 1fr; gap:8px; padding:11px; }
@@ -62,7 +61,7 @@
 <body>
 <header>
   <h1>Palpites — 16/avos de final</h1>
-  <div class="sub">Preencha seu nome e os placares dos 16 jogos. O JSON aparece na tela para conferência; depois envie para o Junior pelo WhatsApp ou baixe seus palpites.</div>
+  <div class="sub">Preencha seu nome e os placares dos 16 jogos. Depois envie para o Junior pelo WhatsApp ou baixe seus palpites.</div>
 </header>
 <main>
   <div class="notice"><strong>Importante:</strong> coloque o placar em números. O site não salva nada em servidor; o envio acontece pelo seu WhatsApp.</div>
@@ -77,8 +76,7 @@
     <label>Jogos</label>
     <div class="hint">Horários em Brasília.</div>
     <div id="games" class="games"></div>
-    <div class="json-title">Dados gerados para envio</div>
-    <pre id="preview" class="preview" aria-label="JSON dos palpites"></pre>
+    <pre id="preview" class="preview" aria-hidden="true"></pre>
     <div class="actions">
       <button id="sendBtn">Enviar p/ Junior</button>
       <button id="downloadBtn" class="secondary">Baixar meus palpites</button>
