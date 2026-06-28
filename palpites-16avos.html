@@ -22,12 +22,15 @@
     input:focus { border-color:var(--brand); box-shadow:0 0 0 3px rgba(99,230,190,.12); }
     .hint { margin-top:7px; color:var(--muted); font-size:13px; }
     .games { display:grid; gap:12px; margin-top:14px; }
-    .game { display:grid; grid-template-columns:66px 1fr 86px 30px 86px; gap:10px; align-items:center; padding:13px; border:1px solid var(--line); border-radius:16px; background:var(--panel2); }
+    .game { display:grid; grid-template-columns:58px 1fr; gap:10px; align-items:center; padding:13px; border:1px solid var(--line); border-radius:16px; background:var(--panel2); }
     .num { color:var(--brand); font-weight:900; font-size:18px; }
-    .date { color:var(--muted); font-size:12px; margin-bottom:4px; }
-    .teams { font-weight:900; font-size:16px; }
+    .date { color:var(--muted); font-size:12px; margin-bottom:6px; }
+    .betline { display:grid; grid-template-columns:minmax(120px,1fr) 70px 22px 70px minmax(120px,1fr); gap:8px; align-items:center; }
+    .team-a { text-align:right; font-weight:900; font-size:16px; }
+    .team-b { text-align:left; font-weight:900; font-size:16px; }
+    .abbr { color:var(--muted); font-weight:800; }
     .x { text-align:center; color:var(--muted); font-weight:900; }
-    .score { text-align:center; font-weight:900; font-size:18px; padding-left:6px; padding-right:6px; }
+    .score { text-align:center; font-weight:900; font-size:18px; padding-left:6px; padding-right:6px; min-width:0; }
     .actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:18px; }
     button { appearance:none; border:0; border-radius:12px; padding:13px 16px; font-weight:900; cursor:pointer; color:#052016; background:var(--brand); font-size:15px; }
     button.secondary { color:#d9ecff; background:#17304f; border:1px solid var(--line); }
@@ -37,15 +40,18 @@
     .preview { width:100%; min-height:150px; margin-top:12px; background:#050b14; color:#d9ecff; border:1px solid var(--line); border-radius:12px; padding:12px; font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:12px; white-space:pre; overflow:auto; }
     footer { color:var(--muted); text-align:center; padding-top:10px; padding-bottom:30px; font-size:13px; }
     @media (max-width:720px) {
-      .game { grid-template-columns:48px 1fr 72px 22px 72px; gap:8px; padding:11px; }
-      .teams { font-size:14px; }
+      .game { grid-template-columns:44px 1fr; gap:8px; padding:11px; }
+      .betline { grid-template-columns:minmax(86px,1fr) 58px 18px 58px minmax(86px,1fr); gap:6px; }
+      .team-a, .team-b { font-size:14px; }
       .score { font-size:17px; }
     }
     @media (max-width:520px) {
-      .game { grid-template-columns:42px 1fr 58px 18px 58px; }
-      input { padding:11px 8px; }
+      .game { grid-template-columns:1fr; }
       .num { font-size:15px; }
       .date { font-size:11px; }
+      .betline { grid-template-columns:1fr 52px 16px 52px 1fr; }
+      .team-a, .team-b { font-size:13px; }
+      input { padding:10px 6px; }
     }
   </style>
 </head>
@@ -115,11 +121,14 @@ function render() {
       <div class="num">#${j.jogo}</div>
       <div>
         <div class="date">${esc(j.data)} · ${esc(j.hora)}</div>
-        <div class="teams">${esc(j.nome_a)} <span class="hint">(${j.time_a})</span><br>${esc(j.nome_b)} <span class="hint">(${j.time_b})</span></div>
+        <div class="betline">
+          <div class="team-a">${esc(j.nome_a)}<span class="abbr">(${j.time_a})</span></div>
+          <input class="score" id="${inputId(j.jogo,'a')}" inputmode="numeric" type="number" min="0" max="30" step="1" aria-label="Gols ${esc(j.nome_a)}" />
+          <div class="x">x</div>
+          <input class="score" id="${inputId(j.jogo,'b')}" inputmode="numeric" type="number" min="0" max="30" step="1" aria-label="Gols ${esc(j.nome_b)}" />
+          <div class="team-b"><span class="abbr">(${j.time_b})</span>${esc(j.nome_b)}</div>
+        </div>
       </div>
-      <input class="score" id="${inputId(j.jogo,'a')}" inputmode="numeric" type="number" min="0" max="30" step="1" aria-label="Gols ${esc(j.nome_a)}" />
-      <div class="x">x</div>
-      <input class="score" id="${inputId(j.jogo,'b')}" inputmode="numeric" type="number" min="0" max="30" step="1" aria-label="Gols ${esc(j.nome_b)}" />
     </div>
   `).join('');
 }
