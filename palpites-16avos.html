@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Palpites 16/avos — Bolão Jambuzeiros Copa 2026</title>
-  <meta name="description" content="Preencha seus palpites dos 16/avos de final e baixe o CSV para enviar no grupo." />
+  <meta name="description" content="Preencha seus palpites dos 16/avos de final e envie para o Junior pelo WhatsApp." />
   <style>
     :root { --bg:#07111f; --panel:#0d1b2f; --panel2:#10233d; --text:#eef6ff; --muted:#9db3ca; --line:#203b5c; --brand:#63e6be; --warn:#ffd166; --bad:#ff6b6b; }
     * { box-sizing:border-box; }
@@ -31,13 +31,16 @@
     .abbr { color:var(--muted); font-weight:800; }
     .x { text-align:center; color:var(--muted); font-weight:900; }
     .score { text-align:center; font-weight:900; font-size:18px; padding-left:6px; padding-right:6px; min-width:0; }
-    .actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:18px; }
-    button { appearance:none; border:0; border-radius:12px; padding:13px 16px; font-weight:900; cursor:pointer; color:#052016; background:var(--brand); font-size:15px; }
+    .actions { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:18px; }
+    button { appearance:none; border:0; border-radius:16px; padding:18px 16px; font-weight:950; cursor:pointer; color:#052016; background:var(--brand); font-size:18px; min-height:64px; box-shadow:0 12px 28px rgba(0,0,0,.22); }
     button.secondary { color:#d9ecff; background:#17304f; border:1px solid var(--line); }
     button:hover { filter:brightness(1.05); }
-    .error { display:none; margin-top:12px; color:#ffecec; background:rgba(255,107,107,.14); border:1px solid rgba(255,107,107,.45); padding:12px; border-radius:12px; }
+    .small-actions { margin-top:10px; text-align:right; }
+    .small-actions button { min-height:0; padding:8px 10px; font-size:13px; border-radius:10px; box-shadow:none; }
+    .error { display:none; margin-top:12px; color:#ffecec; background:rgba(255,107,107,.14); border:1px solid rgba(255,107,107,.45); padding:12px; border-radius:12px; white-space:pre-line; }
     .ok { display:none; margin-top:12px; color:#d9fff3; background:rgba(99,230,190,.12); border:1px solid rgba(99,230,190,.45); padding:12px; border-radius:12px; }
-    .preview { width:100%; min-height:150px; margin-top:12px; background:#050b14; color:#d9ecff; border:1px solid var(--line); border-radius:12px; padding:12px; font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:12px; white-space:pre; overflow:auto; }
+    .preview { width:100%; min-height:210px; margin-top:12px; background:#050b14; color:#d9ecff; border:1px solid var(--line); border-radius:12px; padding:12px; font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:12px; white-space:pre; overflow:auto; user-select:text; }
+    .json-title { margin-top:18px; font-weight:900; }
     footer { color:var(--muted); text-align:center; padding-top:10px; padding-bottom:30px; font-size:13px; }
     @media (max-width:720px) {
       .game { grid-template-columns:44px 1fr; gap:8px; padding:11px; }
@@ -52,16 +55,17 @@
       .betline { grid-template-columns:1fr 52px 16px 52px 1fr; }
       .team-a, .team-b { font-size:13px; }
       input { padding:10px 6px; }
+      .actions { grid-template-columns:1fr; }
     }
   </style>
 </head>
 <body>
 <header>
   <h1>Palpites — 16/avos de final</h1>
-  <div class="sub">Preencha seu nome, os placares dos 16 jogos e clique em <strong>Baixar CSV</strong>. Depois é só enviar o arquivo no grupo.</div>
+  <div class="sub">Preencha seu nome e os placares dos 16 jogos. O JSON aparece na tela para conferência; depois envie para o Junior pelo WhatsApp ou baixe seus palpites.</div>
 </header>
 <main>
-  <div class="notice"><strong>Importante:</strong> coloque o placar em números. O arquivo gerado fica salvo no seu aparelho; o site não envia nada automaticamente.</div>
+  <div class="notice"><strong>Importante:</strong> coloque o placar em números. O site não salva nada em servidor; o envio acontece pelo seu WhatsApp.</div>
 
   <section>
     <label for="apostador">Seu nome</label>
@@ -73,14 +77,15 @@
     <label>Jogos</label>
     <div class="hint">Horários em Brasília.</div>
     <div id="games" class="games"></div>
+    <div class="json-title">Dados gerados para envio</div>
+    <pre id="preview" class="preview" aria-label="JSON dos palpites"></pre>
     <div class="actions">
-      <button id="downloadBtn">Baixar CSV</button>
-      <button id="previewBtn" class="secondary">Conferir CSV</button>
-      <button id="clearBtn" class="secondary" type="button">Limpar</button>
+      <button id="sendBtn">Enviar p/ Junior</button>
+      <button id="downloadBtn" class="secondary">Baixar meus palpites</button>
     </div>
+    <div class="small-actions"><button id="clearBtn" class="secondary" type="button">Limpar formulário</button></div>
     <div id="error" class="error"></div>
     <div id="ok" class="ok"></div>
-    <pre id="preview" class="preview" style="display:none"></pre>
   </section>
 </main>
 <footer>Bolão Jambuzeiros Copa 2026 — página estática, sem backend.</footer>
@@ -153,27 +158,50 @@ function saveDraft() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
 }
 
-function csvCell(v) {
-  const s = String(v ?? '');
-  return /[",\n;]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
-}
-
-function validateAndBuildCsv() {
+function buildPayload(strict = false) {
   const apostador = apostadorEl.value.trim();
   const errors = [];
-  if (!apostador) errors.push('Informe seu nome.');
-  const rows = [['apostador','fase','jogo','time_a','gols_a','gols_b','time_b']];
+  if (strict && !apostador) errors.push('Informe seu nome.');
+  const palpites = [];
   for (const j of jogos) {
-    const a = document.getElementById(inputId(j.jogo,'a')).value;
-    const b = document.getElementById(inputId(j.jogo,'b')).value;
-    if (a === '' || b === '') errors.push(`#${j.jogo} ${j.nome_a} x ${j.nome_b}: preencha os dois placares.`);
-    const na = Number(a), nb = Number(b);
-    if (a !== '' && (!Number.isInteger(na) || na < 0)) errors.push(`#${j.jogo}: placar do ${j.nome_a} inválido.`);
-    if (b !== '' && (!Number.isInteger(nb) || nb < 0)) errors.push(`#${j.jogo}: placar do ${j.nome_b} inválido.`);
-    rows.push([apostador, '16avos de final', j.jogo, j.time_a, a, b, j.time_b]);
+    const aRaw = document.getElementById(inputId(j.jogo,'a')).value;
+    const bRaw = document.getElementById(inputId(j.jogo,'b')).value;
+    if (strict && (aRaw === '' || bRaw === '')) errors.push(`#${j.jogo} ${j.nome_a} x ${j.nome_b}: preencha os dois placares.`);
+    const a = aRaw === '' ? null : Number(aRaw);
+    const b = bRaw === '' ? null : Number(bRaw);
+    if (aRaw !== '' && (!Number.isInteger(a) || a < 0)) errors.push(`#${j.jogo}: placar do ${j.nome_a} inválido.`);
+    if (bRaw !== '' && (!Number.isInteger(b) || b < 0)) errors.push(`#${j.jogo}: placar do ${j.nome_b} inválido.`);
+    palpites.push({
+      jogo: j.jogo,
+      data: j.data,
+      hora_brt: j.hora,
+      time_a: j.time_a,
+      nome_a: j.nome_a,
+      gols_a: a,
+      gols_b: b,
+      time_b: j.time_b,
+      nome_b: j.nome_b,
+    });
   }
   if (errors.length) throw new Error(errors.join('\n'));
-  return rows.map(row => row.map(csvCell).join(',')).join('\n') + '\n';
+  return {
+    apostador: apostador || null,
+    fase: '16avos de final',
+    gerado_em: new Date().toISOString(),
+    palpites,
+  };
+}
+
+function jsonText(strict = false) {
+  return JSON.stringify(buildPayload(strict), null, 2);
+}
+
+function updatePreview() {
+  try {
+    previewEl.textContent = jsonText(false);
+  } catch {
+    previewEl.textContent = '';
+  }
 }
 
 function slug(s) {
@@ -191,28 +219,28 @@ function showOk(msg) {
   okEl.style.display = 'block';
 }
 
-function downloadCsv() {
+function downloadJson() {
   try {
-    const csv = validateAndBuildCsv();
-    const blob = new Blob([csv], { type:'text/csv;charset=utf-8' });
+    const json = jsonText(true);
+    const blob = new Blob([json + '\n'], { type:'application/json;charset=utf-8' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `palpites_16avos_${slug(apostadorEl.value)}.csv`;
+    a.download = `palpites_16avos_${slug(apostadorEl.value)}.json`;
     document.body.appendChild(a);
     a.click();
     a.remove();
     URL.revokeObjectURL(url);
-    previewEl.style.display = 'none';
-    showOk('CSV baixado. Agora envie o arquivo no grupo.');
+    showOk('Arquivo baixado.');
   } catch (e) { showError(e.message); }
 }
 
-function previewCsv() {
+function sendWhatsapp() {
   try {
-    previewEl.textContent = validateAndBuildCsv();
-    previewEl.style.display = 'block';
-    showOk('CSV gerado para conferência. Se estiver tudo certo, clique em Baixar CSV.');
+    const json = jsonText(true);
+    const msg = `Palpites 16/avos - ${apostadorEl.value.trim()}\n\n${json}`;
+    const url = 'https://wa.me/5511998562666?text=' + encodeURIComponent(msg);
+    window.location.href = url;
   } catch (e) { showError(e.message); }
 }
 
@@ -224,16 +252,17 @@ function clearForm() {
     document.getElementById(inputId(j.jogo,'b')).value = '';
   }
   localStorage.removeItem(STORAGE_KEY);
-  previewEl.style.display = 'none';
+  updatePreview();
   errorEl.style.display = 'none';
   okEl.style.display = 'none';
 }
 
 render();
 loadDraft();
-document.addEventListener('input', saveDraft);
-document.getElementById('downloadBtn').addEventListener('click', downloadCsv);
-document.getElementById('previewBtn').addEventListener('click', previewCsv);
+updatePreview();
+document.addEventListener('input', () => { saveDraft(); updatePreview(); });
+document.getElementById('sendBtn').addEventListener('click', sendWhatsapp);
+document.getElementById('downloadBtn').addEventListener('click', downloadJson);
 document.getElementById('clearBtn').addEventListener('click', clearForm);
 </script>
 </body>
