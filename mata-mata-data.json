@@ -3,48 +3,48 @@
   "ranking": [
     {
       "apostador": "Junior",
-      "pontos": 15,
-      "exatos": 1,
+      "pontos": 30,
+      "exatos": 2,
       "resultado": 0,
       "invertido": 0,
       "erros": 0,
-      "pendentes": 15
-    },
-    {
-      "apostador": "Amélio",
-      "pontos": 10,
-      "exatos": 0,
-      "resultado": 1,
-      "invertido": 0,
-      "erros": 0,
-      "pendentes": 15
-    },
-    {
-      "apostador": "Fabrisio",
-      "pontos": 10,
-      "exatos": 0,
-      "resultado": 1,
-      "invertido": 0,
-      "erros": 0,
-      "pendentes": 15
+      "pendentes": 14
     },
     {
       "apostador": "Elani",
-      "pontos": 5,
-      "exatos": 0,
+      "pontos": 20,
+      "exatos": 1,
       "resultado": 0,
       "invertido": 1,
       "erros": 0,
-      "pendentes": 15
+      "pendentes": 14
     },
     {
       "apostador": "Izabel",
-      "pontos": 5,
-      "exatos": 0,
+      "pontos": 20,
+      "exatos": 1,
       "resultado": 0,
       "invertido": 1,
       "erros": 0,
-      "pendentes": 15
+      "pendentes": 14
+    },
+    {
+      "apostador": "Amélio",
+      "pontos": 20,
+      "exatos": 0,
+      "resultado": 2,
+      "invertido": 0,
+      "erros": 0,
+      "pendentes": 14
+    },
+    {
+      "apostador": "Fabrisio",
+      "pontos": 20,
+      "exatos": 0,
+      "resultado": 2,
+      "invertido": 0,
+      "erros": 0,
+      "pendentes": 14
     },
     {
       "apostador": "Bernardo",
@@ -52,8 +52,8 @@
       "exatos": 0,
       "resultado": 0,
       "invertido": 0,
-      "erros": 1,
-      "pendentes": 15
+      "erros": 2,
+      "pendentes": 14
     },
     {
       "apostador": "Larissa",
@@ -61,8 +61,8 @@
       "exatos": 0,
       "resultado": 0,
       "invertido": 0,
-      "erros": 1,
-      "pendentes": 15
+      "erros": 2,
+      "pendentes": 14
     }
   ],
   "jogos": [
@@ -84,9 +84,9 @@
       "hora_brt": "14:00",
       "time_a": "BRA",
       "time_b": "JAP",
-      "status": "aguardando resultado",
-      "resultado": "",
-      "classificado": ""
+      "status": "final",
+      "resultado": "BRA 2x1 JAP",
+      "classificado": "BRA"
     },
     {
       "fase": "16avos de final",
@@ -1439,9 +1439,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "JAP",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BRA 2x1 JAP",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Amélio",
@@ -1631,9 +1631,9 @@
       "gols_a": "1",
       "gols_b": "1",
       "time_b": "JAP",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BRA 2x1 JAP",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Bernardo",
@@ -1823,9 +1823,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "JAP",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BRA 2x1 JAP",
+      "pontos": 15,
+      "tipo": "placar exato"
     },
     {
       "apostador": "Elani",
@@ -2015,9 +2015,9 @@
       "gols_a": "3",
       "gols_b": "1",
       "time_b": "JAP",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BRA 2x1 JAP",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Fabrisio",
@@ -2207,9 +2207,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "JAP",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BRA 2x1 JAP",
+      "pontos": 15,
+      "tipo": "placar exato"
     },
     {
       "apostador": "Izabel",
@@ -2399,9 +2399,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "JAP",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BRA 2x1 JAP",
+      "pontos": 15,
+      "tipo": "placar exato"
     },
     {
       "apostador": "Junior",
@@ -2591,9 +2591,9 @@
       "gols_a": "1",
       "gols_b": "1",
       "time_b": "JAP",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BRA 2x1 JAP",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Larissa",
@@ -2776,6 +2776,18 @@
       "classificado": "CAN",
       "fonte": "worldcup26.ir/get/games",
       "api_id": "73"
+    },
+    {
+      "fase": "16avos de final",
+      "jogo": "2",
+      "time_a": "BRA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "JAP",
+      "status": "final",
+      "classificado": "BRA",
+      "fonte": "worldcup26.ir/get/games",
+      "api_id": "76"
     }
   ],
   "rounds": [
