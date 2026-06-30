@@ -1,5 +1,5 @@
 {
-  "generatedAt": "29/06/2026 16:05",
+  "generatedAt": "29/06/2026 21:00",
   "ranking": [
     {
       "apostador": "Junior",
@@ -7,8 +7,8 @@
       "exatos": 2,
       "resultado": 0,
       "invertido": 0,
-      "erros": 0,
-      "pendentes": 14
+      "erros": 1,
+      "pendentes": 13
     },
     {
       "apostador": "Elani",
@@ -16,8 +16,8 @@
       "exatos": 1,
       "resultado": 0,
       "invertido": 1,
-      "erros": 0,
-      "pendentes": 14
+      "erros": 1,
+      "pendentes": 13
     },
     {
       "apostador": "Izabel",
@@ -25,8 +25,8 @@
       "exatos": 1,
       "resultado": 0,
       "invertido": 1,
-      "erros": 0,
-      "pendentes": 14
+      "erros": 1,
+      "pendentes": 13
     },
     {
       "apostador": "Amélio",
@@ -34,8 +34,8 @@
       "exatos": 0,
       "resultado": 2,
       "invertido": 0,
-      "erros": 0,
-      "pendentes": 14
+      "erros": 1,
+      "pendentes": 13
     },
     {
       "apostador": "Fabrisio",
@@ -43,8 +43,8 @@
       "exatos": 0,
       "resultado": 2,
       "invertido": 0,
-      "erros": 0,
-      "pendentes": 14
+      "erros": 1,
+      "pendentes": 13
     },
     {
       "apostador": "Bernardo",
@@ -52,8 +52,8 @@
       "exatos": 0,
       "resultado": 0,
       "invertido": 0,
-      "erros": 2,
-      "pendentes": 14
+      "erros": 3,
+      "pendentes": 13
     },
     {
       "apostador": "Larissa",
@@ -61,8 +61,8 @@
       "exatos": 0,
       "resultado": 0,
       "invertido": 0,
-      "erros": 2,
-      "pendentes": 14
+      "erros": 3,
+      "pendentes": 13
     }
   ],
   "jogos": [
@@ -95,8 +95,8 @@
       "hora_brt": "17:30",
       "time_a": "ALE",
       "time_b": "PAR",
-      "status": "aguardando resultado",
-      "resultado": "",
+      "status": "final",
+      "resultado": "ALE 1x1 PAR",
       "classificado": ""
     },
     {
@@ -1451,9 +1451,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "PAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ALE 1x1 PAR",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Amélio",
@@ -1643,9 +1643,9 @@
       "gols_a": "3",
       "gols_b": "1",
       "time_b": "PAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ALE 1x1 PAR",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Bernardo",
@@ -1835,9 +1835,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "PAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ALE 1x1 PAR",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Elani",
@@ -2027,9 +2027,9 @@
       "gols_a": "3",
       "gols_b": "0",
       "time_b": "PAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ALE 1x1 PAR",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Fabrisio",
@@ -2219,9 +2219,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "PAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ALE 1x1 PAR",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Izabel",
@@ -2411,9 +2411,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "PAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ALE 1x1 PAR",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Junior",
@@ -2603,9 +2603,9 @@
       "gols_a": "3",
       "gols_b": "0",
       "time_b": "PAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ALE 1x1 PAR",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Larissa",
@@ -2788,6 +2788,18 @@
       "classificado": "BRA",
       "fonte": "worldcup26.ir/get/games",
       "api_id": "76"
+    },
+    {
+      "fase": "16avos de final",
+      "jogo": "3",
+      "time_a": "ALE",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "PAR",
+      "status": "final",
+      "classificado": "",
+      "fonte": "worldcup26.ir/get/games",
+      "api_id": "74"
     }
   ],
   "rounds": [
