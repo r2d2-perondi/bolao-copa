@@ -1,14 +1,23 @@
 {
-  "generatedAt": "29/06/2026 21:00",
+  "generatedAt": "30/06/2026 01:00",
   "ranking": [
     {
       "apostador": "Junior",
-      "pontos": 30,
+      "pontos": 40,
       "exatos": 2,
-      "resultado": 0,
+      "resultado": 1,
       "invertido": 0,
       "erros": 1,
-      "pendentes": 13
+      "pendentes": 12
+    },
+    {
+      "apostador": "Amélio",
+      "pontos": 35,
+      "exatos": 1,
+      "resultado": 2,
+      "invertido": 0,
+      "erros": 1,
+      "pendentes": 12
     },
     {
       "apostador": "Elani",
@@ -16,8 +25,8 @@
       "exatos": 1,
       "resultado": 0,
       "invertido": 1,
-      "erros": 1,
-      "pendentes": 13
+      "erros": 2,
+      "pendentes": 12
     },
     {
       "apostador": "Izabel",
@@ -25,17 +34,8 @@
       "exatos": 1,
       "resultado": 0,
       "invertido": 1,
-      "erros": 1,
-      "pendentes": 13
-    },
-    {
-      "apostador": "Amélio",
-      "pontos": 20,
-      "exatos": 0,
-      "resultado": 2,
-      "invertido": 0,
-      "erros": 1,
-      "pendentes": 13
+      "erros": 2,
+      "pendentes": 12
     },
     {
       "apostador": "Fabrisio",
@@ -43,8 +43,8 @@
       "exatos": 0,
       "resultado": 2,
       "invertido": 0,
-      "erros": 1,
-      "pendentes": 13
+      "erros": 2,
+      "pendentes": 12
     },
     {
       "apostador": "Bernardo",
@@ -52,8 +52,8 @@
       "exatos": 0,
       "resultado": 0,
       "invertido": 0,
-      "erros": 3,
-      "pendentes": 13
+      "erros": 4,
+      "pendentes": 12
     },
     {
       "apostador": "Larissa",
@@ -61,8 +61,8 @@
       "exatos": 0,
       "resultado": 0,
       "invertido": 0,
-      "erros": 3,
-      "pendentes": 13
+      "erros": 4,
+      "pendentes": 12
     }
   ],
   "jogos": [
@@ -106,8 +106,8 @@
       "hora_brt": "22:00",
       "time_a": "HOL",
       "time_b": "MAR",
-      "status": "aguardando resultado",
-      "resultado": "",
+      "status": "final",
+      "resultado": "HOL 1x1 MAR",
       "classificado": ""
     },
     {
@@ -1463,9 +1463,9 @@
       "gols_a": "1",
       "gols_b": "1",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "HOL 1x1 MAR",
+      "pontos": 15,
+      "tipo": "placar exato"
     },
     {
       "apostador": "Amélio",
@@ -1655,9 +1655,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "HOL 1x1 MAR",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Bernardo",
@@ -1847,9 +1847,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "HOL 1x1 MAR",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Elani",
@@ -2039,9 +2039,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "HOL 1x1 MAR",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Fabrisio",
@@ -2231,9 +2231,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "HOL 1x1 MAR",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Izabel",
@@ -2423,9 +2423,9 @@
       "gols_a": "2",
       "gols_b": "2",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "HOL 1x1 MAR",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Junior",
@@ -2615,9 +2615,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "HOL 1x1 MAR",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Larissa",
@@ -2800,6 +2800,18 @@
       "classificado": "",
       "fonte": "worldcup26.ir/get/games",
       "api_id": "74"
+    },
+    {
+      "fase": "16avos de final",
+      "jogo": "4",
+      "time_a": "HOL",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "MAR",
+      "status": "final",
+      "classificado": "",
+      "fonte": "worldcup26.ir/get/games",
+      "api_id": "75"
     }
   ],
   "rounds": [
