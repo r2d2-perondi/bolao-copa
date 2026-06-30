@@ -1,68 +1,68 @@
 {
-  "generatedAt": "30/06/2026 16:00",
+  "generatedAt": "30/06/2026 20:00",
   "ranking": [
     {
       "apostador": "Junior",
-      "pontos": 55,
+      "pontos": 65,
       "exatos": 3,
-      "resultado": 1,
+      "resultado": 2,
       "invertido": 0,
       "erros": 1,
-      "pendentes": 11
+      "pendentes": 10
     },
     {
       "apostador": "Amélio",
+      "pontos": 60,
+      "exatos": 2,
+      "resultado": 3,
+      "invertido": 0,
+      "erros": 1,
+      "pendentes": 10
+    },
+    {
+      "apostador": "Fabrisio",
       "pontos": 45,
       "exatos": 1,
       "resultado": 3,
       "invertido": 0,
-      "erros": 1,
-      "pendentes": 11
+      "erros": 2,
+      "pendentes": 10
     },
     {
       "apostador": "Izabel",
+      "pontos": 40,
+      "exatos": 1,
+      "resultado": 2,
+      "invertido": 1,
+      "erros": 2,
+      "pendentes": 10
+    },
+    {
+      "apostador": "Elani",
       "pontos": 30,
       "exatos": 1,
       "resultado": 1,
       "invertido": 1,
-      "erros": 2,
-      "pendentes": 11
-    },
-    {
-      "apostador": "Fabrisio",
-      "pontos": 30,
-      "exatos": 0,
-      "resultado": 3,
-      "invertido": 0,
-      "erros": 2,
-      "pendentes": 11
-    },
-    {
-      "apostador": "Elani",
-      "pontos": 20,
-      "exatos": 1,
-      "resultado": 0,
-      "invertido": 1,
       "erros": 3,
-      "pendentes": 11
+      "pendentes": 10
     },
     {
       "apostador": "Bernardo",
+      "pontos": 20,
+      "exatos": 0,
+      "resultado": 2,
+      "invertido": 0,
+      "erros": 4,
+      "pendentes": 10
+    },
+    {
+      "apostador": "Larissa",
       "pontos": 10,
       "exatos": 0,
       "resultado": 1,
       "invertido": 0,
-      "erros": 4,
-      "pendentes": 11
-    },
-    {
-      "apostador": "Larissa",
-      "pontos": 0,
-      "exatos": 0,
-      "resultado": 0,
-      "invertido": 0,
       "erros": 5,
-      "pendentes": 11
+      "pendentes": 10
     }
   ],
   "jogos": [
@@ -128,9 +128,9 @@
       "hora_brt": "18:00",
       "time_a": "FRA",
       "time_b": "SUE",
-      "status": "aguardando resultado",
-      "resultado": "",
-      "classificado": ""
+      "status": "final",
+      "resultado": "FRA 3x0 SUE",
+      "classificado": "FRA"
     },
     {
       "fase": "16avos de final",
@@ -1487,9 +1487,9 @@
       "gols_a": "3",
       "gols_b": "0",
       "time_b": "SUE",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "FRA 3x0 SUE",
+      "pontos": 15,
+      "tipo": "placar exato"
     },
     {
       "apostador": "Amélio",
@@ -1679,9 +1679,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "SUE",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "FRA 3x0 SUE",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Bernardo",
@@ -1871,9 +1871,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "SUE",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "FRA 3x0 SUE",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Elani",
@@ -2063,9 +2063,9 @@
       "gols_a": "3",
       "gols_b": "0",
       "time_b": "SUE",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "FRA 3x0 SUE",
+      "pontos": 15,
+      "tipo": "placar exato"
     },
     {
       "apostador": "Fabrisio",
@@ -2255,9 +2255,9 @@
       "gols_a": "3",
       "gols_b": "1",
       "time_b": "SUE",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "FRA 3x0 SUE",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Izabel",
@@ -2447,9 +2447,9 @@
       "gols_a": "3",
       "gols_b": "1",
       "time_b": "SUE",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "FRA 3x0 SUE",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Junior",
@@ -2639,9 +2639,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "SUE",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "FRA 3x0 SUE",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Larissa",
@@ -2824,6 +2824,18 @@
       "classificado": "NOR",
       "fonte": "worldcup26.ir/get/games",
       "api_id": "78"
+    },
+    {
+      "fase": "16avos de final",
+      "jogo": "6",
+      "time_a": "FRA",
+      "gols_a": "3",
+      "gols_b": "0",
+      "time_b": "SUE",
+      "status": "final",
+      "classificado": "FRA",
+      "fonte": "worldcup26.ir/get/games",
+      "api_id": "77"
     }
   ],
   "rounds": [
