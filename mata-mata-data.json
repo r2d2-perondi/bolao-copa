@@ -1,5 +1,5 @@
 {
-  "generatedAt": "01/07/2026 16:00",
+  "generatedAt": "01/07/2026 20:00",
   "ranking": [
     {
       "apostador": "Junior",
@@ -7,8 +7,17 @@
       "exatos": 3,
       "resultado": 3,
       "invertido": 0,
+      "erros": 3,
+      "pendentes": 7
+    },
+    {
+      "apostador": "Izabel",
+      "pontos": 75,
+      "exatos": 2,
+      "resultado": 4,
+      "invertido": 1,
       "erros": 2,
-      "pendentes": 8
+      "pendentes": 7
     },
     {
       "apostador": "Amélio",
@@ -16,35 +25,26 @@
       "exatos": 2,
       "resultado": 4,
       "invertido": 0,
-      "erros": 2,
-      "pendentes": 8
-    },
-    {
-      "apostador": "Izabel",
-      "pontos": 65,
-      "exatos": 2,
-      "resultado": 3,
-      "invertido": 1,
-      "erros": 2,
-      "pendentes": 8
+      "erros": 3,
+      "pendentes": 7
     },
     {
       "apostador": "Fabrisio",
-      "pontos": 55,
+      "pontos": 65,
       "exatos": 1,
-      "resultado": 4,
+      "resultado": 5,
       "invertido": 0,
       "erros": 3,
-      "pendentes": 8
+      "pendentes": 7
     },
     {
       "apostador": "Elani",
-      "pontos": 40,
+      "pontos": 50,
       "exatos": 1,
-      "resultado": 2,
+      "resultado": 3,
       "invertido": 1,
       "erros": 4,
-      "pendentes": 8
+      "pendentes": 7
     },
     {
       "apostador": "Bernardo",
@@ -52,17 +52,17 @@
       "exatos": 0,
       "resultado": 4,
       "invertido": 0,
-      "erros": 4,
-      "pendentes": 8
+      "erros": 5,
+      "pendentes": 7
     },
     {
       "apostador": "Larissa",
-      "pontos": 25,
+      "pontos": 35,
       "exatos": 1,
-      "resultado": 1,
+      "resultado": 2,
       "invertido": 0,
       "erros": 6,
-      "pendentes": 8
+      "pendentes": 7
     }
   ],
   "jogos": [
@@ -161,9 +161,9 @@
       "hora_brt": "17:00",
       "time_a": "BEL",
       "time_b": "SEN",
-      "status": "aguardando resultado",
-      "resultado": "",
-      "classificado": ""
+      "status": "final",
+      "resultado": "BEL 3x2 SEN",
+      "classificado": "BEL"
     },
     {
       "fase": "16avos de final",
@@ -1523,9 +1523,9 @@
       "gols_a": "1",
       "gols_b": "1",
       "time_b": "SEN",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BEL 3x2 SEN",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Amélio",
@@ -1715,9 +1715,9 @@
       "gols_a": "1",
       "gols_b": "1",
       "time_b": "SEN",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BEL 3x2 SEN",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Bernardo",
@@ -1907,9 +1907,9 @@
       "gols_a": "1",
       "gols_b": "0",
       "time_b": "SEN",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BEL 3x2 SEN",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Elani",
@@ -2099,9 +2099,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "SEN",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BEL 3x2 SEN",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Fabrisio",
@@ -2291,9 +2291,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "SEN",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BEL 3x2 SEN",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Izabel",
@@ -2483,9 +2483,9 @@
       "gols_a": "1",
       "gols_b": "1",
       "time_b": "SEN",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BEL 3x2 SEN",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Junior",
@@ -2675,9 +2675,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "SEN",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BEL 3x2 SEN",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Larissa",
@@ -2860,6 +2860,18 @@
       "classificado": "ING",
       "fonte": "worldcup26.ir/get/games",
       "api_id": "80"
+    },
+    {
+      "fase": "16avos de final",
+      "jogo": "9",
+      "time_a": "BEL",
+      "gols_a": "3",
+      "gols_b": "2",
+      "time_b": "SEN",
+      "status": "final",
+      "classificado": "BEL",
+      "fonte": "worldcup26.ir/get/games",
+      "api_id": "82"
     }
   ],
   "rounds": [
