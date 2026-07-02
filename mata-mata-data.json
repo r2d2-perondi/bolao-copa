@@ -1,14 +1,32 @@
 {
-  "generatedAt": "01/07/2026 20:00",
+  "generatedAt": "02/07/2026 00:00",
   "ranking": [
     {
       "apostador": "Junior",
-      "pontos": 75,
-      "exatos": 3,
+      "pontos": 90,
+      "exatos": 4,
       "resultado": 3,
       "invertido": 0,
       "erros": 3,
-      "pendentes": 7
+      "pendentes": 6
+    },
+    {
+      "apostador": "Amélio",
+      "pontos": 85,
+      "exatos": 3,
+      "resultado": 4,
+      "invertido": 0,
+      "erros": 3,
+      "pendentes": 6
+    },
+    {
+      "apostador": "Fabrisio",
+      "pontos": 80,
+      "exatos": 2,
+      "resultado": 5,
+      "invertido": 0,
+      "erros": 3,
+      "pendentes": 6
     },
     {
       "apostador": "Izabel",
@@ -16,44 +34,26 @@
       "exatos": 2,
       "resultado": 4,
       "invertido": 1,
-      "erros": 2,
-      "pendentes": 7
-    },
-    {
-      "apostador": "Amélio",
-      "pontos": 70,
-      "exatos": 2,
-      "resultado": 4,
-      "invertido": 0,
       "erros": 3,
-      "pendentes": 7
-    },
-    {
-      "apostador": "Fabrisio",
-      "pontos": 65,
-      "exatos": 1,
-      "resultado": 5,
-      "invertido": 0,
-      "erros": 3,
-      "pendentes": 7
+      "pendentes": 6
     },
     {
       "apostador": "Elani",
-      "pontos": 50,
-      "exatos": 1,
+      "pontos": 65,
+      "exatos": 2,
       "resultado": 3,
       "invertido": 1,
       "erros": 4,
-      "pendentes": 7
+      "pendentes": 6
     },
     {
       "apostador": "Bernardo",
-      "pontos": 40,
+      "pontos": 50,
       "exatos": 0,
-      "resultado": 4,
+      "resultado": 5,
       "invertido": 0,
       "erros": 5,
-      "pendentes": 7
+      "pendentes": 6
     },
     {
       "apostador": "Larissa",
@@ -61,8 +61,8 @@
       "exatos": 1,
       "resultado": 2,
       "invertido": 0,
-      "erros": 6,
-      "pendentes": 7
+      "erros": 7,
+      "pendentes": 6
     }
   ],
   "jogos": [
@@ -172,9 +172,9 @@
       "hora_brt": "21:00",
       "time_a": "EUA",
       "time_b": "BOS",
-      "status": "aguardando resultado",
-      "resultado": "",
-      "classificado": ""
+      "status": "final",
+      "resultado": "EUA 2x0 BOS",
+      "classificado": "EUA"
     },
     {
       "fase": "16avos de final",
@@ -1535,9 +1535,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "BOS",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "EUA 2x0 BOS",
+      "pontos": 15,
+      "tipo": "placar exato"
     },
     {
       "apostador": "Amélio",
@@ -1727,9 +1727,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "BOS",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "EUA 2x0 BOS",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Bernardo",
@@ -1919,9 +1919,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "BOS",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "EUA 2x0 BOS",
+      "pontos": 15,
+      "tipo": "placar exato"
     },
     {
       "apostador": "Elani",
@@ -2111,9 +2111,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "BOS",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "EUA 2x0 BOS",
+      "pontos": 15,
+      "tipo": "placar exato"
     },
     {
       "apostador": "Fabrisio",
@@ -2303,9 +2303,9 @@
       "gols_a": "0",
       "gols_b": "1",
       "time_b": "BOS",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "EUA 2x0 BOS",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Izabel",
@@ -2495,9 +2495,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "BOS",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "EUA 2x0 BOS",
+      "pontos": 15,
+      "tipo": "placar exato"
     },
     {
       "apostador": "Junior",
@@ -2687,9 +2687,9 @@
       "gols_a": "1",
       "gols_b": "1",
       "time_b": "BOS",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "EUA 2x0 BOS",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Larissa",
@@ -2872,6 +2872,18 @@
       "classificado": "BEL",
       "fonte": "worldcup26.ir/get/games",
       "api_id": "82"
+    },
+    {
+      "fase": "16avos de final",
+      "jogo": "10",
+      "time_a": "EUA",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "BOS",
+      "status": "final",
+      "classificado": "EUA",
+      "fonte": "worldcup26.ir/get/games",
+      "api_id": "81"
     }
   ],
   "rounds": [
