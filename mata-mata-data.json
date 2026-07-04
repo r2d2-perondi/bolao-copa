@@ -1,59 +1,59 @@
 {
-  "generatedAt": "04/07/2026 14:56",
+  "generatedAt": "04/07/2026 17:00",
   "ranking": [
     {
       "apostador": "Junior",
-      "pontos": 150,
+      "pontos": 160,
       "exatos": 6,
-      "resultado": 6,
+      "resultado": 7,
       "invertido": 0,
       "erros": 4,
-      "pendentes": 8
+      "pendentes": 7
     },
     {
       "apostador": "Amélio",
-      "pontos": 135,
+      "pontos": 145,
       "exatos": 4,
-      "resultado": 7,
+      "resultado": 8,
       "invertido": 1,
       "erros": 4,
-      "pendentes": 8
+      "pendentes": 7
     },
     {
       "apostador": "Fabrisio",
-      "pontos": 130,
+      "pontos": 140,
       "exatos": 4,
-      "resultado": 7,
+      "resultado": 8,
       "invertido": 0,
       "erros": 5,
-      "pendentes": 8
+      "pendentes": 7
     },
     {
       "apostador": "Izabel",
-      "pontos": 130,
+      "pontos": 140,
       "exatos": 3,
-      "resultado": 8,
+      "resultado": 9,
       "invertido": 1,
       "erros": 4,
-      "pendentes": 8
+      "pendentes": 7
     },
     {
       "apostador": "Elani",
-      "pontos": 115,
+      "pontos": 125,
       "exatos": 4,
-      "resultado": 5,
+      "resultado": 6,
       "invertido": 1,
       "erros": 6,
-      "pendentes": 8
+      "pendentes": 7
     },
     {
       "apostador": "Bernardo",
-      "pontos": 110,
+      "pontos": 120,
       "exatos": 2,
-      "resultado": 8,
+      "resultado": 9,
       "invertido": 0,
       "erros": 6,
-      "pendentes": 8
+      "pendentes": 7
     },
     {
       "apostador": "Larissa",
@@ -61,8 +61,8 @@
       "exatos": 2,
       "resultado": 4,
       "invertido": 0,
-      "erros": 10,
-      "pendentes": 8
+      "erros": 11,
+      "pendentes": 7
     }
   ],
   "jogos": [
@@ -249,9 +249,9 @@
       "hora_brt": "14:00",
       "time_a": "CAN",
       "time_b": "MAR",
-      "status": "aguardando resultado",
-      "resultado": "",
-      "classificado": ""
+      "status": "final",
+      "resultado": "CAN 0x3 MAR",
+      "classificado": "MAR"
     },
     {
       "fase": "8as de final",
@@ -3275,9 +3275,9 @@
       "gols_a": "0",
       "gols_b": "1",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "CAN 0x3 MAR",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Amélio",
@@ -3371,9 +3371,9 @@
       "gols_a": "0",
       "gols_b": "2",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "CAN 0x3 MAR",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Bernardo",
@@ -3467,9 +3467,9 @@
       "gols_a": "0",
       "gols_b": "1",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "CAN 0x3 MAR",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Elani",
@@ -3563,9 +3563,9 @@
       "gols_a": "0",
       "gols_b": "2",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "CAN 0x3 MAR",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Fabrisio",
@@ -3659,9 +3659,9 @@
       "gols_a": "0",
       "gols_b": "1",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "CAN 0x3 MAR",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Izabel",
@@ -3755,9 +3755,9 @@
       "gols_a": "0",
       "gols_b": "2",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "CAN 0x3 MAR",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Junior",
@@ -3851,9 +3851,9 @@
       "gols_a": "1",
       "gols_b": "1",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "CAN 0x3 MAR",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Larissa",
@@ -4132,6 +4132,18 @@
       "classificado": "COL",
       "fonte": "worldcup26.ir/get/games",
       "api_id": "87"
+    },
+    {
+      "fase": "8as de final",
+      "jogo": "1",
+      "time_a": "CAN",
+      "gols_a": "0",
+      "gols_b": "3",
+      "time_b": "MAR",
+      "status": "final",
+      "classificado": "MAR",
+      "fonte": "worldcup26.ir/get/games",
+      "api_id": "90"
     }
   ],
   "rounds": [
