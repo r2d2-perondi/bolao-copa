@@ -1,41 +1,41 @@
 {
-  "generatedAt": "03/07/2026 18:00",
+  "generatedAt": "03/07/2026 22:00",
   "ranking": [
     {
       "apostador": "Junior",
-      "pontos": 130,
+      "pontos": 140,
       "exatos": 6,
-      "resultado": 4,
+      "resultado": 5,
       "invertido": 0,
       "erros": 4,
-      "pendentes": 2
+      "pendentes": 1
     },
     {
       "apostador": "Fabrisio",
-      "pontos": 120,
+      "pontos": 130,
       "exatos": 4,
-      "resultado": 6,
+      "resultado": 7,
       "invertido": 0,
       "erros": 4,
-      "pendentes": 2
+      "pendentes": 1
     },
     {
       "apostador": "Amélio",
-      "pontos": 115,
+      "pontos": 125,
       "exatos": 4,
-      "resultado": 5,
-      "invertido": 1,
-      "erros": 4,
-      "pendentes": 2
-    },
-    {
-      "apostador": "Izabel",
-      "pontos": 110,
-      "exatos": 3,
       "resultado": 6,
       "invertido": 1,
       "erros": 4,
-      "pendentes": 2
+      "pendentes": 1
+    },
+    {
+      "apostador": "Izabel",
+      "pontos": 120,
+      "exatos": 3,
+      "resultado": 7,
+      "invertido": 1,
+      "erros": 4,
+      "pendentes": 1
     },
     {
       "apostador": "Elani",
@@ -43,26 +43,26 @@
       "exatos": 4,
       "resultado": 4,
       "invertido": 1,
-      "erros": 5,
-      "pendentes": 2
+      "erros": 6,
+      "pendentes": 1
     },
     {
       "apostador": "Bernardo",
-      "pontos": 90,
+      "pontos": 100,
       "exatos": 2,
-      "resultado": 6,
+      "resultado": 7,
       "invertido": 0,
       "erros": 6,
-      "pendentes": 2
+      "pendentes": 1
     },
     {
       "apostador": "Larissa",
-      "pontos": 60,
+      "pontos": 70,
       "exatos": 2,
-      "resultado": 3,
+      "resultado": 4,
       "invertido": 0,
       "erros": 9,
-      "pendentes": 2
+      "pendentes": 1
     }
   ],
   "jogos": [
@@ -227,9 +227,9 @@
       "hora_brt": "19:00",
       "time_a": "ARG",
       "time_b": "CAB",
-      "status": "aguardando resultado",
-      "resultado": "",
-      "classificado": ""
+      "status": "final",
+      "resultado": "ARG 3x2 CAB",
+      "classificado": "ARG"
     },
     {
       "fase": "16avos de final",
@@ -1595,9 +1595,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "CAB",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ARG 3x2 CAB",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Amélio",
@@ -1787,9 +1787,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "CAB",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ARG 3x2 CAB",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Bernardo",
@@ -1979,9 +1979,9 @@
       "gols_a": "1",
       "gols_b": "1",
       "time_b": "CAB",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ARG 3x2 CAB",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Elani",
@@ -2171,9 +2171,9 @@
       "gols_a": "3",
       "gols_b": "0",
       "time_b": "CAB",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ARG 3x2 CAB",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Fabrisio",
@@ -2363,9 +2363,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "CAB",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ARG 3x2 CAB",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Izabel",
@@ -2555,9 +2555,9 @@
       "gols_a": "3",
       "gols_b": "0",
       "time_b": "CAB",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ARG 3x2 CAB",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Junior",
@@ -2747,9 +2747,9 @@
       "gols_a": "3",
       "gols_b": "1",
       "time_b": "CAB",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ARG 3x2 CAB",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Larissa",
@@ -2932,6 +2932,18 @@
       "classificado": "",
       "fonte": "worldcup26.ir/get/games",
       "api_id": "88"
+    },
+    {
+      "fase": "16avos de final",
+      "jogo": "15",
+      "time_a": "ARG",
+      "gols_a": "3",
+      "gols_b": "2",
+      "time_b": "CAB",
+      "status": "final",
+      "classificado": "ARG",
+      "fonte": "worldcup26.ir/get/games",
+      "api_id": "86"
     }
   ],
   "rounds": [
