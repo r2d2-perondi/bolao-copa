@@ -1,5 +1,5 @@
 {
-  "generatedAt": "04/07/2026 14:55",
+  "generatedAt": "04/07/2026 14:56",
   "ranking": [
     {
       "apostador": "Junior",
@@ -53,7 +53,7 @@
       "resultado": 8,
       "invertido": 0,
       "erros": 6,
-      "pendentes": 0
+      "pendentes": 8
     },
     {
       "apostador": "Larissa",
@@ -1487,6 +1487,78 @@
       "time_a": "SUI",
       "gols_a": "1",
       "gols_b": "2",
+      "time_b": "COL"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "8as de final",
+      "jogo": "1",
+      "time_a": "CAN",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "MAR"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "8as de final",
+      "jogo": "2",
+      "time_a": "PAR",
+      "gols_a": "0",
+      "gols_b": "3",
+      "time_b": "FRA"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "8as de final",
+      "jogo": "3",
+      "time_a": "BRA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "NOR"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "8as de final",
+      "jogo": "4",
+      "time_a": "MEX",
+      "gols_a": "0",
+      "gols_b": "1",
+      "time_b": "ING"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "8as de final",
+      "jogo": "5",
+      "time_a": "POR",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "ESP"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "8as de final",
+      "jogo": "6",
+      "time_a": "EUA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "BEL"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "8as de final",
+      "jogo": "7",
+      "time_a": "ARG",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "EGI"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "8as de final",
+      "jogo": "8",
+      "time_a": "SUI",
+      "gols_a": "0",
+      "gols_b": "1",
       "time_b": "COL"
     },
     {
@@ -3286,6 +3358,102 @@
       "time_a": "SUI",
       "gols_a": "1",
       "gols_b": "2",
+      "time_b": "COL",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "8as de final",
+      "jogo": "1",
+      "time_a": "CAN",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "MAR",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "8as de final",
+      "jogo": "2",
+      "time_a": "PAR",
+      "gols_a": "0",
+      "gols_b": "3",
+      "time_b": "FRA",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "8as de final",
+      "jogo": "3",
+      "time_a": "BRA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "NOR",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "8as de final",
+      "jogo": "4",
+      "time_a": "MEX",
+      "gols_a": "0",
+      "gols_b": "1",
+      "time_b": "ING",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "8as de final",
+      "jogo": "5",
+      "time_a": "POR",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "ESP",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "8as de final",
+      "jogo": "6",
+      "time_a": "EUA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "BEL",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "8as de final",
+      "jogo": "7",
+      "time_a": "ARG",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "EGI",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "8as de final",
+      "jogo": "8",
+      "time_a": "SUI",
+      "gols_a": "0",
+      "gols_b": "1",
       "time_b": "COL",
       "resultado_real": "",
       "pontos": "",
