@@ -1,5 +1,5 @@
 {
-  "generatedAt": "04/07/2026 05:08",
+  "generatedAt": "04/07/2026 07:55",
   "ranking": [
     {
       "apostador": "Junior",
@@ -17,7 +17,7 @@
       "resultado": 7,
       "invertido": 1,
       "erros": 4,
-      "pendentes": 0
+      "pendentes": 8
     },
     {
       "apostador": "Fabrisio",
@@ -1416,6 +1416,78 @@
       "gols_a": "1",
       "gols_b": "1",
       "time_b": "GAN"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "8as de final",
+      "jogo": "1",
+      "time_a": "CAN",
+      "gols_a": "0",
+      "gols_b": "1",
+      "time_b": "MAR"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "8as de final",
+      "jogo": "2",
+      "time_a": "PAR",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "FRA"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "8as de final",
+      "jogo": "3",
+      "time_a": "BRA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "NOR"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "8as de final",
+      "jogo": "4",
+      "time_a": "MEX",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "ING"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "8as de final",
+      "jogo": "5",
+      "time_a": "POR",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "ESP"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "8as de final",
+      "jogo": "6",
+      "time_a": "EUA",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "BEL"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "8as de final",
+      "jogo": "7",
+      "time_a": "ARG",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "EGI"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "8as de final",
+      "jogo": "8",
+      "time_a": "SUI",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "COL"
     }
   ],
   "detalhes": [
@@ -2762,6 +2834,102 @@
       "resultado_real": "COL 1x0 GAN",
       "pontos": 0,
       "tipo": "erro"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "8as de final",
+      "jogo": "1",
+      "time_a": "CAN",
+      "gols_a": "0",
+      "gols_b": "1",
+      "time_b": "MAR",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "8as de final",
+      "jogo": "2",
+      "time_a": "PAR",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "FRA",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "8as de final",
+      "jogo": "3",
+      "time_a": "BRA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "NOR",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "8as de final",
+      "jogo": "4",
+      "time_a": "MEX",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "ING",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "8as de final",
+      "jogo": "5",
+      "time_a": "POR",
+      "gols_a": "0",
+      "gols_b": "2",
+      "time_b": "ESP",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "8as de final",
+      "jogo": "6",
+      "time_a": "EUA",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "BEL",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "8as de final",
+      "jogo": "7",
+      "time_a": "ARG",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "EGI",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "8as de final",
+      "jogo": "8",
+      "time_a": "SUI",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "COL",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
     }
   ],
   "resultados": [
