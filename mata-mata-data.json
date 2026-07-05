@@ -1,23 +1,32 @@
 {
-  "generatedAt": "04/07/2026 21:00",
+  "generatedAt": "05/07/2026 20:00",
   "ranking": [
     {
       "apostador": "Junior",
-      "pontos": 170,
+      "pontos": 175,
       "exatos": 6,
       "resultado": 8,
-      "invertido": 0,
+      "invertido": 1,
       "erros": 4,
-      "pendentes": 6
+      "pendentes": 5
     },
     {
       "apostador": "Amélio",
-      "pontos": 155,
+      "pontos": 160,
       "exatos": 4,
       "resultado": 9,
-      "invertido": 1,
+      "invertido": 2,
       "erros": 4,
-      "pendentes": 6
+      "pendentes": 5
+    },
+    {
+      "apostador": "Izabel",
+      "pontos": 155,
+      "exatos": 3,
+      "resultado": 10,
+      "invertido": 2,
+      "erros": 4,
+      "pendentes": 5
     },
     {
       "apostador": "Fabrisio",
@@ -25,35 +34,26 @@
       "exatos": 4,
       "resultado": 9,
       "invertido": 0,
-      "erros": 5,
-      "pendentes": 6
-    },
-    {
-      "apostador": "Izabel",
-      "pontos": 150,
-      "exatos": 3,
-      "resultado": 10,
-      "invertido": 1,
-      "erros": 4,
-      "pendentes": 6
+      "erros": 6,
+      "pendentes": 5
     },
     {
       "apostador": "Bernardo",
-      "pontos": 130,
+      "pontos": 135,
       "exatos": 2,
       "resultado": 10,
-      "invertido": 0,
+      "invertido": 1,
       "erros": 6,
-      "pendentes": 6
+      "pendentes": 5
     },
     {
       "apostador": "Elani",
-      "pontos": 125,
+      "pontos": 130,
       "exatos": 4,
       "resultado": 6,
-      "invertido": 1,
+      "invertido": 2,
       "erros": 7,
-      "pendentes": 6
+      "pendentes": 5
     },
     {
       "apostador": "Larissa",
@@ -61,8 +61,8 @@
       "exatos": 2,
       "resultado": 4,
       "invertido": 1,
-      "erros": 11,
-      "pendentes": 6
+      "erros": 12,
+      "pendentes": 5
     }
   ],
   "jogos": [
@@ -271,9 +271,9 @@
       "hora_brt": "17:00",
       "time_a": "BRA",
       "time_b": "NOR",
-      "status": "aguardando resultado",
-      "resultado": "",
-      "classificado": ""
+      "status": "final",
+      "resultado": "BRA 1x2 NOR",
+      "classificado": "NOR"
     },
     {
       "fase": "8as de final",
@@ -3299,9 +3299,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "NOR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BRA 1x2 NOR",
+      "pontos": 5,
+      "tipo": "placar invertido"
     },
     {
       "apostador": "Amélio",
@@ -3395,9 +3395,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "NOR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BRA 1x2 NOR",
+      "pontos": 5,
+      "tipo": "placar invertido"
     },
     {
       "apostador": "Bernardo",
@@ -3491,9 +3491,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "NOR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BRA 1x2 NOR",
+      "pontos": 5,
+      "tipo": "placar invertido"
     },
     {
       "apostador": "Elani",
@@ -3587,9 +3587,9 @@
       "gols_a": "1",
       "gols_b": "1",
       "time_b": "NOR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BRA 1x2 NOR",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Fabrisio",
@@ -3683,9 +3683,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "NOR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BRA 1x2 NOR",
+      "pontos": 5,
+      "tipo": "placar invertido"
     },
     {
       "apostador": "Izabel",
@@ -3779,9 +3779,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "NOR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BRA 1x2 NOR",
+      "pontos": 5,
+      "tipo": "placar invertido"
     },
     {
       "apostador": "Junior",
@@ -3875,9 +3875,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "NOR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "BRA 1x2 NOR",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Larissa",
@@ -4156,6 +4156,18 @@
       "classificado": "FRA",
       "fonte": "worldcup26.ir/get/games",
       "api_id": "89"
+    },
+    {
+      "fase": "8as de final",
+      "jogo": "3",
+      "time_a": "BRA",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "NOR",
+      "status": "final",
+      "classificado": "NOR",
+      "fonte": "worldcup26.ir/get/games",
+      "api_id": "91"
     }
   ],
   "rounds": [
