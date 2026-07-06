@@ -1,23 +1,23 @@
 {
-  "generatedAt": "06/07/2026 01:00",
+  "generatedAt": "06/07/2026 19:00",
   "ranking": [
     {
       "apostador": "Junior",
-      "pontos": 175,
+      "pontos": 185,
       "exatos": 6,
-      "resultado": 8,
+      "resultado": 9,
       "invertido": 1,
       "erros": 5,
-      "pendentes": 4
+      "pendentes": 3
     },
     {
       "apostador": "Amélio",
-      "pontos": 170,
+      "pontos": 180,
       "exatos": 4,
-      "resultado": 10,
+      "resultado": 11,
       "invertido": 2,
       "erros": 4,
-      "pendentes": 4
+      "pendentes": 3
     },
     {
       "apostador": "Fabrisio",
@@ -25,8 +25,8 @@
       "exatos": 4,
       "resultado": 10,
       "invertido": 0,
-      "erros": 6,
-      "pendentes": 4
+      "erros": 7,
+      "pendentes": 3
     },
     {
       "apostador": "Izabel",
@@ -34,17 +34,17 @@
       "exatos": 3,
       "resultado": 10,
       "invertido": 2,
-      "erros": 5,
-      "pendentes": 4
+      "erros": 6,
+      "pendentes": 3
     },
     {
       "apostador": "Bernardo",
-      "pontos": 145,
+      "pontos": 155,
       "exatos": 2,
-      "resultado": 11,
+      "resultado": 12,
       "invertido": 1,
       "erros": 6,
-      "pendentes": 4
+      "pendentes": 3
     },
     {
       "apostador": "Elani",
@@ -52,8 +52,8 @@
       "exatos": 4,
       "resultado": 6,
       "invertido": 2,
-      "erros": 8,
-      "pendentes": 4
+      "erros": 9,
+      "pendentes": 3
     },
     {
       "apostador": "Larissa",
@@ -61,8 +61,8 @@
       "exatos": 2,
       "resultado": 4,
       "invertido": 1,
-      "erros": 13,
-      "pendentes": 4
+      "erros": 14,
+      "pendentes": 3
     }
   ],
   "jogos": [
@@ -293,9 +293,9 @@
       "hora_brt": "16:00",
       "time_a": "POR",
       "time_b": "ESP",
-      "status": "aguardando resultado",
-      "resultado": "",
-      "classificado": ""
+      "status": "final",
+      "resultado": "POR 0x1 ESP",
+      "classificado": "ESP"
     },
     {
       "fase": "8as de final",
@@ -3323,9 +3323,9 @@
       "gols_a": "0",
       "gols_b": "2",
       "time_b": "ESP",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "POR 0x1 ESP",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Amélio",
@@ -3419,9 +3419,9 @@
       "gols_a": "1",
       "gols_b": "2",
       "time_b": "ESP",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "POR 0x1 ESP",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Bernardo",
@@ -3515,9 +3515,9 @@
       "gols_a": "2",
       "gols_b": "2",
       "time_b": "ESP",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "POR 0x1 ESP",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Elani",
@@ -3611,9 +3611,9 @@
       "gols_a": "1",
       "gols_b": "1",
       "time_b": "ESP",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "POR 0x1 ESP",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Fabrisio",
@@ -3707,9 +3707,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "ESP",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "POR 0x1 ESP",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Izabel",
@@ -3803,9 +3803,9 @@
       "gols_a": "1",
       "gols_b": "2",
       "time_b": "ESP",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "POR 0x1 ESP",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Junior",
@@ -3899,9 +3899,9 @@
       "gols_a": "1",
       "gols_b": "1",
       "time_b": "ESP",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "POR 0x1 ESP",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Larissa",
@@ -4180,6 +4180,18 @@
       "classificado": "ING",
       "fonte": "worldcup26.ir/get/games",
       "api_id": "92"
+    },
+    {
+      "fase": "8as de final",
+      "jogo": "5",
+      "time_a": "POR",
+      "gols_a": "0",
+      "gols_b": "1",
+      "time_b": "ESP",
+      "status": "final",
+      "classificado": "ESP",
+      "fonte": "worldcup26.ir/get/games",
+      "api_id": "93"
     }
   ],
   "rounds": [
