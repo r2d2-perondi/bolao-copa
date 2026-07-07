@@ -1,5 +1,5 @@
 {
-  "generatedAt": "07/07/2026 16:00",
+  "generatedAt": "07/07/2026 20:00",
   "ranking": [
     {
       "apostador": "Junior",
@@ -7,8 +7,8 @@
       "exatos": 6,
       "resultado": 10,
       "invertido": 1,
-      "erros": 6,
-      "pendentes": 1
+      "erros": 7,
+      "pendentes": 0
     },
     {
       "apostador": "Amélio",
@@ -16,8 +16,8 @@
       "exatos": 4,
       "resultado": 12,
       "invertido": 2,
-      "erros": 5,
-      "pendentes": 1
+      "erros": 6,
+      "pendentes": 0
     },
     {
       "apostador": "Fabrisio",
@@ -25,8 +25,8 @@
       "exatos": 4,
       "resultado": 11,
       "invertido": 0,
-      "erros": 8,
-      "pendentes": 1
+      "erros": 9,
+      "pendentes": 0
     },
     {
       "apostador": "Izabel",
@@ -34,8 +34,8 @@
       "exatos": 3,
       "resultado": 11,
       "invertido": 2,
-      "erros": 7,
-      "pendentes": 1
+      "erros": 8,
+      "pendentes": 0
     },
     {
       "apostador": "Bernardo",
@@ -43,8 +43,8 @@
       "exatos": 2,
       "resultado": 13,
       "invertido": 1,
-      "erros": 7,
-      "pendentes": 1
+      "erros": 8,
+      "pendentes": 0
     },
     {
       "apostador": "Elani",
@@ -52,17 +52,17 @@
       "exatos": 4,
       "resultado": 6,
       "invertido": 2,
-      "erros": 11,
-      "pendentes": 1
+      "erros": 12,
+      "pendentes": 0
     },
     {
       "apostador": "Larissa",
-      "pontos": 85,
+      "pontos": 95,
       "exatos": 2,
-      "resultado": 5,
+      "resultado": 6,
       "invertido": 1,
       "erros": 15,
-      "pendentes": 1
+      "pendentes": 0
     }
   ],
   "jogos": [
@@ -326,8 +326,8 @@
       "hora_brt": "17:00",
       "time_a": "SUI",
       "time_b": "COL",
-      "status": "aguardando resultado",
-      "resultado": "",
+      "status": "final",
+      "resultado": "SUI 0x0 COL",
       "classificado": ""
     },
     {
@@ -3359,9 +3359,9 @@
       "gols_a": "1",
       "gols_b": "2",
       "time_b": "COL",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "SUI 0x0 COL",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Bernardo",
@@ -3455,9 +3455,9 @@
       "gols_a": "0",
       "gols_b": "1",
       "time_b": "COL",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "SUI 0x0 COL",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Elani",
@@ -3551,9 +3551,9 @@
       "gols_a": "0",
       "gols_b": "2",
       "time_b": "COL",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "SUI 0x0 COL",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Fabrisio",
@@ -3647,9 +3647,9 @@
       "gols_a": "1",
       "gols_b": "3",
       "time_b": "COL",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "SUI 0x0 COL",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Izabel",
@@ -3743,9 +3743,9 @@
       "gols_a": "1",
       "gols_b": "2",
       "time_b": "COL",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "SUI 0x0 COL",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Junior",
@@ -3839,9 +3839,9 @@
       "gols_a": "0",
       "gols_b": "1",
       "time_b": "COL",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "SUI 0x0 COL",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Larissa",
@@ -3935,9 +3935,9 @@
       "gols_a": "1",
       "gols_b": "1",
       "time_b": "COL",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "SUI 0x0 COL",
+      "pontos": 10,
+      "tipo": "resultado correto"
     }
   ],
   "resultados": [
@@ -4216,6 +4216,18 @@
       "classificado": "ARG",
       "fonte": "worldcup26.ir/get/games",
       "api_id": "95"
+    },
+    {
+      "fase": "8as de final",
+      "jogo": "8",
+      "time_a": "SUI",
+      "gols_a": "0",
+      "gols_b": "0",
+      "time_b": "COL",
+      "status": "final",
+      "classificado": "",
+      "fonte": "worldcup26.ir/get/games",
+      "api_id": "96"
     }
   ],
   "rounds": [
