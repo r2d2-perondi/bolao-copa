@@ -1,50 +1,50 @@
 {
-  "generatedAt": "06/07/2026 23:00",
+  "generatedAt": "07/07/2026 16:00",
   "ranking": [
     {
       "apostador": "Junior",
-      "pontos": 185,
+      "pontos": 195,
       "exatos": 6,
-      "resultado": 9,
+      "resultado": 10,
       "invertido": 1,
       "erros": 6,
-      "pendentes": 2
+      "pendentes": 1
     },
     {
       "apostador": "Amélio",
-      "pontos": 180,
+      "pontos": 190,
       "exatos": 4,
-      "resultado": 11,
+      "resultado": 12,
       "invertido": 2,
       "erros": 5,
-      "pendentes": 2
+      "pendentes": 1
     },
     {
       "apostador": "Fabrisio",
-      "pontos": 160,
+      "pontos": 170,
       "exatos": 4,
-      "resultado": 10,
+      "resultado": 11,
       "invertido": 0,
       "erros": 8,
-      "pendentes": 2
+      "pendentes": 1
     },
     {
       "apostador": "Izabel",
-      "pontos": 155,
+      "pontos": 165,
       "exatos": 3,
-      "resultado": 10,
+      "resultado": 11,
       "invertido": 2,
       "erros": 7,
-      "pendentes": 2
+      "pendentes": 1
     },
     {
       "apostador": "Bernardo",
-      "pontos": 155,
+      "pontos": 165,
       "exatos": 2,
-      "resultado": 12,
+      "resultado": 13,
       "invertido": 1,
       "erros": 7,
-      "pendentes": 2
+      "pendentes": 1
     },
     {
       "apostador": "Elani",
@@ -52,17 +52,17 @@
       "exatos": 4,
       "resultado": 6,
       "invertido": 2,
-      "erros": 10,
-      "pendentes": 2
+      "erros": 11,
+      "pendentes": 1
     },
     {
       "apostador": "Larissa",
-      "pontos": 75,
+      "pontos": 85,
       "exatos": 2,
-      "resultado": 4,
+      "resultado": 5,
       "invertido": 1,
       "erros": 15,
-      "pendentes": 2
+      "pendentes": 1
     }
   ],
   "jogos": [
@@ -315,9 +315,9 @@
       "hora_brt": "13:00",
       "time_a": "ARG",
       "time_b": "EGI",
-      "status": "aguardando resultado",
-      "resultado": "",
-      "classificado": ""
+      "status": "final",
+      "resultado": "ARG 3x2 EGI",
+      "classificado": "ARG"
     },
     {
       "fase": "8as de final",
@@ -3347,9 +3347,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "EGI",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ARG 3x2 EGI",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Amélio",
@@ -3443,9 +3443,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "EGI",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ARG 3x2 EGI",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Bernardo",
@@ -3539,9 +3539,9 @@
       "gols_a": "0",
       "gols_b": "2",
       "time_b": "EGI",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ARG 3x2 EGI",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Elani",
@@ -3635,9 +3635,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "EGI",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ARG 3x2 EGI",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Fabrisio",
@@ -3731,9 +3731,9 @@
       "gols_a": "3",
       "gols_b": "1",
       "time_b": "EGI",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ARG 3x2 EGI",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Izabel",
@@ -3827,9 +3827,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "EGI",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ARG 3x2 EGI",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Junior",
@@ -3923,9 +3923,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "EGI",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "ARG 3x2 EGI",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Larissa",
@@ -4204,6 +4204,18 @@
       "classificado": "BEL",
       "fonte": "worldcup26.ir/get/games",
       "api_id": "94"
+    },
+    {
+      "fase": "8as de final",
+      "jogo": "7",
+      "time_a": "ARG",
+      "gols_a": "3",
+      "gols_b": "2",
+      "time_b": "EGI",
+      "status": "final",
+      "classificado": "ARG",
+      "fonte": "worldcup26.ir/get/games",
+      "api_id": "95"
     }
   ],
   "rounds": [
