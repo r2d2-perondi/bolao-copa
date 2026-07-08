@@ -1,5 +1,5 @@
 {
-  "generatedAt": "08/07/2026 14:38",
+  "generatedAt": "08/07/2026 17:06",
   "ranking": [
     {
       "apostador": "Junior",
@@ -17,7 +17,7 @@
       "resultado": 12,
       "invertido": 2,
       "erros": 6,
-      "pendentes": 0
+      "pendentes": 4
     },
     {
       "apostador": "Fabrisio",
@@ -1920,6 +1920,42 @@
       "gols_a": "1",
       "gols_b": "1",
       "time_b": "COL"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "4as de final",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "MAR"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "4as de final",
+      "jogo": "2",
+      "time_a": "ESP",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "BEL"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "4as de final",
+      "jogo": "3",
+      "time_a": "NOR",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "ING"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "4as de final",
+      "jogo": "4",
+      "time_a": "ARG",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "SUI"
     }
   ],
   "detalhes": [
@@ -3938,6 +3974,54 @@
       "resultado_real": "SUI 0x0 COL",
       "pontos": 10,
       "tipo": "resultado correto"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "4as de final",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "MAR",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "4as de final",
+      "jogo": "2",
+      "time_a": "ESP",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "BEL",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "4as de final",
+      "jogo": "3",
+      "time_a": "NOR",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "ING",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Amélio",
+      "fase": "4as de final",
+      "jogo": "4",
+      "time_a": "ARG",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "SUI",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
     }
   ],
   "resultados": [
