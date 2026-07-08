@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Palpites quartas — Bolão Jambuzeiros Copa 2026</title>
+  <meta name="description" content="Preencha seus palpites das quartas de final e envie para o Junior pelo WhatsApp." />
+  <style>
+    :root { --bg:#07111f; --panel:#0d1b2f; --panel2:#10233d; --text:#eef6ff; --muted:#9db3ca; --line:#203b5c; --brand:#63e6be; --warn:#ffd166; --bad:#ff6b6b; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background:radial-gradient(circle at top left,#16365d 0,#07111f 35%,#050911 100%); color:var(--text); }
+    header, main, footer { max-width:980px; margin:auto; padding-left:18px; padding-right:18px; }
+    header { padding-top:30px; padding-bottom:16px; }
+    h1 { margin:0 0 8px; font-size:clamp(28px,6vw,50px); letter-spacing:-.04em; }
+    .sub { color:var(--muted); line-height:1.45; }
+    section, .notice { background:rgba(13,27,47,.9); border:1px solid var(--line); border-radius:18px; box-shadow:0 18px 45px rgba(0,0,0,.22); }
+    section { margin:16px 0; padding:18px; }
+    .notice { margin:8px 0 16px; padding:14px 16px; color:#d9ecff; }
+    .notice strong { color:var(--brand); }
+    label { display:block; font-weight:800; margin:0 0 8px; }
+    input { width:100%; background:#071324; color:var(--text); border:1px solid var(--line); border-radius:12px; padding:12px 13px; font-size:16px; outline:none; }
+    input:focus { border-color:var(--brand); box-shadow:0 0 0 3px rgba(99,230,190,.12); }
+    .hint { margin-top:7px; color:var(--muted); font-size:13px; }
+    .games { display:grid; gap:12px; margin-top:14px; }
+    .game { display:grid; grid-template-columns:58px 1fr; gap:10px; align-items:center; padding:13px; border:1px solid var(--line); border-radius:16px; background:var(--panel2); }
+    .num { color:var(--brand); font-weight:900; font-size:18px; }
+    .date { color:var(--muted); font-size:12px; margin-bottom:6px; }
+    .betline { display:grid; grid-template-columns:minmax(120px,1fr) 70px 22px 70px minmax(120px,1fr); gap:8px; align-items:center; }
+    .team-a { text-align:right; font-weight:900; font-size:16px; }
+    .team-b { text-align:left; font-weight:900; font-size:16px; }
+    .abbr { color:var(--muted); font-weight:800; }
+    .x { text-align:center; color:var(--muted); font-weight:900; }
+    .score { text-align:center; font-weight:900; font-size:18px; padding-left:6px; padding-right:6px; min-width:0; }
+    .actions { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:18px; }
+    button { appearance:none; border:0; border-radius:16px; padding:18px 16px; font-weight:950; cursor:pointer; color:#052016; background:var(--brand); font-size:18px; min-height:64px; box-shadow:0 12px 28px rgba(0,0,0,.22); }
+    button.secondary { color:#d9ecff; background:#17304f; border:1px solid var(--line); }
+    button:hover { filter:brightness(1.05); }
+    button:disabled { opacity:.45; cursor:not-allowed; filter:grayscale(.35); box-shadow:none; }
+    .small-actions { margin-top:10px; text-align:right; }
+    .small-actions button { min-height:0; padding:8px 10px; font-size:13px; border-radius:10px; box-shadow:none; }
+    .error { display:none; margin-top:12px; color:#ffecec; background:rgba(255,107,107,.14); border:1px solid rgba(255,107,107,.45); padding:12px; border-radius:12px; white-space:pre-line; }
+    .ok { display:none; margin-top:12px; color:#d9fff3; background:rgba(99,230,190,.12); border:1px solid rgba(99,230,190,.45); padding:12px; border-radius:12px; }
+    .preview { display:none; }
+    footer { color:var(--muted); text-align:center; padding-top:10px; padding-bottom:30px; font-size:13px; }
+    @media (max-width:720px) {
+      .game { grid-template-columns:44px 1fr; gap:8px; padding:11px; }
+      .betline { grid-template-columns:minmax(86px,1fr) 58px 18px 58px minmax(86px,1fr); gap:6px; }
+      .team-a, .team-b { font-size:14px; }
+      .score { font-size:17px; }
+    }
+    @media (max-width:520px) {
+      .game { grid-template-columns:1fr; }
+      .num { font-size:15px; }
+      .date { font-size:11px; }
+      .betline { grid-template-columns:1fr 52px 16px 52px 1fr; }
+      .team-a, .team-b { font-size:13px; }
+      input { padding:10px 6px; }
+      .actions { grid-template-columns:1fr; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Palpites — quartas de final</h1>
+  <div class="sub">Preencha seu nome e os placares dos 4 jogos. Depois envie para o Junior pelo WhatsApp ou baixe seus palpites.</div>
+</header>
+<main>
+  <div class="notice"><strong>Importante:</strong> coloque o placar em números. O site não salva nada em servidor; o envio acontece pelo seu WhatsApp.</div>
+
+  <section>
+    <label for="apostador">Seu nome</label>
+    <input id="apostador" autocomplete="name" placeholder="Ex.: Junior" />
+    <div class="hint">Pode usar o nome que quiser. A pontuação será somada à fase eliminatória, mantendo o acumulado do mata-mata.</div>
+  </section>
+
+  <section>
+    <label>Jogos</label>
+    <div class="hint">Horários em Brasília.</div>
+    <div id="games" class="games"></div>
+    <pre id="preview" class="preview" aria-hidden="true"></pre>
+    <div class="actions">
+      <button id="sendBtn">Enviar p/ Junior</button>
+      <button id="downloadBtn" class="secondary">Baixar meus palpites</button>
+    </div>
+    <div class="small-actions"><button id="clearBtn" class="secondary" type="button">Limpar formulário</button></div>
+    <div id="error" class="error"></div>
+    <div id="ok" class="ok"></div>
+  </section>
+</main>
+<footer>Bolão Jambuzeiros Copa 2026 — página estática, sem backend.</footer>
+
+<script>
+const jogos = [
+  { jogo:1, data:'Quinta, 09/jul', hora:'17h', time_a:'FRA', nome_a:'França', time_b:'MAR', nome_b:'Marrocos' },
+  { jogo:2, data:'Sexta, 10/jul', hora:'16h', time_a:'ESP', nome_a:'Espanha', time_b:'BEL', nome_b:'Bélgica' },
+  { jogo:3, data:'Sábado, 11/jul', hora:'18h', time_a:'NOR', nome_a:'Noruega', time_b:'ING', nome_b:'Inglaterra' },
+  { jogo:4, data:'Sábado, 11/jul', hora:'22h', time_a:'ARG', nome_a:'Argentina', time_b:'SUI', nome_b:'Suíça' },
+];
+
+const STORAGE_KEY = 'bolao_quartas_palpites_v1';
+const gamesEl = document.getElementById('games');
+const apostadorEl = document.getElementById('apostador');
+const errorEl = document.getElementById('error');
+const okEl = document.getElementById('ok');
+const previewEl = document.getElementById('preview');
+const sendBtn = document.getElementById('sendBtn');
+const downloadBtn = document.getElementById('downloadBtn');
+
+function esc(s) { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function inputId(jogo, lado) { return `j${jogo}_${lado}`; }
+
+function render() {
+  gamesEl.innerHTML = jogos.map(j => `
+    <div class="game">
+      <div class="num">#${j.jogo}</div>
+      <div>
+        <div class="date">${esc(j.data)} · ${esc(j.hora)}</div>
+        <div class="betline">
+          <div class="team-a">${esc(j.nome_a)}<span class="abbr">(${j.time_a})</span></div>
+          <input class="score" id="${inputId(j.jogo,'a')}" inputmode="numeric" type="number" min="0" max="30" step="1" aria-label="Gols ${esc(j.nome_a)}" />
+          <div class="x">x</div>
+          <input class="score" id="${inputId(j.jogo,'b')}" inputmode="numeric" type="number" min="0" max="30" step="1" aria-label="Gols ${esc(j.nome_b)}" />
+          <div class="team-b"><span class="abbr">(${j.time_b})</span>${esc(j.nome_b)}</div>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function loadDraft() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+    if (saved.apostador) apostadorEl.value = saved.apostador;
+    for (const j of jogos) {
+      if (saved[`j${j.jogo}a`] !== undefined) document.getElementById(inputId(j.jogo,'a')).value = saved[`j${j.jogo}a`];
+      if (saved[`j${j.jogo}b`] !== undefined) document.getElementById(inputId(j.jogo,'b')).value = saved[`j${j.jogo}b`];
+    }
+  } catch {}
+}
+
+function saveDraft() {
+  const data = { apostador: apostadorEl.value };
+  for (const j of jogos) {
+    data[`j${j.jogo}a`] = document.getElementById(inputId(j.jogo,'a')).value;
+    data[`j${j.jogo}b`] = document.getElementById(inputId(j.jogo,'b')).value;
+  }
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+}
+
+function buildPayload(strict = false) {
+  const apostador = apostadorEl.value.trim();
+  const errors = [];
+  if (strict && !apostador) errors.push('Informe seu nome.');
+  const palpites = [];
+  for (const j of jogos) {
+    const aRaw = document.getElementById(inputId(j.jogo,'a')).value;
+    const bRaw = document.getElementById(inputId(j.jogo,'b')).value;
+    if (strict && (aRaw === '' || bRaw === '')) errors.push(`#${j.jogo} ${j.nome_a} x ${j.nome_b}: preencha os dois placares.`);
+    const a = aRaw === '' ? null : Number(aRaw);
+    const b = bRaw === '' ? null : Number(bRaw);
+    if (aRaw !== '' && (!Number.isInteger(a) || a < 0)) errors.push(`#${j.jogo}: placar do ${j.nome_a} inválido.`);
+    if (bRaw !== '' && (!Number.isInteger(b) || b < 0)) errors.push(`#${j.jogo}: placar do ${j.nome_b} inválido.`);
+    palpites.push({
+      jogo: j.jogo,
+      data: j.data,
+      hora_brt: j.hora,
+      time_a: j.time_a,
+      nome_a: j.nome_a,
+      gols_a: a,
+      gols_b: b,
+      time_b: j.time_b,
+      nome_b: j.nome_b,
+    });
+  }
+  if (errors.length) throw new Error(errors.join('\n'));
+  return {
+    apostador: apostador || null,
+    fase: '4as de final',
+    gerado_em: new Date().toISOString(),
+    palpites,
+  };
+}
+
+function jsonText(strict = false) {
+  return JSON.stringify(buildPayload(strict), null, 2);
+}
+
+function updatePreview() {
+  try {
+    previewEl.textContent = jsonText(false);
+  } catch {
+    previewEl.textContent = '';
+  }
+}
+
+function formIsComplete() {
+  if (!apostadorEl.value.trim()) return false;
+  for (const j of jogos) {
+    const aRaw = document.getElementById(inputId(j.jogo,'a')).value;
+    const bRaw = document.getElementById(inputId(j.jogo,'b')).value;
+    const a = Number(aRaw), b = Number(bRaw);
+    if (aRaw === '' || bRaw === '') return false;
+    if (!Number.isInteger(a) || a < 0 || !Number.isInteger(b) || b < 0) return false;
+  }
+  return true;
+}
+
+function updateButtons() {
+  const enabled = formIsComplete();
+  sendBtn.disabled = !enabled;
+  downloadBtn.disabled = !enabled;
+  sendBtn.title = enabled ? '' : 'Preencha nome e todos os placares para enviar';
+  downloadBtn.title = enabled ? '' : 'Preencha nome e todos os placares para baixar';
+}
+
+function slug(s) {
+  return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'apostador';
+}
+
+function showError(msg) {
+  okEl.style.display = 'none';
+  errorEl.textContent = msg;
+  errorEl.style.display = 'block';
+}
+function showOk(msg) {
+  errorEl.style.display = 'none';
+  okEl.textContent = msg;
+  okEl.style.display = 'block';
+}
+
+function downloadJson() {
+  try {
+    const json = jsonText(true);
+    const blob = new Blob([json + '\n'], { type:'application/json;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `palpites_quartas_${slug(apostadorEl.value)}.json`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+    showOk('Arquivo baixado.');
+  } catch (e) { showError(e.message); }
+}
+
+function sendWhatsapp() {
+  try {
+    const json = jsonText(true);
+    const msg = `Palpites quartas - ${apostadorEl.value.trim()}\n\n${json}`;
+    const url = 'https://wa.me/5511998562666?text=' + encodeURIComponent(msg);
+    window.location.href = url;
+  } catch (e) { showError(e.message); }
+}
+
+function clearForm() {
+  if (!confirm('Limpar todos os campos?')) return;
+  apostadorEl.value = '';
+  for (const j of jogos) {
+    document.getElementById(inputId(j.jogo,'a')).value = '';
+    document.getElementById(inputId(j.jogo,'b')).value = '';
+  }
+  localStorage.removeItem(STORAGE_KEY);
+  updatePreview();
+  updateButtons();
+  errorEl.style.display = 'none';
+  okEl.style.display = 'none';
+}
+
+render();
+loadDraft();
+updatePreview();
+updateButtons();
+document.addEventListener('input', () => { saveDraft(); updatePreview(); updateButtons(); });
+sendBtn.addEventListener('click', sendWhatsapp);
+downloadBtn.addEventListener('click', downloadJson);
+document.getElementById('clearBtn').addEventListener('click', clearForm);
+</script>
+</body>
+</html>
