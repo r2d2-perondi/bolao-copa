@@ -1,5 +1,5 @@
 {
-  "generatedAt": "08/07/2026 17:06",
+  "generatedAt": "09/07/2026 20:00",
   "ranking": [
     {
       "apostador": "Junior",
@@ -8,7 +8,7 @@
       "resultado": 10,
       "invertido": 1,
       "erros": 7,
-      "pendentes": 0
+      "pendentes": 4
     },
     {
       "apostador": "Amélio",
@@ -26,7 +26,7 @@
       "resultado": 11,
       "invertido": 0,
       "erros": 9,
-      "pendentes": 0
+      "pendentes": 4
     },
     {
       "apostador": "Izabel",
@@ -35,7 +35,7 @@
       "resultado": 11,
       "invertido": 2,
       "erros": 8,
-      "pendentes": 0
+      "pendentes": 4
     },
     {
       "apostador": "Bernardo",
@@ -44,7 +44,7 @@
       "resultado": 13,
       "invertido": 1,
       "erros": 8,
-      "pendentes": 0
+      "pendentes": 4
     },
     {
       "apostador": "Elani",
@@ -53,7 +53,7 @@
       "resultado": 6,
       "invertido": 2,
       "erros": 12,
-      "pendentes": 0
+      "pendentes": 4
     },
     {
       "apostador": "Larissa",
@@ -62,7 +62,7 @@
       "resultado": 6,
       "invertido": 1,
       "erros": 15,
-      "pendentes": 0
+      "pendentes": 4
     }
   ],
   "jogos": [
@@ -1955,6 +1955,222 @@
       "time_a": "ARG",
       "gols_a": "1",
       "gols_b": "1",
+      "time_b": "SUI"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "4as de final",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "MAR"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "4as de final",
+      "jogo": "2",
+      "time_a": "ESP",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "BEL"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "4as de final",
+      "jogo": "3",
+      "time_a": "NOR",
+      "gols_a": "2",
+      "gols_b": "2",
+      "time_b": "ING"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "4as de final",
+      "jogo": "4",
+      "time_a": "ARG",
+      "gols_a": "3",
+      "gols_b": "1",
+      "time_b": "SUI"
+    },
+    {
+      "apostador": "Elani",
+      "fase": "4as de final",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "MAR"
+    },
+    {
+      "apostador": "Elani",
+      "fase": "4as de final",
+      "jogo": "2",
+      "time_a": "ESP",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "BEL"
+    },
+    {
+      "apostador": "Elani",
+      "fase": "4as de final",
+      "jogo": "3",
+      "time_a": "NOR",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "ING"
+    },
+    {
+      "apostador": "Elani",
+      "fase": "4as de final",
+      "jogo": "4",
+      "time_a": "ARG",
+      "gols_a": "1",
+      "gols_b": "3",
+      "time_b": "SUI"
+    },
+    {
+      "apostador": "Fabrisio",
+      "fase": "4as de final",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "MAR"
+    },
+    {
+      "apostador": "Fabrisio",
+      "fase": "4as de final",
+      "jogo": "2",
+      "time_a": "ESP",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "BEL"
+    },
+    {
+      "apostador": "Fabrisio",
+      "fase": "4as de final",
+      "jogo": "3",
+      "time_a": "NOR",
+      "gols_a": "1",
+      "gols_b": "3",
+      "time_b": "ING"
+    },
+    {
+      "apostador": "Fabrisio",
+      "fase": "4as de final",
+      "jogo": "4",
+      "time_a": "ARG",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "SUI"
+    },
+    {
+      "apostador": "Izabel",
+      "fase": "4as de final",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "MAR"
+    },
+    {
+      "apostador": "Izabel",
+      "fase": "4as de final",
+      "jogo": "2",
+      "time_a": "ESP",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "BEL"
+    },
+    {
+      "apostador": "Izabel",
+      "fase": "4as de final",
+      "jogo": "3",
+      "time_a": "NOR",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "ING"
+    },
+    {
+      "apostador": "Izabel",
+      "fase": "4as de final",
+      "jogo": "4",
+      "time_a": "ARG",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "SUI"
+    },
+    {
+      "apostador": "Junior",
+      "fase": "4as de final",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "MAR"
+    },
+    {
+      "apostador": "Junior",
+      "fase": "4as de final",
+      "jogo": "2",
+      "time_a": "ESP",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "BEL"
+    },
+    {
+      "apostador": "Junior",
+      "fase": "4as de final",
+      "jogo": "3",
+      "time_a": "NOR",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "ING"
+    },
+    {
+      "apostador": "Junior",
+      "fase": "4as de final",
+      "jogo": "4",
+      "time_a": "ARG",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "SUI"
+    },
+    {
+      "apostador": "Larissa",
+      "fase": "4as de final",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "4",
+      "gols_b": "2",
+      "time_b": "MAR"
+    },
+    {
+      "apostador": "Larissa",
+      "fase": "4as de final",
+      "jogo": "2",
+      "time_a": "ESP",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "BEL"
+    },
+    {
+      "apostador": "Larissa",
+      "fase": "4as de final",
+      "jogo": "3",
+      "time_a": "NOR",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "ING"
+    },
+    {
+      "apostador": "Larissa",
+      "fase": "4as de final",
+      "jogo": "4",
+      "time_a": "ARG",
+      "gols_a": "3",
+      "gols_b": "0",
       "time_b": "SUI"
     }
   ],
@@ -4022,6 +4238,294 @@
       "resultado_real": "",
       "pontos": "",
       "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "4as de final",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "MAR",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "4as de final",
+      "jogo": "2",
+      "time_a": "ESP",
+      "gols_a": "1",
+      "gols_b": "0",
+      "time_b": "BEL",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "4as de final",
+      "jogo": "3",
+      "time_a": "NOR",
+      "gols_a": "2",
+      "gols_b": "2",
+      "time_b": "ING",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Bernardo",
+      "fase": "4as de final",
+      "jogo": "4",
+      "time_a": "ARG",
+      "gols_a": "3",
+      "gols_b": "1",
+      "time_b": "SUI",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Elani",
+      "fase": "4as de final",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "MAR",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Elani",
+      "fase": "4as de final",
+      "jogo": "2",
+      "time_a": "ESP",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "BEL",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Elani",
+      "fase": "4as de final",
+      "jogo": "3",
+      "time_a": "NOR",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "ING",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Elani",
+      "fase": "4as de final",
+      "jogo": "4",
+      "time_a": "ARG",
+      "gols_a": "1",
+      "gols_b": "3",
+      "time_b": "SUI",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Fabrisio",
+      "fase": "4as de final",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "MAR",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Fabrisio",
+      "fase": "4as de final",
+      "jogo": "2",
+      "time_a": "ESP",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "BEL",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Fabrisio",
+      "fase": "4as de final",
+      "jogo": "3",
+      "time_a": "NOR",
+      "gols_a": "1",
+      "gols_b": "3",
+      "time_b": "ING",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Fabrisio",
+      "fase": "4as de final",
+      "jogo": "4",
+      "time_a": "ARG",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "SUI",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Izabel",
+      "fase": "4as de final",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "MAR",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Izabel",
+      "fase": "4as de final",
+      "jogo": "2",
+      "time_a": "ESP",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "BEL",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Izabel",
+      "fase": "4as de final",
+      "jogo": "3",
+      "time_a": "NOR",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "ING",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Izabel",
+      "fase": "4as de final",
+      "jogo": "4",
+      "time_a": "ARG",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "SUI",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Junior",
+      "fase": "4as de final",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "MAR",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Junior",
+      "fase": "4as de final",
+      "jogo": "2",
+      "time_a": "ESP",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "BEL",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Junior",
+      "fase": "4as de final",
+      "jogo": "3",
+      "time_a": "NOR",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "ING",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Junior",
+      "fase": "4as de final",
+      "jogo": "4",
+      "time_a": "ARG",
+      "gols_a": "1",
+      "gols_b": "1",
+      "time_b": "SUI",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Larissa",
+      "fase": "4as de final",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "4",
+      "gols_b": "2",
+      "time_b": "MAR",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Larissa",
+      "fase": "4as de final",
+      "jogo": "2",
+      "time_a": "ESP",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "BEL",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Larissa",
+      "fase": "4as de final",
+      "jogo": "3",
+      "time_a": "NOR",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "ING",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Larissa",
+      "fase": "4as de final",
+      "jogo": "4",
+      "time_a": "ARG",
+      "gols_a": "3",
+      "gols_b": "0",
+      "time_b": "SUI",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
     }
   ],
   "resultados": [
@@ -4312,6 +4816,18 @@
       "classificado": "",
       "fonte": "worldcup26.ir/get/games",
       "api_id": "96"
+    },
+    {
+      "fase": "4as de final",
+      "jogo": "97",
+      "time_a": "FRA",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "MAR",
+      "status": "final",
+      "classificado": "FRA",
+      "fonte": "worldcup26.ir/get/games",
+      "api_id": "97"
     }
   ],
   "rounds": [
