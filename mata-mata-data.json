@@ -1,23 +1,41 @@
 {
-  "generatedAt": "09/07/2026 20:05",
+  "generatedAt": "09/07/2026 20:08",
   "ranking": [
     {
       "apostador": "Junior",
-      "pontos": 195,
-      "exatos": 6,
+      "pontos": 210,
+      "exatos": 7,
       "resultado": 10,
       "invertido": 1,
       "erros": 7,
-      "pendentes": 4
+      "pendentes": 3
     },
     {
       "apostador": "Amélio",
-      "pontos": 190,
+      "pontos": 200,
       "exatos": 4,
-      "resultado": 12,
+      "resultado": 13,
       "invertido": 2,
       "erros": 6,
-      "pendentes": 4
+      "pendentes": 3
+    },
+    {
+      "apostador": "Izabel",
+      "pontos": 175,
+      "exatos": 3,
+      "resultado": 12,
+      "invertido": 2,
+      "erros": 8,
+      "pendentes": 3
+    },
+    {
+      "apostador": "Bernardo",
+      "pontos": 175,
+      "exatos": 2,
+      "resultado": 14,
+      "invertido": 1,
+      "erros": 8,
+      "pendentes": 3
     },
     {
       "apostador": "Fabrisio",
@@ -25,44 +43,26 @@
       "exatos": 4,
       "resultado": 11,
       "invertido": 0,
-      "erros": 9,
-      "pendentes": 4
-    },
-    {
-      "apostador": "Izabel",
-      "pontos": 165,
-      "exatos": 3,
-      "resultado": 11,
-      "invertido": 2,
-      "erros": 8,
-      "pendentes": 4
-    },
-    {
-      "apostador": "Bernardo",
-      "pontos": 165,
-      "exatos": 2,
-      "resultado": 13,
-      "invertido": 1,
-      "erros": 8,
-      "pendentes": 4
+      "erros": 10,
+      "pendentes": 3
     },
     {
       "apostador": "Elani",
-      "pontos": 130,
+      "pontos": 140,
       "exatos": 4,
-      "resultado": 6,
+      "resultado": 7,
       "invertido": 2,
       "erros": 12,
-      "pendentes": 4
+      "pendentes": 3
     },
     {
       "apostador": "Larissa",
-      "pontos": 95,
+      "pontos": 105,
       "exatos": 2,
-      "resultado": 6,
+      "resultado": 7,
       "invertido": 1,
       "erros": 15,
-      "pendentes": 4
+      "pendentes": 3
     }
   ],
   "jogos": [
@@ -337,9 +337,9 @@
       "hora_brt": "17:00",
       "time_a": "FRA",
       "time_b": "MAR",
-      "status": "aguardando resultado",
-      "resultado": "",
-      "classificado": ""
+      "status": "final",
+      "resultado": "FRA 2x0 MAR",
+      "classificado": "FRA"
     },
     {
       "fase": "4as de final",
@@ -4199,9 +4199,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "FRA 2x0 MAR",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Amélio",
@@ -4247,9 +4247,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "FRA 2x0 MAR",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Bernardo",
@@ -4295,9 +4295,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "FRA 2x0 MAR",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Elani",
@@ -4343,9 +4343,9 @@
       "gols_a": "1",
       "gols_b": "1",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "FRA 2x0 MAR",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Fabrisio",
@@ -4391,9 +4391,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "FRA 2x0 MAR",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Izabel",
@@ -4439,9 +4439,9 @@
       "gols_a": "2",
       "gols_b": "0",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "FRA 2x0 MAR",
+      "pontos": 15,
+      "tipo": "placar exato"
     },
     {
       "apostador": "Junior",
@@ -4487,9 +4487,9 @@
       "gols_a": "4",
       "gols_b": "2",
       "time_b": "MAR",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "FRA 2x0 MAR",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Larissa",
@@ -4819,7 +4819,7 @@
     },
     {
       "fase": "4as de final",
-      "jogo": "97",
+      "jogo": "1",
       "time_a": "FRA",
       "gols_a": "2",
       "gols_b": "0",
