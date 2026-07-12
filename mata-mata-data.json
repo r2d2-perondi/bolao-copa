@@ -1,23 +1,41 @@
 {
-  "generatedAt": "10/07/2026 19:00",
+  "generatedAt": "11/07/2026 21:00",
   "ranking": [
     {
       "apostador": "Junior",
-      "pontos": 220,
-      "exatos": 7,
+      "pontos": 235,
+      "exatos": 8,
       "resultado": 11,
       "invertido": 1,
       "erros": 7,
-      "pendentes": 2
+      "pendentes": 1
     },
     {
       "apostador": "Amélio",
-      "pontos": 200,
-      "exatos": 4,
+      "pontos": 215,
+      "exatos": 5,
       "resultado": 13,
       "invertido": 2,
       "erros": 7,
-      "pendentes": 2
+      "pendentes": 1
+    },
+    {
+      "apostador": "Fabrisio",
+      "pontos": 190,
+      "exatos": 4,
+      "resultado": 13,
+      "invertido": 0,
+      "erros": 10,
+      "pendentes": 1
+    },
+    {
+      "apostador": "Izabel",
+      "pontos": 190,
+      "exatos": 4,
+      "resultado": 12,
+      "invertido": 2,
+      "erros": 9,
+      "pendentes": 1
     },
     {
       "apostador": "Bernardo",
@@ -25,44 +43,26 @@
       "exatos": 2,
       "resultado": 15,
       "invertido": 1,
-      "erros": 8,
-      "pendentes": 2
-    },
-    {
-      "apostador": "Fabrisio",
-      "pontos": 180,
-      "exatos": 4,
-      "resultado": 12,
-      "invertido": 0,
-      "erros": 10,
-      "pendentes": 2
-    },
-    {
-      "apostador": "Izabel",
-      "pontos": 175,
-      "exatos": 3,
-      "resultado": 12,
-      "invertido": 2,
       "erros": 9,
-      "pendentes": 2
+      "pendentes": 1
     },
     {
       "apostador": "Elani",
-      "pontos": 150,
-      "exatos": 4,
+      "pontos": 165,
+      "exatos": 5,
       "resultado": 8,
       "invertido": 2,
       "erros": 12,
-      "pendentes": 2
+      "pendentes": 1
     },
     {
       "apostador": "Larissa",
-      "pontos": 120,
+      "pontos": 125,
       "exatos": 3,
       "resultado": 7,
-      "invertido": 1,
+      "invertido": 2,
       "erros": 15,
-      "pendentes": 2
+      "pendentes": 1
     }
   ],
   "jogos": [
@@ -359,9 +359,9 @@
       "hora_brt": "18:00",
       "time_a": "NOR",
       "time_b": "ING",
-      "status": "aguardando resultado",
-      "resultado": "",
-      "classificado": ""
+      "status": "final",
+      "resultado": "NOR 1x2 ING",
+      "classificado": "ING"
     },
     {
       "fase": "4as de final",
@@ -4223,9 +4223,9 @@
       "gols_a": "1",
       "gols_b": "2",
       "time_b": "ING",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "NOR 1x2 ING",
+      "pontos": 15,
+      "tipo": "placar exato"
     },
     {
       "apostador": "Amélio",
@@ -4271,9 +4271,9 @@
       "gols_a": "2",
       "gols_b": "2",
       "time_b": "ING",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "NOR 1x2 ING",
+      "pontos": 0,
+      "tipo": "erro"
     },
     {
       "apostador": "Bernardo",
@@ -4319,9 +4319,9 @@
       "gols_a": "1",
       "gols_b": "2",
       "time_b": "ING",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "NOR 1x2 ING",
+      "pontos": 15,
+      "tipo": "placar exato"
     },
     {
       "apostador": "Elani",
@@ -4367,9 +4367,9 @@
       "gols_a": "1",
       "gols_b": "3",
       "time_b": "ING",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "NOR 1x2 ING",
+      "pontos": 10,
+      "tipo": "resultado correto"
     },
     {
       "apostador": "Fabrisio",
@@ -4415,9 +4415,9 @@
       "gols_a": "1",
       "gols_b": "2",
       "time_b": "ING",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "NOR 1x2 ING",
+      "pontos": 15,
+      "tipo": "placar exato"
     },
     {
       "apostador": "Izabel",
@@ -4463,9 +4463,9 @@
       "gols_a": "1",
       "gols_b": "2",
       "time_b": "ING",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "NOR 1x2 ING",
+      "pontos": 15,
+      "tipo": "placar exato"
     },
     {
       "apostador": "Junior",
@@ -4511,9 +4511,9 @@
       "gols_a": "2",
       "gols_b": "1",
       "time_b": "ING",
-      "resultado_real": "",
-      "pontos": "",
-      "tipo": "pendente"
+      "resultado_real": "NOR 1x2 ING",
+      "pontos": 5,
+      "tipo": "placar invertido"
     },
     {
       "apostador": "Larissa",
@@ -4840,6 +4840,18 @@
       "classificado": "ESP",
       "fonte": "worldcup26.ir/get/games",
       "api_id": "98"
+    },
+    {
+      "fase": "4as de final",
+      "jogo": "3",
+      "time_a": "NOR",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "ING",
+      "status": "final",
+      "classificado": "ING",
+      "fonte": "worldcup26.ir/get/games",
+      "api_id": "99"
     }
   ],
   "rounds": [
