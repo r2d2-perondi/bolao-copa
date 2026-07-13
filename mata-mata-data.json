@@ -1,5 +1,5 @@
 {
-  "generatedAt": "12/07/2026 03:00",
+  "generatedAt": "13/07/2026 07:55",
   "ranking": [
     {
       "apostador": "Junior",
@@ -377,22 +377,22 @@
     {
       "fase": "Semifinais",
       "jogo": "1",
-      "data": "",
-      "hora_brt": "",
-      "time_a": "A definir",
-      "time_b": "A definir",
-      "status": "aguardando classificados",
+      "data": "2026-07-14",
+      "hora_brt": "16:00",
+      "time_a": "FRA",
+      "time_b": "ESP",
+      "status": "aguardando resultado",
       "resultado": "",
       "classificado": ""
     },
     {
       "fase": "Semifinais",
       "jogo": "2",
-      "data": "",
-      "hora_brt": "",
-      "time_a": "A definir",
-      "time_b": "A definir",
-      "status": "aguardando classificados",
+      "data": "2026-07-15",
+      "hora_brt": "16:00",
+      "time_a": "ING",
+      "time_b": "ARG",
+      "status": "aguardando resultado",
       "resultado": "",
       "classificado": ""
     },
