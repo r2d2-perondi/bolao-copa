@@ -1,5 +1,5 @@
 {
-  "generatedAt": "13/07/2026 11:07",
+  "generatedAt": "14/07/2026 17:05",
   "ranking": [
     {
       "apostador": "Junior",
@@ -8,7 +8,7 @@
       "resultado": 11,
       "invertido": 1,
       "erros": 8,
-      "pendentes": 0
+      "pendentes": 2
     },
     {
       "apostador": "Amélio",
@@ -26,7 +26,7 @@
       "resultado": 13,
       "invertido": 2,
       "erros": 9,
-      "pendentes": 0
+      "pendentes": 2
     },
     {
       "apostador": "Bernardo",
@@ -44,7 +44,7 @@
       "resultado": 13,
       "invertido": 0,
       "erros": 11,
-      "pendentes": 0
+      "pendentes": 2
     },
     {
       "apostador": "Elani",
@@ -53,7 +53,7 @@
       "resultado": 8,
       "invertido": 3,
       "erros": 12,
-      "pendentes": 0
+      "pendentes": 2
     },
     {
       "apostador": "Larissa",
@@ -62,7 +62,7 @@
       "resultado": 8,
       "invertido": 2,
       "erros": 15,
-      "pendentes": 0
+      "pendentes": 2
     }
   ],
   "jogos": [
@@ -2184,6 +2184,96 @@
     },
     {
       "apostador": "Amélio",
+      "fase": "Semifinais",
+      "jogo": "2",
+      "time_a": "ING",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "ARG"
+    },
+    {
+      "apostador": "Elani",
+      "fase": "Semifinais",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "ESP"
+    },
+    {
+      "apostador": "Elani",
+      "fase": "Semifinais",
+      "jogo": "2",
+      "time_a": "ING",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "ARG"
+    },
+    {
+      "apostador": "Fabrisio",
+      "fase": "Semifinais",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "3",
+      "gols_b": "1",
+      "time_b": "ESP"
+    },
+    {
+      "apostador": "Fabrisio",
+      "fase": "Semifinais",
+      "jogo": "2",
+      "time_a": "ING",
+      "gols_a": "3",
+      "gols_b": "1",
+      "time_b": "ARG"
+    },
+    {
+      "apostador": "Izabel",
+      "fase": "Semifinais",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "ESP"
+    },
+    {
+      "apostador": "Izabel",
+      "fase": "Semifinais",
+      "jogo": "2",
+      "time_a": "ING",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "ARG"
+    },
+    {
+      "apostador": "Junior",
+      "fase": "Semifinais",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "ESP"
+    },
+    {
+      "apostador": "Junior",
+      "fase": "Semifinais",
+      "jogo": "2",
+      "time_a": "ING",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "ARG"
+    },
+    {
+      "apostador": "Larissa",
+      "fase": "Semifinais",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "ESP"
+    },
+    {
+      "apostador": "Larissa",
       "fase": "Semifinais",
       "jogo": "2",
       "time_a": "ING",
@@ -4559,6 +4649,126 @@
     },
     {
       "apostador": "Amélio",
+      "fase": "Semifinais",
+      "jogo": "2",
+      "time_a": "ING",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "ARG",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Elani",
+      "fase": "Semifinais",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "ESP",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Elani",
+      "fase": "Semifinais",
+      "jogo": "2",
+      "time_a": "ING",
+      "gols_a": "2",
+      "gols_b": "0",
+      "time_b": "ARG",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Fabrisio",
+      "fase": "Semifinais",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "3",
+      "gols_b": "1",
+      "time_b": "ESP",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Fabrisio",
+      "fase": "Semifinais",
+      "jogo": "2",
+      "time_a": "ING",
+      "gols_a": "3",
+      "gols_b": "1",
+      "time_b": "ARG",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Izabel",
+      "fase": "Semifinais",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "ESP",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Izabel",
+      "fase": "Semifinais",
+      "jogo": "2",
+      "time_a": "ING",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "ARG",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Junior",
+      "fase": "Semifinais",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "1",
+      "gols_b": "2",
+      "time_b": "ESP",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Junior",
+      "fase": "Semifinais",
+      "jogo": "2",
+      "time_a": "ING",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "ARG",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Larissa",
+      "fase": "Semifinais",
+      "jogo": "1",
+      "time_a": "FRA",
+      "gols_a": "2",
+      "gols_b": "1",
+      "time_b": "ESP",
+      "resultado_real": "",
+      "pontos": "",
+      "tipo": "pendente"
+    },
+    {
+      "apostador": "Larissa",
       "fase": "Semifinais",
       "jogo": "2",
       "time_a": "ING",
